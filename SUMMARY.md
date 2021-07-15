@@ -1,6 +1,3 @@
-# Table of contents
-
-* [Introduction](README.md)
 * [简介](introduction.md)
 * [常见问题](faq.md)
 * [术语](terminology.md)
