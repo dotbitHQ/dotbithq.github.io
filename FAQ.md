@@ -1,162 +1,161 @@
-# 常见问题
+### Frequently Asked Questions
 
-### DAS 是域名还是账户？
+### Is DAS a domain name or an account?
 
-DAS 提供了以 `.bit` 为结尾的符号命名体系，可以在上面关联任意类型的数据。它既可以是域名，也可以是账户，这取决于我们将 DAS 用于何种场景。我们通常把 DAS 作为一个账户系统看待，但事实上它完全可以作为域名系统来使用。应当把域名看作账户系统的一种使用场景。
+DAS provides a symbolic naming system ending in `.bit` on which any type of data can be associated. It can be either a domain name or an account, depending on what scenario we are using DAS for. We usually think of DAS as an account system, but it can actually be used as a domain name system. A domain name should be seen as a scenario for the use of an account system.
 
-### DAS 是去中心化的吗？
+### Is DAS decentralized?
 
-如其名字一样， DAS 是完全去中心化的账户系统。DAS 协议运行在 Nervos CKB 这个架构高度开放的 PoW 公链上。
+As the name implies, DAS is a fully decentralized account system, and the DAS protocol runs on the Nervos CKB, a PoW public chain with a highly open architecture.
 
-同时， DAS 的所有核心组件源代码以开源的形式托管在 Github 上。
+The source code for all core components of DAS is also hosted as open source on Github.
 
-## 注册相关
+## Registration Related
 
-### 为什么 DAS 账户要按年收费，为什么不能一次购买永久使用呢？
+### Why do DAS accounts charge an annual fee, and why can't I buy a one-time permanent use?
 
-一次性购买永久行使用，并不是一个合理的经济模型。这种模型存在的问题包括：
+A one-time purchase for perpetual line use is not a reasonable economic model. Problems with this model include.
 
-1. 当优质的账户被购买殆尽之后，DAS 系统将不再有收入产生，现有开发团队便缺乏了持续改进系统的动力，也无法吸引新的开发者来维护 DAS。然而作为基础设施，DAS 的持续改进和推广，将是不可避免的。因此，一次购买永久使用看似很有吸引力，但用户购买到的其实是一个未来不会有人维护的账户。
-2. 私钥丢失等会导致 DAS 账户永久性锁死。这对于 DAS 账户这种有限的公共资源而言，是一种浪费。
+1. when quality accounts are purchased out, the DAS system will no longer generate revenue and the existing development team will have no incentive to continuously improve the system or attract new developers to maintain the DAS. however, as an infrastructure, continuous improvement and rollout of the DAS will be inevitable. Therefore, it may seem attractive to buy once and use forever, but the user is actually buying an account that will not be maintained in the future. 2.
+2. Loss of private key, etc. can lead to permanent locking of DAS accounts. This is a waste of a limited public resource like DAS accounts.
 
-事实上，你也可以一次性为 DAS 账户续费数十年，以实现“永久使用“。
+In fact, you can also renew your DAS account for decades at a time for "perpetual use".
 
-### DAS 的注册费收入是给了 DAS 开发团队吗？
+### Does the DAS registration fee revenue go to the DAS development team?
 
-DAS 的注册费收入会保存在 DAS 资金池中。如非必要， DAS 开发团队不会使用其中的资金。
+DAS registration fee revenue is held in the DAS pool. The DAS development team will not use the funds unless necessary.
 
-### 什么是存储押金？
+### What is the storage deposit?
 
-每个 DAS 账户的数据都存储在区块链上，存储数据需要存储空间，而存储空间需要质押代币才可使用。当账户过期时回收时，相应的存储空间被释放，质押的代币会归还给当时的账户所有人。
+Each DAS account's data is stored on the blockchain, and storing the data requires storage space, which requires pledged tokens to be used. When the account is reclaimed when it expires, the corresponding storage space is released and the pledged tokens are returned to the account owner at that time.
 
-同时，DAS 通过良好的设计，实现了：在注册时一次性支付存储押金，使用过程中无论添加多少解析记录，都不需要补充押金。
+At the same time, DAS is designed in such a way that a one-time storage deposit is paid at the time of registration, and no additional deposit is required no matter how many parsing records are added during the usage.
 
-另外，由于 DAS 智能合约运行在 Nervos CKB 上，存储押金将以 CKB 的形式退还。
+In addition, since the DAS smart contract runs on the Nervos CKB, the storage deposit will be refunded in the form of a CKB.
 
-### 为什么注册时提示“无效的字符组合”？
+### Why is there an "invalid character combination" when I register?
 
-为防止欺诈，DAS 做了一些限制，即某些字符集不能同时出现在账户名当中。详细规则，请参考：[字符集](chang-jian-wen-ti.md)
+In order to prevent fraud, DAS has some restrictions that certain character sets cannot appear in the account name at the same time. For detailed rules, please refer to: [character set](chang-jian-wen-ti.md)
 
-### 为什么可以用不同公链地址注册 DAS 账户？是中心化的方案吗？
+### Why is it possible to register DAS accounts with different public chain addresses? Is it a centralized solution?
 
-这是 DAS 超越其他去中心化域名/账户系统的独特之处。事实上，不光可以使用所有公链地址注册 DAS 账户，你甚至可以使用普通的邮箱来注册/持有/管理 DAS 账户。并且，技术上是完全去中心化的，不需要信任任何中心化组织。
+This is what makes DAS unique beyond other decentralized domain name/account systems. In fact, not only can you register a DAS account with all public chain addresses, you can even register/hold/manage a DAS account using a regular email address. And, technically, it is completely decentralized, without the need to trust any centralized organization.
 
-这得益于 DAS 所依赖的 Nervos CKB 公链，相关的技术细节可以参考[BTC 地址如何管理 CKB 链上的资产](chang-jian-wen-ti.md)
+This is made possible by the Nervos CKB public chain, on which DAS relies. Technical details can be found in [How BTC addresses manage assets on the CKB chain](chang-jian-wen-ti.md)
 
-### 可以注册子账户吗？
+### Can I register a sub-account?
 
-目前不能，但子账户功能已经在 DAS 的路线图中。
+Not at the moment, but sub-account functionality is on the roadmap for DAS.
 
-### 为什么对账户进行管理时只需要签名，而不需要支付网络手续费？DAS 的管理是中心化的吗？
+### Why do I only need a signature to manage my account and not to pay network fees?Is the management of DAS centralized?
 
-DAS 的管理是去中心化的。不需要支付网络手续费的原因在于，用户在注册时，已经在 DAS 账户的存储空间中预置了网络手续费，这些费用足以对这个 DAS 账户进行上万次的管理操作。
+The management of DAS is decentralized. The reason why there is no need to pay network fees is that the user has already pre-populated the storage of the DAS account with network fees at the time of registration, and these fees are sufficient to perform tens of thousands of administrative operations on this DAS account.
 
-### 什么是防抢注？防抢注的原理是什么？
+### What is Anti-Squatting? What is the principle of anti-squatting?
 
-在区块链上，用户的所有操作都是公开透明的。因此，当一个用户想要注册某个 DAS 账户，对应的交易还在内存池中没有被打包进区块时，其他人是可以看到该用户想要注册什么账户的。其他人可以立即发出一笔网络手续费更高的交易，企图让矿工优先打包这个交易，来抢注这个账户。然后再高价将这个账户卖给真正想注册它的人。防抢注，便是要尽可能防止这种行为得趁。
+On the blockchain, all operations of the user are public and transparent. Therefore, when a user wants to register a certain DAS account and the corresponding transaction is still in the memory pool and not packed into the block, other people are able to see what account that user wants to register. Others can immediately issue a transaction with a higher network fee in an attempt to get miners to package the transaction first to grab the account. Then sell the account at a higher price to someone who really wants to sign up for it. Preventing robocalls is about preventing this behavior as much as possible.
 
-DAS 合约要求注册新的账户必须经过两个步骤，对应两笔交易，以此来完美防止上述抢注行为。
+The DAS contract requires a two-step process for registering a new account, corresponding to two transactions, in order to perfectly prevent the above-mentioned robocalling behavior.
 
-1. **隐藏要注册的账户名**：将要注册的账户与注册人的公钥进行一次 Hash，发送第一笔交易，将这个 Hash 放到区块链上
-2. **公布要注册的账户名**：真正的发起注册请求，公开要注册的账户名，并携带上一步中的 Hash。同时合约要求 Hash 达到成熟状态，即上一笔交易已经被打包进入区块并达到了一定的确认数。
+1. **Hide the name of the account to be registered**: Hash the account to be registered with the registrant's public key, send the first transaction, and place this Hash on the blockchain
+2. **Publish the account name to be registered**: really initiate a registration request, exposing the account name to be registered and carrying the Hash from the previous step, while the contract requires the Hash to reach a mature state, i.e. the last transaction has been packed into the block and reached a certain number of confirmations.
 
-这样，当恶意用户看到有人在注册某个账户而试图抢注时，由于他不具有和自己相关的已经成熟的 Hash，他并不能直接发起第二笔交易，也就无法完成抢注。
+This way, when a malicious user sees that someone is registering an account and tries to grab it, he cannot initiate a second transaction directly because he does not have a mature Hash associated with him, and he cannot complete the grab.
 
-### 为什么界面显示已经完成放抢注步骤，还是被别人抢注了？
+### Why does the interface show that I have already completed the step of placing a grab, but someone else has grabbed it anyway?
 
-这种情况唯一的可能是，别人和你恰好都想注册这个账户，而且都在差不多的时间进行了注册。防抢注只能防止别人通过观察区块链获取到你想要注册的账户之后的恶意抢注。但无法防止各方刚好都在同一时间自发的去注册某个账户。
+The only possibility is that someone else and you both want to register this account, and they both did it at the same time. Anti-squatting can only prevent malicious squatting after someone gets the account you want to register by watching the blockchain. But it can't prevent all parties from spontaneously registering an account at exactly the same time.
 
-### 注册失败支付的费用会退还吗？
+### Will the fees paid for failed registrations be refunded?
 
-会退还。退还的方式和时间取决于你所使用的注册商。
+Yes, they will be refunded. How and when they are refunded depends on the registrar you are using.
 
-### 如何才能获取被保留账户？
+### How can I get access to a reserved account?
 
-每个保留账户都有其被保留的原因，他们往往被判定为归属于某个组织或者个人。可以在 Github 上可以看到每个账户被保留的原因。被保留的账户只能被其对应的组织或者个人所申领。申领方式将在晚些时候公布。
+Each reserved account has its own reason for being reserved, and they are often determined to be owned by an organization or individual. You can see why each account is reserved on Github. Reserved accounts can only be claimed by the organization or individual to which they belong. Claiming methods will be announced at a later date.
 
-### 注册商是 DAS 团队吗，不同注册商有什么区别？
+### Is the registrar a DAS team, and what is the difference between different registrars?
 
-注册商不是 DAS 团队。事实上，任何人都可以成为注册商，毕竟任何人都可以直接和 DAS 的智能合约交互。
+A registrar is not a DAS team. In fact, anyone can be a registrar - after all, anyone can interact directly with the DAS smart contracts.
 
-不同注册商提供的用户界面和支付方式有所不同。
+Different registrars offer different user interfaces and payment methods.
 
-### 账户过期之后会怎么样？
+### What happens after my account expires?
 
-DAS 账户过期时间后，将进入 30 天的保护期。保护期内完成续费，你将仍然拥有该 DAS 账户。保护期之内未续费，DAS 账户将进入为期7天的降价拍卖期，第一个出价人将获得该账户。拍卖期结束后仍无人出价，账户将公开可注册，注册价格由账户的字符数决定。
+After the DAS account expiration time, it will enter a 30-day protection period. If you renew your DAS account during the protection period, you will still have the account. If the DAS account is not renewed within the protection period, the DAS account will enter a 7-day reduced price auction period and the first bidder will receive the account. After the auction period ends and no bids are placed, the account will become publicly available for registration at a price determined by the number of characters in the account.
 
-## 管理相关
+## Administration Related
 
-### 所有者和管理员是什么？他们有什么区别？
+### What are owners and administrators? What is the difference between them?
 
-**所有者**，每个账户都有一个所有者，所有者拥有 DAS 账户的所有权，可以修改所有者和管理员。
+**Owner**, each account has an owner, the owner owns the DAS account and can modify the owner and administrator.
 
-**管理员**，每个账户都有一个管理员，管理员拥有 DAS 账户的管理权，可以修改账户的解析记录。
+**Administrator**, each account has an administrator, who owns the DAS account and can modify the account's resolution records.
 
-所有者和管理员的设计，是在践行所有权和管理权分离的思想。修改解析记录是高频操作，而修改所有权是低频操作。高频操作便会频繁的使用私钥，增加了私钥丢失的风险。这种分离设计，可以在管理员私钥丢失时，使得用户仍有对账户的所有权。所有者和管理员可以是同一个地址，也可以是不同的地址。但我们十分推荐使用不同的地址来作为所有者和管理员。
+The design of owner and administrator is practicing the idea of separation of ownership and management. Modifying resolution records is a high frequency operation, while modifying ownership is a low frequency operation. The high-frequency operation will then use the private key frequently, increasing the risk of losing the private key. This separation design allows users to still have ownership of the account when the administrator's private key is lost. The owner and administrator can be the same address or different addresses. However, we highly recommend using different addresses for the owner and administrator.
 
-### DAS 账户可以转给其他人吗？
+### Can DAS accounts be transferred to other people?
 
-可以。你可以通过修改账户的所有者，将账户转移给其他地址。
+Yes. You can transfer an account to another address by changing the owner of the account.
 
-⚠️ 转移账户是一个高危操作，转移完成意味着你彻底失去了账户的控制权。
+⚠️ Transferring an account is a high-risk operation, and completing the transfer means you completely lose control of the account.
 
-### 什么是解析记录？
+### What is a resolution record?
 
-DAS 账户上所关联的每一条数据，如果一个 BTC 地址，一个 Twitter 账户，称之为一条解析记录。每条解析记录都是一对键和值的组合。
+Each piece of data associated with a DAS account, if a BTC address, a Twitter account, is called a parsed record. Each parsed record is a combination of a key and a value.
 
-### 一个 DAS 可以添加多个 BTC 地址作为解析记录吗？
+### Can a DAS add more than one BTC address as a parse record?
 
-可以。你甚至可以为不同的 BTC 的地址设置不同的标签。事实上，DAS 中相同类型的记录都可以添加多条，通过不同的自定义标签来区分。
+Yes. You can even set different labels for different BTC addresses. In fact, multiple records of the same type can be added to a DAS, distinguished by different custom labels.
 
-### 一个 DAS 账户可以有多少条解析记录？
+### How many resolution records can a DAS account have?
 
-这取决于 CKB 单笔 CKB 交易可容纳的 Witness 数据大小，它足够大，可以理解为无限制。
+This depends on the size of the Witness data that a single CKB transaction can hold, which is large enough to be understood as unlimited.
 
-### 解析记录可以修改吗？
+### Can parsing records be modified?
 
-可以随时修改。但为了避免滥用，不同的操作会有不同的频率限制，具体以操作时的提示为准。
+Yes, they can be modified at any time. However, in order to avoid abuse, different operations will have different frequency limits, depending on the prompt at the time of operation.
 
-### 什么是自定义键？
+### What are custom keys?
 
-DAS 内置了一些解析记录类型，如区块链地址，个人信息等。同时也支持用户和开发这自定义解析记录类型，以支持丰富的应用场景。详情请参考[解析记录命名空间约定](chang-jian-wen-ti.md)。
+DAS has some built-in parsing record types, such as blockchain address, personal information, etc. It also supports users and developers to customize parse record types to support rich application scenarios. Please refer to [parse record namespace conventions](chang-jian-wen-ti.md) for details.
 
-## 邀请人/注册商/渠道相关
+## Inviter/Registrar/Channel Related
 
-### 什么是邀请人/注册商/渠道？
+### What is an invitee/registrar/channel?
 
-**邀请人**，任何 DAS 账户都可以作为邀请人。你在注册账户时填写一个 DAS 账户作为邀请人，你可以获得一定的优惠；别人在注册账户时，填写你的 DAS 账户作为邀请人，你也可以获得一定的奖励。
+**Inviter**, any DAS account can be used as an invitee. You fill in a DAS account as an invitee when you register your account, you can get a certain discount; others fill in your DAS account as an invitee when they register their account, you can also get a certain bonus.
 
-**渠道**，任何集成 DAS 注册服务的产品（比如钱包）都可称之为渠道。如果用户通过渠道方完成注册，渠道方可以获得一定比例的注册费用。[如何成为渠道?](chang-jian-wen-ti.md)
+**Channel**, any product that integrates a DAS registration service (such as a wallet) can be called a channel. If a user completes a registration through a channel party, the channel party can receive a percentage of the registration fee. [How do I become a channel?] (chang-jian-wen-ti.md)
 
-**注册商**，为用户提供注册界面和支付方式的组织。[如何成为注册商?](chang-jian-wen-ti.md)
+**Registrar**, an organization that provides a registration interface and payment method for users. [How do I become a registrar?] (chang-jian-wen-ti.md)
 
-### 邀请人/渠道奖励的结算是中心化的吗，为什么要满一定数额之后才会发放？
+### Is the settlement of invitee/channel rewards centralized and why is it paid out only after a certain amount is reached?
 
-邀请奖励是去中心化结算的，并且在被邀请人完成注册后，立即结算给邀请人。之所以要满一定数额才发放，是因为 Nervos CKB 的底层原理所决定。也正式为了实现去中心化结算，所以不得不到大一定的数额之后发放。
+Invitation rewards are decentralized and are settled to the invitee immediately after the invitee completes registration. The reason why they are only paid out after a certain amount is reached is due to the underlying principle of Nervos CKB. In order to achieve decentralized settlement, it has to be paid after a certain amount.
 
-### 为什么邀请人/渠道奖励结算的币种是 CKB？
+### Why are invitee/channel rewards settled in CKB?
 
-这是由于 DAS 是运行在 Nervos CKB 上的智能合约，其内部只能识别 Nervos CKB 的资产。事实上，注册/续费/管理/奖励结算这些动作的费用，DAS 内部都是使用 CKB 作为依据的。之所以可以使用其他币种支付注册费用，是注册商提供了相应的服务。
+This is because DAS is a smart contract running on Nervos CKB, which internally only recognizes Nervos CKB assets. In fact, DAS internally uses CKB as the basis for fees for registration/renewal/administration/reward settlement actions. The reason why registration fees can be paid in other currencies is that the registrar provides the appropriate service.
 
-## 后缀相关
+## Suffix related
 
-### 为什么使用 `.bit` 后缀，`.bit` 是互联网顶级域名吗？
+### Why do you use the `.bit` suffix, is `.bit` an Internet Top Level Domain?
 
-`.bit` 不是互联网顶级域名，因此不会与 ICANN 所认可的互联网域名命名空间产生冲突。使用 `.bit` 作为后缀是因为：
+No. `.bit` is not an Internet top-level domain and therefore does not conflict with the ICANN-accredited Internet domain namespace. The `.bit` suffix is used because.
 
-1. `.bit` 是信息的基本单位，未来世界就是信息的世界，bit是信息世界的基础构成，与 DAS 试图成为基础设施的愿景相符合
-2. `.bit` 是中性的，不和任何链关联，符合 DAS 跨链的特性
-3. `.bit` 是 bitcoin 的前缀，是一种致敬
-4. `.bit` 很酷
+1. `.bit` is the basic unit of information, the world of the future is the world of information, and bit is the basic building block of the information world, which is in line with the vision of DAS trying to be the infrastructure
+2. `.bit` is neutral and not associated with any chain, which is in line with the cross-chain characteristic of DAS
+3. `.bit` is a prefix of bitcoin and is a tribute
+4. `.bit` is cool
 
-### DAS 还会有其他后缀吗？
+### Will DAS have any other suffixes?
 
-基于以下原因，我们认为 DAS 不应该有其他后缀：
+We don't think DAS should have other suffixes for the following reasons.
 
-1. 更多的后缀并不能给用户带来收益，反而让使用变得更麻烦
-2. 更多的后缀，无论是对于区块链域名系统，还是对于互联网域名系统，都是一种命名空间污染。DAS 作为 Web3.0 基础设施，理应保持克制。
+1. more suffixes don't benefit the user, but make it more cumbersome to use
+2. more suffixes are a form of namespace pollution, both for the blockchain DNS and the Internet DNS. the DAS, as a Web 3.0 infrastructure, deserves to be restrained.
 
-### 可以通过浏览器访问 `.bit` 的域名吗？
+### Can I access the `.bit` domain name through my browser?
 
-`.bit` 不是互联网顶级域名，因此不能直接访问。但每个 DAS 账户都对应一个 `.bit.host` 的子域名，该子域名可以通过浏览器直接访问。如果 alice 拥有 `alice.bit` 这个 DAS 账户，那么他将自动拥有 `alice.bit.host` 这个互联网域名。alice 可以通过设置解析记录，来决定用户访问 `alice.bit.host` 时看到的内容。
-
+No. `.bit` is not an Internet top-level domain and therefore cannot be accessed directly. However, each DAS account corresponds to a `.bit.host` subdomain, which can be accessed directly through a browser. If alice owns the DAS account `alice.bit`, then he automatically owns the Internet domain `alice.bit.host`. alice can set up resolution records to determine what users see when they access `alice.bit.host`.
