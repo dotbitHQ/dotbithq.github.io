@@ -35,13 +35,13 @@ In addition, since the DAS smart contract runs on the Nervos CKB, the storage de
 
 ### Why is there an "invalid character combination" when I register?
 
-In order to prevent fraud, DAS has some restrictions that certain character sets cannot appear in the account name at the same time. For detailed rules, please refer to: [character set](faq.md)
+In order to prevent fraud, DAS has some restrictions that certain character sets cannot appear in the account name at the same time. For detailed rules, please refer to: [Char Sets](./register-das/char-sets.md)
 
 ### Why is it possible to register DAS accounts with different public chain addresses? Is it a centralized solution?
 
 This is a unique feature of DAS over other decentralized domain name/account systems. In fact, not only can you register a DAS account with all public chain addresses, you can even register/hold/manage a DAS account using a regular email address. And, technically, it is completely decentralized, without the need to trust any centralized organization.
 
-This is made possible by the Nervos CKB public chain, on which DAS relies, and the technical details of which can be found in [How BTC addresses manage assets on the CKB chain](faq.md)
+This is made possible by the Nervos CKB public chain, on which DAS relies, and the technical details of which can be found in [Why assets on ckb can managed by btc adress](./other/Why-assets-on-ckb-can-managed-by-btc-adress.md).
 
 ### Can I register a sub-account?
 

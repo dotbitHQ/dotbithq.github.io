@@ -12,3 +12,8 @@
 * [Reserved Account](https://github.com/DeAccountSystems/Documents/blob/main/Reserved_DAS/Reserved_DAS_List.md)
 * [Char Sets](register-das/char-sets.md)
 
+## Other
+
+* [Why assets on ckb can managed by btc adress](./other/Why-assets-on-ckb-can-managed-by-btc-adress.md)
+* [Github](https://github.com/DeAccountSystems)
+
