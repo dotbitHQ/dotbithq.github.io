@@ -1,13 +1,14 @@
-# Summery
+# Table of contents
 
-* [FAQ](FAQ.md)
+* [Introduction](README.md)
+* [FAQ](faq.md)
 * [Terminology](terminology.md)
 
 ## Register DAS
 
-* [Pricing](register/pricing.md)
-* [Registration Rules](register/open-registration-rules.md)
-* [Referral](register/referral.md)
+* [Pricing](register-das/pricing.md)
+* [Registration Rules](register-das/open-registration-rules.md)
+* [Referral](register-das/referral.md)
 * [Reserved Account](https://github.com/DeAccountSystems/Documents/blob/main/Reserved_DAS/Reserved_DAS_List.md)
-* [Char Sets](resigter/charsets.md)
+* [Char Sets](register-das/char-sets.md)
 
