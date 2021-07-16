@@ -13,6 +13,6 @@
 
 ## 其他
 
-* [BTC 地址如何管理 CKB 链上的资产](./qi-ta/Why-assets-on-ckb-can-managed-by-btc-adress.md)
+* [BTC 地址如何管理 CKB 链上的资产](./qi-ta/Why-assets-on-ckb-can-managed-by-btc-address.md)
 * [Github](https://github.com/DeAccountSystems)
 
