@@ -9,8 +9,8 @@
 * [Pricing](register-das/pricing.md)
 * [Registration Rules](register-das/open-registration-rules.md)
 * [Referral](register-das/referral.md)
-* [Reserved Account](https://github.com/DeAccountSystems/Documents/blob/main/Reserved_DAS/Reserved_DAS_List.md)
 * [Char Sets](register-das/char-sets.md)
+* [Reserved Account](https://github.com/DeAccountSystems/Documents/blob/main/Reserved_DAS/Reserved_DAS_List.md)
 
 ## Other
 

@@ -1,5 +1,3 @@
-## Why assets on ckb can managed by btc address
-
 ## First, this is not cross-chain in the usual sense
 
 Cross-chaining in the usual sense means locking assets on chain A and creating corresponding assets on chain B. In fact, assets on Nervos CKB will not appear on BTC, nor will assets on BTC appear on Nervos CKB. Nervos CKB is simply compatible with any public chain's account (address) system.
