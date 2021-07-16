@@ -11,3 +11,8 @@
 * [保留账户](https://github.com/DeAccountSystems/Documents/blob/main/Reserved_DAS/Reserved_DAS_List.md)
 * [字符集](zhu-ce-das/charsets.md)
 
+## 其他
+
+* [BTC 地址如何管理 CKB 链上的资产](./qi-ta/Why-assets-on-ckb-can-managed-by-btc-adress.md)
+* [Github](https://github.com/DeAccountSystems)
+
