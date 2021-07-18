@@ -15,7 +15,7 @@
 * [参与 DAS 建设](gong-tong-jian-she/build-together.md)
 * [爱好者/推广者](gong-tong-jian-she/referral.md)
 * [渠道商](gong-tong-jian-she/channel.md)
-* [注册商](gong-tong-jian-she/register.md)
+* [注册商](gong-tong-jian-she/registrar.md)
 * [Keeper](gong-tong-jian-she/keeper.md)
 
 ## 开发者

@@ -44,7 +44,7 @@ DAS 注册服务信息：
 
 
 
-上架 DAS 注册服务时，请务必在 URL 中填写`inviter`及`channel`信息，以获得注册费用分成（[查看分成比例](jian-she-das.md)）。`inviter`及`channel`需是合法的已注册的 DAS 账户。用户可以在注册界面手动修改`inviter`信息，但无法修改`channel`信息。
+上架 DAS 注册服务时，请务必在 URL 中填写`inviter`及`channel`信息，以获得注册费用分成（[查看分成比例](../gong-tong-jian-she/build-together.md)）。`inviter`及`channel`需是合法的已注册的 DAS 账户。用户可以在注册界面手动修改`inviter`信息，但无法修改`channel`信息。
 
 
 
