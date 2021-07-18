@@ -13,6 +13,7 @@
 
 ## 开发者
 
+* [钱包集成 DAS](kai-fa-zhe/wallet-integration.md)
 * [解析记录命名空间](kai-fa-zhe/records-key-namespace.md)
 
 ## 其他
