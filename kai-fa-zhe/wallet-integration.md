@@ -12,7 +12,7 @@
 
 ## 转账界面支持填写 DAS 账户
 
-<img src="image-20210718113458550.png" alt="image-20210718113458550" style="zoom:50%;" />
+<img src="image-20210718113458550.png" alt="DAS in Wallet" style="zoom:50%;" />
 
 
 
