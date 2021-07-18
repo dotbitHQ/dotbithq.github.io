@@ -21,8 +21,6 @@
 ## 开发者
 
 * [钱包集成 DAS](kai-fa-zhe/wallet-integration.md)
-
-  
 * [基于 DAS 开发应用](kai-fa-zhe/build-application.md)
 * [解析记录命名空间](kai-fa-zhe/records-key-namespace.md)
 
