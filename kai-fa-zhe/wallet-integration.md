@@ -50,5 +50,5 @@ DAS 注册服务信息：
 
 ## 在 DAS 官网展示你的钱包
 
-如果你的钱包完成了上述的集成工作，可以在 DAS 官网中展示你的钱包品牌及链接。请在完成集成工作后，[向我们的官网仓库提交 Pull Request](https://github.com/orgs/DeAccountSystems/da.systems)，我们将尽快将你的品牌展示到 DAS 官网。
+如果你的钱包完成了上述的集成工作，可以在 DAS 官网中展示你的钱包品牌及链接。请在完成集成工作后，[向我们的官网仓库提交 Pull Request](https://github.com/DeAccountSystems/da.systems)，我们将尽快将你的品牌展示到 DAS 官网。
 
