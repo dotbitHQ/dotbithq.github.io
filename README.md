@@ -32,5 +32,5 @@ DAS 是一个去中心化应用，运行在 [Nervos CKB](https://www.nervos.org/
 
    用户最终通过各种应用界面使用 DAS 的各项功能。这些应用可以直接在浏览器中使用，也可以集成到流行的钱包软件中。
 
-以上所有组件的源代码，都可以在我们的 Github 仓库中找到。同时，开发者可以根据 Core Protocol 实现自己的 Keeper， Resolution Service，Client SDK，Dapp UI。
+以上所有组件的源代码，都可以在我们的 [Github 仓库](https://github.com/DeAccountSystems)中找到。同时，开发者可以根据 Core Protocol 实现自己的 Keeper， Resolution Service，Client SDK，Dapp UI。
 

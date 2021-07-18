@@ -16,7 +16,7 @@
 
 
 
-DAS 在合约层面对命名空间的使用有严格的约束，目前提供了三个一级命名空间。
+DAS 在合约层面对命名空间的使用有严格的约束，目前提供了四个一级命名空间。
 
 * **address**
 
@@ -25,6 +25,10 @@ DAS 在合约层面对命名空间的使用有严格的约束，目前提供了�
 * **profile**
 
   该命名空间一般用于存放用户的个人信息，如`profile.twitter`，`profile.facebook`等。同时，合约内部有一个[白名单](https://github.com/DeAccountSystems/das-contracts/blob/develop/tests/data/record_key_namespace.txt)，内置了主流社交网络名作为合法的key。
+
+* **dweb**
+
+  该命名空间一般用于存放去中心化网络相关的内容，如`dweb.ipfs`，`dweb.resilio`等。同时，合约内部有一个[白名单](https://github.com/DeAccountSystems/das-contracts/blob/develop/tests/data/record_key_namespace.txt)，内置了主流的去中心化存储协议名作为合法的key。
 
 * **cumtom_key**
 
@@ -38,7 +42,7 @@ DAS 在合约层面对命名空间的使用有严格的约束，目前提供了�
 
 ## 一级命名空间的增加
 
-目前 DAS 只提供了`address`，`profile`，`custom_key`三个一级命名空间，但这不是最终结果。DAS 团队会根据情况，逐渐增加一级命名空间。同时，我们也需要社区的开发者给我们提供有效的建议。如果您认为应该增加某些命名空间，使得应用程序之间可以更好的协作。可以在 Github 中给我们提 [Issues](https://github.com/DeAccountSystems/das-contracts/issues)。
+目前 DAS 只提供了`address`，`profile`，`dweb`，`custom_key`四个一级命名空间，但这不是最终结果。DAS 团队会根据情况，逐渐增加一级命名空间。同时，我们也需要社区的开发者给我们提供有效的建议。如果您认为应该增加某些命名空间，使得应用程序之间可以更好的协作。可以在 Github 中给我们提 [Issues](https://github.com/DeAccountSystems/das-contracts/issues)。
 
 
 
