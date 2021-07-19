@@ -23,8 +23,8 @@ https://bit.cc 便是典型的，将 DAS 账户视为公开 key-value 数据的 
 
 如果 Alice 拥有 alice.bit，并在解析记录中添加了自己在各个社交网络的连接。bit.cc 将以极其美观的样式展出这些链接，其他用户通过 alice.bit.cc 即可访问。bit.cc 的表现完全由 Alice 通过设置解析记录来控制。比如：
 
-1. Alice可以通过设置解析记录 `custom_key.bitcc_config.appearance` 的值为`light`或`dark`来决定使用日间还是夜间模式展示你的去中心化个人主页。
-2. Alice可以通过设置解析记录`custom_key.bitcc_config.redirect` 的值为 Alice 的个人网站链接。这样当别人访问 alice.bit.cc 时，网页会自动重定向到 alice 的个人网站。
+1. Alice可以通过设置解析记录 `custom_key.bitcc.appearance` 的值为`light`或`dark`来决定使用日间还是夜间模式展示你的去中心化个人主页。
+2. Alice可以通过设置解析记录`custom_key.bitcc.redirect` 的值为 Alice 的个人网站链接。这样当别人访问 alice.bit.cc 时，网页会自动重定向到 alice 的个人网站。
 
 
 
