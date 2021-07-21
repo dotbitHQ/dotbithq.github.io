@@ -45,7 +45,7 @@ In order to prevent fraud, DAS has some restrictions that certain character sets
 
 This is what makes DAS unique beyond other decentralized domain/account systems. You can register a DAS account with all public chain addresses, or even register/hold/manage a DAS account using an email address. And, technically, it is completely decentralized, without the need to trust any centralized organization.
 
-This is made possible by the Nervos CKB public chain on which DAS relies, for technical details see [How BTC addresses manage assets on the CKB chain](others/Why-assets-on-ckb-can-managed-by-btc-address.md)
+This is made possible by the Nervos CKB public chain on which DAS relies, for technical details see [Why assets on CKB can be managed by BTC address?](others/why-assets-on-ckb-can-be-managed-by-btc-address.md)
 
 ### Can I register a sub-account?
 
@@ -122,7 +122,7 @@ Yes, they can be modified at any time. However, in order to avoid abuse, differe
 
 ### What are custom keys?
 
-DAS has some built-in parsed record types, such as blockchain address, personal information, etc. It also supports users and developers to customize parse record types to support rich application scenarios. For details, please refer to [parsed record namespace](kai-fa-zhe/records-key-namespace.md).
+DAS has some built-in parsed record types, such as blockchain address, personal information, etc. It also supports users and developers to customize parse record types to support rich application scenarios. For details, please refer to [record namespace](kai-fa-zhe/records-key-namespace.md).
 
 ## Inviter/registrar/channel related
 

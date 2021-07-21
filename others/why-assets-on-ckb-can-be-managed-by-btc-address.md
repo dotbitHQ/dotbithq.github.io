@@ -39,4 +39,3 @@ That's why we can install the BTC signature algorithm on the Nervos CKB and make
 
 For the same reason we can install any public chain's signature algorithm on Nervos CKB and then any public chain address can hold assets issued on the Nervos CKB.
 
-

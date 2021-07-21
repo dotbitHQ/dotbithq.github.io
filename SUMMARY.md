@@ -26,7 +26,7 @@
 
 ## Others
 
-* [Why assets on CKB can be managed by BTC address?](others/Why-assets-on-ckb-can-managed-by-btc-address.md)
+* [Why assets on CKB can be managed by BTC address?](others/why-assets-on-ckb-can-be-managed-by-btc-address.md)
 * [Change log](others/change-log.md)
 * [Github](https://github.com/DeAccountSystems)
 * [Website](https://da.systems)
