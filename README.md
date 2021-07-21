@@ -6,11 +6,11 @@ DAS is a blockchain-based, open source, censorship-resistant decentralized accou
 
 DAS is the first decentralized account system with broad compatibility, allowing users to register and manage the DAS accounts using any public chain address or even email.
 
-The core elements of a DAS account are: the owner/administrator, and the parsed record (i.e. the data it is associated with). Unlike ENS, the owner/administrator of DAS can be any public chain private key or even email; unlike DNS, DAS supports any type of parsed record.
+The core elements of a DAS account are: the owner/manager, and the parsed record (i.e. the data it is associated with). Unlike ENS, the owner/manager of DAS can be any public chain private key or even email; unlike DNS, DAS supports any type of parsed record.
 
 The structure of a DAS account is as follows.
 
-<img src="image-20210721120318336.png" alt="DAS account structure" style="zoom:50%;" />
+<img src="image-20210721120318336.png" alt="DAS Account Structure" style="zoom:50%;" />
 
 DAS is a decentralized application running on [Nervos CKB](https://www.nervos.org/). DAS accounts and related parsed records are stored on the permissionless blockchain. Nervos CKB is a PoW public chain with a highly open architecture using the UTXO model.
 

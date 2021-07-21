@@ -5,7 +5,7 @@
 * **DAS domain**, another name for a DAS account.
 * **Registration**, refers to the process of obtaining a DAS account by paying a fee to the DAS contract.
 * **Owner**, each account has an owner, who owns the DAS account and can modify the owner and administrator.
-* **Administrator**, each account has an administrator, who owns the DAS account and can modify the account's parsed record.
+* **Manager**, each account has an manager, who owns the DAS account and can modify the account's parsed record.
 * **Parsed Record**, every data associated with a DAS account, if a BTC address, a Twitter account, is called a parsed record.
 * **Registration Fee**, there is a yearly fee for holding a DAS account, which varies for accounts with different character lengths.
 * **Storage Fee**, each account's parsed record is stored on the blockchain and requires a fixed size storage space, so a storage fee is required. The storage fee will be refunded when the account is reclaimed.

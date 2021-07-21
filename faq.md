@@ -90,13 +90,13 @@ After the DAS account expiration time, it will enter a 30-day protection period.
 
 ## Administration Related
 
-### What are owners and administrators? What is the difference between them?
+### What are owners and managers? What is the difference between them?
 
-**Owner**, each account has one owner that owns the DAS account and can modify the owner and administrator.
+**Owner**, each account has one owner that owns the DAS account and can modify the owner and manager.
 
-**Administrator**, each account has one administrator, who can modify the account's parsed records.
+**manager**, each account has one manager, who can modify the account's parsed records.
 
-The design of owner and aministrator is practicing the idea of separation of ownership and management. Modifying parsed records is a high frequency operation, while modifying ownership is a low frequency operation. The high-frequency operation will then use the private key frequently, increasing the risk of losing the private key. This separation design allows users to still have ownership of the account when the administrator's private key is lost. The owner and administrator can be the same address or different addresses. However, we highly recommend using different addresses for the owner and administrator.
+The design of owner and aministrator is practicing the idea of separation of ownership and management. Modifying parsed records is a high frequency operation, while modifying ownership is a low frequency operation. The high-frequency operation will then use the private key frequently, increasing the risk of losing the private key. This separation design allows users to still have ownership of the account when the manager's private key is lost. The owner and manager can be the same address or different addresses. However, we highly recommend using different addresses for the owner and manager.
 
 ### Can DAS accounts be transferred (sold) to other people?
 
