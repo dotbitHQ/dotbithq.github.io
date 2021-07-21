@@ -1,4 +1,4 @@
-## How BTC addresses manage assets on the Nervos CKB blockchain
+# Why assets on CKB can be managed by BTC address
 
 ## First, this is not "cross-chain" 
 
