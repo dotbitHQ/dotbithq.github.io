@@ -8,5 +8,5 @@ DAS 账户作为一种公共资源，应避免在社会影响力不足时被少�
 | 5～9位 | 上线当日开放5%，剩下95%将在上线后一个月左右开始开放。 |
 | 1~4位 | 待定。 |
 
-账户的可注册时间，由公开的算法计算而来，取决于账户名本身。你可以在注册页面搜索某个账户，获取它的可注册时间。
+账户的可注册时间，由[公开的算法](https://github.com/DeAccountSystems/das-contracts/blob/fca9bfafb79950c7c5d4a86cb379f114b0188ccd/contracts/pre-account-cell-type/src/entry.rs#L579-L584)计算而来，取决于账户名本身。你可以在注册页面搜索某个账户，获取它的可注册时间。
 
