@@ -8,4 +8,5 @@ DAS accounts as a public resource should be avoided to be hoarded by a few peopl
 | 5-9 digits               | 5% will be opened on the day of launch, the remaining 95% will be opened about one month after launch. |
 | 1~4 digits               | To be determined.                                            |
 
-The registrable time of an account, calculated by a publicly available algorithm, depends on the account name itself. You can search for an account on the registration page to get its registrable time.
+The registrable time of an account, calculated by a publicly available [algorithm](https://github.com/DeAccountSystems/das-contracts/blob/fca9bfafb79950c7c5d4a86cb379f114b0188ccd/contracts/pre-account-cell-type/src/entry.rs#L579-L584), depends on the account name itself. You can search for an account on the registration page to get its registrable time.
+
