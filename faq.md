@@ -162,5 +162,5 @@ We don't think DAS should have other suffixes for the following reasons.
 
 ### Can I access the `.bit` domain name on my browser?
 
-No. `.bit` is not an Internet top-level domain and therefore cannot be accessed directly. However, each DAS account corresponds to a `.bit.host` subdomain, which can be accessed directly through a browser. If alice owns the DAS account `alice.bit`, then he automatically owns the Internet domain `alice.bit.host`. alice can set up resolution records to determine what users see when they access `alice.bit.host`.
+No. `.bit` is not an Internet top-level domain and therefore cannot be accessed directly. However, each DAS account corresponds to a `.bit.cc` subdomain, which can be accessed directly through a browser. If alice owns the DAS account `alice.bit`, then he automatically owns the Internet domain `alice.bit.cc`. alice can set up resolution records to determine what users see when they access `alice.bit.cc`.
 
