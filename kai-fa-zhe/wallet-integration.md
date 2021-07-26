@@ -9,17 +9,40 @@
 3. 在 DAS 官网首页展示你的钱包品牌，获得 DAS 的社区支持。
 
 
-
 ## 转账界面支持填写 DAS 账户
 
 <img src="image-20210718113458550.png" alt="DAS in Wallet" style="zoom:50%;" />
 
-
-
 在转账界面支持填写 DAS 账户，意味着用户转账时，无需再复制粘贴复杂的区块链地址，只需填入收款方的 DAS 账户即可进行转账。钱包可以将 DAS 账户翻译成对应的收款地址。
 
-钱包只需集成`DAS-JS-SDK`，简单的调用对应的接口，即可完成接入。[查看接入文档](https://github.com/DeAccountSystems/das-js-sdk)。
+若要支持 DAS 账户解析，请按照以下步骤进行：
 
+### 1. 运行 DAS Account Indexer
+[das_account_indexer](https://github.com/DeAccountSystems/das_account_indexer) 是 DAS 的数据存储层和 API 接口层。
+
+它持续从 CKB 链上读取数据，解析之后存储在本地数据库（RocksDB）中，并提供了高性能的 JSON-RPC 服务，供业务读取 DAS 的解析数据。
+
+为了接入方业务的稳定性，我们建议自建 indexer 并跟进 DAS 官方的迭代更新。
+
+[查看 indexer 文档](https://github.com/DeAccountSystems/das_account_indexer)
+
+
+### 2. 接入 SDK
+
+[das-js-sdk](https://github.com/DeAccountSystems/das-js-sdk) 封装了对于 indexer 的 JSON-RPC 的调用。
+
+钱包只需集成该 SDK，并简单的调用对应的接口（数据由 DAS Account Indexer 提供），即可完成接入。
+
+[查看接入文档](https://github.com/DeAccountSystems/das-js-sdk)。
+
+
+### 3. 交互模式
+
+针对不同场景和 DAS 的特点，我们总结了几种常见的交互模式/设计规范。
+
+接入方可以参考设计规范，并结合自己的实际场景，来决定 DAS 在钱包中的实际效果。
+
+[查看设计规范](todo:)
 
 
 ## 上架 DAS 注册服务
