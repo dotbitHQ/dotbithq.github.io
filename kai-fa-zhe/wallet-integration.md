@@ -22,27 +22,27 @@
 
 它持续从 CKB 链上读取数据，解析之后存储在本地数据库（RocksDB）中，并提供了高性能的 JSON-RPC 服务，供业务读取 DAS 的解析数据。
 
-为了接入方业务的稳定性，我们建议自建 indexer 并跟进 DAS 官方的迭代更新。
+为了接入方业务的稳定性，我们建议自建 indexer 服务并跟进 DAS 官方的迭代更新。
 
 [查看 indexer 文档](https://github.com/DeAccountSystems/das_account_indexer)
 
 
 ### 2. 接入 SDK
 
-[das-js-sdk](https://github.com/DeAccountSystems/das-js-sdk) 封装了对于 indexer 的 JSON-RPC 的调用。
+[das-sdk-js](https://github.com/DeAccountSystems/das-sdk-js) 封装了对于 indexer 的 JSON-RPC 的调用。
 
 钱包只需集成该 SDK，并简单的调用对应的接口（数据由 DAS Account Indexer 提供），即可完成接入。
 
-[查看接入文档](https://github.com/DeAccountSystems/das-js-sdk)。
+[查看接入文档](https://github.com/DeAccountSystems/das-sdk-js)。
 
 
 ### 3. 交互模式
 
-针对不同场景和 DAS 的特点，我们总结了几种常见的交互模式/设计规范。
+针对不同场景和 DAS 的特点，我们总结了几种常见的交互模式/设计建议。
 
-接入方可以参考设计规范，并结合自己的实际场景，来决定 DAS 在钱包中的实际效果。
+接入方可以参考交互设计指南，并结合自己的实际场景，来决定 DAS 在钱包中的实际效果。
 
-[查看设计规范](https://sedate-pleasure-684.notion.site/DAS-006aa490976c474e90725ce16465b95e)
+[查看交互设计指南](https://sedate-pleasure-684.notion.site/DAS-006aa490976c474e90725ce16465b95e)
 
 
 ## 上架 DAS 注册服务
@@ -59,7 +59,7 @@ DAS 注册服务信息：
 >
 > LOGO素材：[Download](https://projects.invisionapp.com/boards/QS42CVJRP25/#/6828463/200529574)
 >
-> 英文简介：Cross-chain decentralized account system
+> 英文简介：Cross-chain Decentralized Account System
 >
 > 中文简介：跨链去中心化账户系统
 >
