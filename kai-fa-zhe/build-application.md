@@ -43,7 +43,7 @@ https://bit.cc 便是典型的，将 DAS 账户视为公开 key-value 数据的 
 
 
 
-基于 DAS 账户的解析记录开发应用，则无需了解 Nervos CKB 以及 DAS 的技术细节。只需了解如何使用[das-account-indexer](https://github.com/DeAccountSystems/das_account_indexer) 或 [das-js-sdk](https://github.com/DeAccountSystems/das-js-sdk) 获取某个账户的解析记录，或查询某个地址是否持有 DAS 账户。以及了解 DAS 的解析记录的[命名空间规范](records-key-namespace.md)。
+基于 DAS 账户的解析记录开发应用，则无需了解 Nervos CKB 以及 DAS 的技术细节。只需了解如何使用[das-account-indexer](https://github.com/DeAccountSystems/das_account_indexer) 或 [das-sdk-js](https://github.com/DeAccountSystems/das-sdk-js) 获取某个账户的解析记录，或查询某个地址是否持有 DAS 账户。以及了解 DAS 的解析记录的[命名空间规范](records-key-namespace.md)。
 
 
 
