@@ -41,7 +41,7 @@ If a DAS account is a practical NFT asset, develop a trading/auction/rental mark
 
 
 
-To develop applications based on the parsed records of DAS accounts, you do not need to know the technical details of Nervos CKB and DAS. Just learn how to use [das-account-indexer](https://github.com/DeAccountSystems/das_account_indexer) or [das-js-sdk](https://github.com/DeAccountSystems/das-js-sdk) to get the parsed record for an account, or to query whether an address holds a DAS account. As well as understanding the [namespace specification](records-key-namespace.md) of DAS's parsed records.
+To develop applications based on the parsed records of DAS accounts, you do not need to know the technical details of Nervos CKB and DAS. Just learn how to use [das-account-indexer](https://github.com/DeAccountSystems/das_account_indexer) or [das-sdk-js](https://github.com/DeAccountSystems/das-sdk-js) to get the parsed record for an account, or to query whether an address holds a DAS account. As well as understanding the [namespace specification](records-key-namespace.md) of DAS's parsed records.
 
 
 
