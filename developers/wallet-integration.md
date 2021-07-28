@@ -18,7 +18,7 @@ Integrating DAS into your wallet can:
 
 Users can transfer money without having to copy and paste complex blockchain addresses, but simply fill in the recipient's DAS account to make the transfer. The wallet can translate the DAS account into the corresponding recipient address.
 
-Wallets just need to integrate `DAS-JS-SDK` and simply call the corresponding interface to complete the access. [View access documentation](https://github.com/DeAccountSystems/das-js-sdk).
+Wallets just need to integrate `DAS-JS-SDK` and simply call the corresponding interface to complete the access. [View access documentation](https://github.com/DeAccountSystems/das-sdk-js).
 
 
 
