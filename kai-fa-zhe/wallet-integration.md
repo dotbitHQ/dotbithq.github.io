@@ -17,10 +17,25 @@
 
 若要支持 DAS 账户解析，请按照以下步骤进行：
 
+> 建议在着手接入前，通读 [docs.da.systems](https://docs.da.systems/) 文档，可以提高开发者的接入效率。
+> 重点内容：[术语](https://docs.da.systems/docs/terminology)，[常见问题](https://docs.da.systems/docs/faq)，[开放注册规则](https://docs.da.systems/docs/zhu-ce-das/open-registration-rules)，[解析记录命名空间/支持的公链](https://docs.da.systems/docs/kai-fa-zhe/records-key-namespace)
+
+### 0. 运行 CKB 节点和 Indexer
+
+> 如果您已有运行中的 CKB 节点，可以跳过该步骤。
+
+DAS 的数据存储于 [Nervos CKB](https://github.com/nervosnetwork/ckb) 链上，因此需要开发者部署一个 CKB 节点。
+
+如果不想自己部署 CKB 节点或者处于测试阶段，可以使用社区提供的公开节点（不推荐长期使用）：[免费 CKB 节点](https://talk.nervos.org/t/ckb-rpc-indexer-rpc/4949)。
+
+[CKB 节点运行指引](https://docs.nervos.org/docs/basics/guides/mainnet)
+
+[免费 CKB 节点 RPC 和 Indexer RPC](https://talk.nervos.org/t/ckb-rpc-indexer-rpc/4949)
+
 ### 1. 运行 DAS Account Indexer
 [das_account_indexer](https://github.com/DeAccountSystems/das_account_indexer) 是 DAS 的数据存储层和 API 接口层。
 
-它持续从 CKB 链上读取数据，解析之后存储在本地数据库（RocksDB）中，并提供了高性能的 JSON-RPC 服务，供业务读取 DAS 的解析数据。
+它通过 CKB 节点持续从 CKB 链上读取数据，解析之后存储在本地数据库（RocksDB）中，并提供了高性能的 JSON-RPC 服务，供业务读取 DAS 的解析数据。
 
 为了接入方业务的稳定性，我们建议自建 indexer 服务并跟进 DAS 官方的迭代更新。
 
