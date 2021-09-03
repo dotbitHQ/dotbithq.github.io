@@ -8,10 +8,10 @@ Fee paid at registration = Annual fee \* Length of registration period + Storage
 
 | Account Character Length | Price      | Price after filling in the invitee \( x0.95 \) |
 | :----------------------- | :--------- | :--------------------------------------------- |
-| 5 digits and above       | $4.99/year | $4.75/year                                     |
-| 4-bit                    | $160/year  | $152/year                                      |
-| 3-bit                    | $660/year  | $627/year                                      |
-| 2 bit                    | -          | -                                              |
+| 5 digits and above       | \$4.99/year | \$4.75/year                                     |
+| 4-bit                    | \$160/year  | \$152/year                                      |
+| 3-bit                    | \$660/year  | \$627/year                                      |
+| 2 bit                    | \$1,024/year | \$972.8/year                             |
 | 1 bit                    | -          | -                                              |
 
 ### Storage Deposit
