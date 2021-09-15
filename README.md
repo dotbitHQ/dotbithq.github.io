@@ -2,7 +2,7 @@
 
 > DAS to the crypto world is what Phone/Email to the Internet.
 
-DAS is a blockchain-based, open source, censorship-resistant decentralized account system that provides a globally unique naming system with a .bit suffix that can be used for cryptocurrency transfers, domain name resolution, authentication, and other scenarios.
+DAS is a blockchain-based, open source, cross-chain decentralized account system that provides a globally unique naming system with a .bit suffix that can be used for cryptocurrency transfers, domain name resolution, authentication, and other scenarios.
 
 DAS is the first decentralized account system with broad compatibility, allowing users to register and manage the DAS accounts using any public chain address or even email.
 
