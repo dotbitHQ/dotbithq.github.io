@@ -20,7 +20,7 @@ There are several roles we identified in the ecosystem and please note any organ
 
 The channel rewards, promotion rewards, and Keeper rewards are capabilities implemented at the contract level, and the rewards are billed to the corresponding roles in real time.
 
-Eg. A user registers a DAS account through https://gogodas.com?inviter=timyang.bit&channel=imtoken.bit. The inviter -`timyang.bit` - will get the promotion bonus, which is 10% of the registration fee. The channel - `imtoken.bit` - will get the channel bonus, which is 10% of the registration fee. And the registrar - gogodas.com - will get a premium for a certain amount of ETH converted to CKB. The registrar's exact earnings depend on the premium percentage set by the registrar itself.
+Eg. A user registers a DAS account through https://app.gogodas.com?inviter=dasdeveloper.bit&channel=imtokenreferral.bit. The inviter -`dasdeveloper.bit` - will get the promotion bonus, which is 10% of the registration fee. The channel - `imtokenreferral.bit` - will get the channel bonus, which is 10% of the registration fee. And the registrar - gogodas.com - will get a premium for a certain amount of ETH converted to CKB. The registrar's exact earnings depend on the premium percentage set by the registrar itself.
 
 DAS is an open source project with smart contracts deployed on the blockchain at its core, and anyone can participate in building DAS without permission. Let's build it together!
 
