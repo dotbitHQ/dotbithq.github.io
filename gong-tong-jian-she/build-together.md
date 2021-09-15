@@ -26,4 +26,4 @@ DAS 是致力于成为加密世界的基础设施，这离不开社区成员的�
 
 
 
-假如某个用户通过 https://gogodas.com?inviter=timyang.bit&channel=imtoken.bit 注册了 DAS 账户。那么 `timyang.bit`将获得推广奖励，即注册费用的 10%。 `imtoken.bit`将获得渠道奖励，即注册费用的 10%。并且，这个用户支付的是 ETH，`gogodas.com`这个注册商将获得一定量的 ETH 兑换成 CKB 的溢价。注册商的具体收益取决于注册商自己设定的溢价比例。
+假如某个用户通过 https://app.gogodas.com?inviter=dasdeveloper.bit&channel=imtokenreferral.bit注册了 DAS 账户。那么 `dasdeveloper.bit`将获得推广奖励，即注册费用的 10%。 `imtokenreferral.bit`将获得渠道奖励，即注册费用的 10%。并且，这个用户支付的是 ETH，`gogodas.com`这个注册商将获得一定量的 ETH 兑换成 CKB 的溢价。注册商的具体收益取决于注册商自己设定的溢价比例。
