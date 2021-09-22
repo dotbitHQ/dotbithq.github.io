@@ -1,4 +1,4 @@
-# Pricing
+# Pricing/Fee
 
 ## Pricing
 
@@ -13,6 +13,21 @@ Fee paid at registration = Annual fee \* Length of registration period + Storage
 | 3-bit                    | \$660/year  | \$627/year                                      |
 | 2 bit                    | \$1,024/year | \$972.8/year                             |
 | 1 bit                    | -          | -                                              |
+
+
+
+### Action Fee
+
+| Action           | Action Fee | Miner Fee |
+| ---------------- | ---------- | --------- |
+| Edit Records     | Free       | Free      |
+| Transfer Owner   | Free       | Free      |
+| Transfer Manager | Free       | Free      |
+| Query Records    | Free       | Free      |
+
+
+
+
 
 ### Storage Deposit
 
