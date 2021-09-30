@@ -20,7 +20,7 @@ DAS 在合约层面对命名空间的使用有严格的约束，目前提供了�
 
 * **address**
 
-  该命名空间一般用于存放用户的数字货币收款地址，如`address.btc`，`address.eth`等。同时，合约内部有一个[白名单](https://github.com/DeAccountSystems/das-contracts/blob/develop/tests/data/record_key_namespace.txt)，内置了主流数字货币符号作为合法的 key。
+  该命名空间一般用于存放用户的数字资产收款地址，如`address.btc`，`address.eth`等。同时，合约内部有一个[白名单](https://github.com/DeAccountSystems/das-contracts/blob/develop/tests/data/record_key_namespace.txt)，内置了主流数字资产符号作为合法的 key。
 
 * **profile**
 
