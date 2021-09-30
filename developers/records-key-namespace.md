@@ -12,7 +12,7 @@ DAS has strict constraints on the use of namespaces at the contract level, and c
 
 * **address**
 
-  This namespace is generally used to store the user's digital currency receipt address, such as `address.btc`, `address.eth`, etc. Also, there is a [whitelist](https://github.com/DeAccountSystems/das-contracts/blob/develop/tests/data/record_key_namespace.txt) inside the contract that has built-in mainstream digital currency symbols as legal key.
+  This namespace is generally used to store the user's digital assets receipt address, such as `address.btc`, `address.eth`, etc. Also, there is a [whitelist](https://github.com/DeAccountSystems/das-contracts/blob/develop/tests/data/record_key_namespace.txt) inside the contract that has built-in mainstream digital assets symbols as legal key.
 
 * **profile**
 
