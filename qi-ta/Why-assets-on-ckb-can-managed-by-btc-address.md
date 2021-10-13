@@ -45,6 +45,4 @@ Nervos CKB 可以兼容 BTC 的账户体系，本质是指，**Nervos CKB 这条
 
 
 
-## 技术实现
-
-[PW-SDK](https://docs.lay2.dev/pw-sdk/)
+如此优雅的“跨链”方式，源自于 [Lay2](https://lay2.tech/#/) 团队带给我们的启发。他们构建的 [PW-SDK](https://docs.lay2.dev/pw-sdk/)  是 Nervos 生态的基础设施，也是 DAS 账户可以被任意公链地址所持有的核心秘诀。❤
