@@ -12,15 +12,15 @@ DAS has strict constraints on the use of namespaces at the contract level, and c
 
 * **address**
 
-  This namespace is generally used to store the user's digital currency receipt address, such as `address.btc`, `address.eth`, etc. Also, there is a [whitelist](https://github.com/DeAccountSystems/das-contracts/blob/develop/tests/data/record_key_namespace.txt) inside the contract that has built-in mainstream digital currency symbols as legal key.
+  This namespace is generally used to store the user's digital assets receipt address, such as `address.btc`, `address.eth`, etc. Also, there is a [whitelist](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract that has built-in mainstream digital assets symbols as legal key.
 
 * **profile**
 
-  This namespace is generally used to store users' personal information, such as `profile.twitter`, `profile.facebook`, etc. Also, there is a [whitelist](https://github.com/DeAccountSystems/das-contracts/blob/develop/tests/data/record_key_namespace.txt) inside the contract with built-in mainstream social network names as legitimate key.
+  This namespace is generally used to store users' personal information, such as `profile.twitter`, `profile.facebook`, etc. Also, there is a [whitelist](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract with built-in mainstream social network names as legitimate key.
 
 * **dweb**
 
-  This namespace is generally used to store decentralized network-related content, such as `dweb.ipfs`, `dweb.resilio`, etc. Also, there is a [dweb.resilio]() inside the contract. Also, there is a [whitelist](https://github.com/DeAccountSystems/das-contracts/blob/develop/tests/data/record_key_namespace.txt) inside the contract with the mainstream decentralized storage protocol built-in name as a legal key.
+  This namespace is generally used to store decentralized network-related content, such as `dweb.ipfs`, `dweb.resilio`, etc. Also, there is a [dweb.resilio]() inside the contract. Also, there is a [whitelist](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract with the mainstream decentralized storage protocol built-in name as a legal key.
 
 * **cumtom_key**
 
