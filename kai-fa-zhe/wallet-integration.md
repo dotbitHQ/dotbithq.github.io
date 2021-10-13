@@ -59,6 +59,9 @@ DAS 的数据存储于 [Nervos CKB](https://github.com/nervosnetwork/ckb) 链上
 
 [查看交互设计指南](https://sedate-pleasure-684.notion.site/DAS-006aa490976c474e90725ce16465b95e)
 
+### 4. 常用资源
+[**DAS 记录命名空间**](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt) 每一个 DAS 账户的解析记录的 key 都必须在命名空间中，包括 address/profile/dweb 等类型。
+
 
 ## 上架 DAS 注册服务
 
