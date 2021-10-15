@@ -10,7 +10,7 @@ The core elements of a DAS account are: the owner/manager, and the parsed record
 
 The structure of a DAS account is as follows.
 
-<img src="image-20210721120318336.png" alt="DAS Account Structure" style="zoom:50%;" />
+<img src="image-20210721120318336.png" alt="DAS Account Structure" />
 
 DAS is a decentralized application running on [Nervos CKB](https://www.nervos.org/). DAS accounts and related parsed records are stored on the permissionless blockchain. Nervos CKB is a PoW public chain with a highly open architecture using the UTXO model.
 
