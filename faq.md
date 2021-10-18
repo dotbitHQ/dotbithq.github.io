@@ -25,10 +25,6 @@ We don't think a one-time purchase for permanent use as a reasonable economic mo
 1. DAS as an infrastructure needs continuous improvement by the developers. There are DAS accounts that more desired than others, and when those desired DAS accounts are purchased out, the DAS system will no longer generate revenue and the existing development team will have no incentive to continuously improve the system or attract new developers to maintain the system. It may sound attractive to buy once and use forever, but the user is actually buying an account that will not be maintained in the future. 
 2. Loss of private key, etc. will cause permanent lock of an DAS accounts. This is a waste of a limited public resource like DAS.
 
-### Does the DAS registration fee revenue go to the DAS development team?
-
-DAS registration fee revenue will be kept in the DAS pool, and it is up to the community to decide how to use these funds in the future. The DAS development team will not use any of the funds unless necessary.
-
 ### What is the storage deposit?
 
 The data for each DAS account is stored on the Nervos CKB blockchain, and storing the data requires storage space, which requires pledged tokens (CKB) to be used. When an DAS account is reclaimed on expiry date, the corresponding storage space is released and the pledged tokens are returned to the account owner.
@@ -76,7 +72,7 @@ Yes, fees will be refunded. How and when it will be refunded depends on the regi
 
 ### How can I get access to a reserved account?
 
-Each reserved account has its own reason for being reserved, and they are often determined to be owned by an organization or an individual. You can see why each account is reserved on Github. Reserved accounts can only be claimed by the organization or individual of which they belong to. Claiming methods will be announced at a later date.
+Each reserved account has its own reason for being reserved, and they are often determined to be owned by an organization or an individual. You can see why each account is reserved on Github. Reserved accounts can only be claimed by the organization or individual of which they belong to. [How to claim the reserved DAS](https://dasystems.medium.com/claim-your-das-name-for-your-brand-ac487df02d5c)
 
 ### Is the registrar a part of the DAS team, and what is the difference between different registrars?
 
