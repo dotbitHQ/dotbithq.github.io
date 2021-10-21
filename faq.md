@@ -1,4 +1,4 @@
-## FAQ
+# FAQ
 
 ### Is DAS a domain name or an account?
 
