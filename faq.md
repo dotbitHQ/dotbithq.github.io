@@ -2,7 +2,8 @@
 
 ### Is DAS a domain name or an account?
 
-DAS provides a symbolic naming system ending in `.bit` , which any type of data can be associated with. It can be either a domain name or an account, depending on what scenario we use it for. We designed DAS as an account system, and it can actually be used as a domain name system too.
+DAS is not a domain, its an account system. 
+DAS provides a symbolic naming system ending in `.bit` , which any type of data can be associated with. We always need a suffix to recognize some kind of things, such as file type, email address, domain name etc. So, even if DAS account has a suffix(.bit) makes DAS likes TLD, but it is not.
 
 ### Is DAS decentralized? 
 
