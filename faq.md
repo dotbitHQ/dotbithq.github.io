@@ -14,7 +14,7 @@ DAS 提供了以 `.bit` 为结尾的符号命名体系，可以在上面关联�
 
 ### 可以使用哪些公链地址注册 DAS 账户？
 
-目前支持使用 ETH / TRX 地址注册 DAS 账户。访问 https://da.systems 链接 MetaMask / TronLink 即可开始注册。也可在支持 ETH / TRX 的钱包 APP 中直接访问 https://da.systems 进行注册。
+目前支持使用 ETH / TRX / BSC / Polygon 地址注册 DAS 账户。访问 https://da.systems 链接 MetaMask / TronLink 即可开始注册。也可在支持 ETH / TRX / BSC / Polygon 的钱包 APP 中直接访问 https://da.systems 进行注册。
 
 技术上，DAS 可以使用任意公链地址进行注册（[查看原理](qi-ta/Why-assets-on-ckb-can-managed-by-btc-address.md)）。DAS 团队正在将更多公链的签名算法部署到 Nervos CKB 上，以支持更多公链地址注册 DAS。
 
