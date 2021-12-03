@@ -14,7 +14,7 @@ The source code for all core components of DAS is open sourced and can be found 
 
 ### What public chain addresses can I use to register for a DAS account?
 
-Currently, DAS accounts can be registered using ETH / TRX addresses. To register, visit https://da.systems and login with your MetaMask/TronLink or any wallets that support ETH / TRX.
+Currently, DAS accounts can be registered using  ETH / TRX / BSC / Polygon addresses. To register, visit https://da.systems and login with your MetaMask/TronLink or any wallets that support  ETH / TRX / BSC / Polygon .
 
 DAS can be registered using any public chain address ([how?](others/Why-assets-on-ckb-can-managed-by-btc-address.md)) The DAS team is in the process of deploying more public chain signature algorithms to the Nervos CKB to support more public chain addresses for DAS registration. 
 
