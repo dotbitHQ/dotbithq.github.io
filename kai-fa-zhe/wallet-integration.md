@@ -15,12 +15,14 @@
 
 在转账界面支持填写 DAS 账户，意味着用户转账时，无需再复制粘贴复杂的区块链地址，只需填入收款方的 DAS 账户即可进行转账。钱包可以将 DAS 账户翻译成对应的收款地址。
 
+### 完全接入
+
 若要支持 DAS 账户解析，请按照以下步骤进行：
 
 > 建议在着手接入前，通读 [docs.da.systems](https://docs.da.systems/) 文档，可以提高开发者的接入效率。
 > 重点内容：[术语](https://docs.da.systems/docs/terminology)，[常见问题](https://docs.da.systems/docs/faq)，[开放注册规则](https://docs.da.systems/docs/zhu-ce-das/open-registration-rules)，[解析记录命名空间/支持的公链](https://docs.da.systems/docs/kai-fa-zhe/records-key-namespace)
 
-### 0. 运行 CKB 节点和 Indexer
+#### 0. 运行 CKB 节点和 Indexer
 
 > 如果您已有运行中的 CKB 节点，可以跳过该步骤。
 
@@ -32,7 +34,7 @@ DAS 的数据存储于 [Nervos CKB](https://github.com/nervosnetwork/ckb) 链上
 
 [免费 CKB 节点 RPC 和 Indexer RPC](https://talk.nervos.org/t/ckb-rpc-indexer-rpc/4949)
 
-### 1. 运行 DAS Account Indexer
+#### 1. 运行 DAS Account Indexer
 [das_account_indexer](https://github.com/DeAccountSystems/das_account_indexer) 是 DAS 的数据存储层和 API 接口层。
 
 它通过 CKB 节点持续从 CKB 链上读取数据，解析之后存储在本地数据库（RocksDB）中，并提供了高性能的 JSON-RPC 服务，供业务读取 DAS 的解析数据。
@@ -42,16 +44,36 @@ DAS 的数据存储于 [Nervos CKB](https://github.com/nervosnetwork/ckb) 链上
 [查看 indexer 文档](https://github.com/DeAccountSystems/das_account_indexer)
 
 
-### 2. 接入 SDK
+#### 2. 接入 SDK
 
 [das-sdk-js](https://github.com/DeAccountSystems/das-sdk-js) 封装了对于 indexer 的 JSON-RPC 的调用。
 
 钱包只需集成该 SDK，并简单的调用对应的接口（数据由 DAS Account Indexer 提供），即可完成接入。
 
-[查看接入文档](https://github.com/DeAccountSystems/das-sdk-js)。
+[查看 das-sdk-js 文档](https://github.com/DeAccountSystems/das-sdk-js)
 
 
-### 3. 交互模式
+#### 3. 接入 API 
+如果您的接入场景需要后台获取 DAS 账户数据（而非直接前端/客户端请求），可以直接请求 Indexer 的 API 而不使用 sdk。
+
+[Indexer API 文档](https://github.com/DeAccountSystems/das_account_indexer#searchaccount)
+
+我们建议开发者自建 Indexer 以满足个性化需求。但 DAS 团队同时提供了官方的公开 Indexer 供开发者使用: `https://indexer.da.systems`
+
+```shell
+curl --location --request POST 'https://indexer.da.systems' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "das_searchAccount",
+    "params": [
+        "dasdeveloper.bit"
+    ]
+}'
+```
+
+#### 4. 交互模式
 
 针对不同场景和 DAS 的特点，我们总结了几种常见的交互模式/设计建议。
 
@@ -59,9 +81,8 @@ DAS 的数据存储于 [Nervos CKB](https://github.com/nervosnetwork/ckb) 链上
 
 [查看交互设计指南](https://sedate-pleasure-684.notion.site/DAS-006aa490976c474e90725ce16465b95e)
 
-### 4. 常用资源
+#### 5. 常用资源
 [**DAS 记录命名空间**](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt) 每一个 DAS 账户的解析记录的 key 都必须在命名空间中，包括 address/profile/dweb 等类型。
-
 
 ## 上架 DAS 注册服务
 
