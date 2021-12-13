@@ -52,6 +52,8 @@ DAS 的数据存储于 [Nervos CKB](https://github.com/nervosnetwork/ckb) 链上
 
 [查看 das-sdk-js 文档](https://github.com/DeAccountSystems/das-sdk-js)
 
+> 注意，应用在得到用户设置的 record 的 value 后，要对 value 进行合法性校验。
+
 
 #### 3. 接入 API 
 如果您的接入场景需要后台获取 DAS 账户数据（而非直接前端/客户端请求），可以直接请求 Indexer 的 API 而不使用 sdk。
