@@ -22,7 +22,7 @@ DAS has strict constraints on the use of namespaces at the contract level, and c
 
   This namespace is generally used to store decentralized network-related content, such as `dweb.ipfs`, `dweb.resilio`, etc. Also, there is a [dweb.resilio]() inside the contract. Also, there is a [whitelist](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract with the mainstream decentralized storage protocol built-in name as a legal key.
 
-* **cumtom_key**
+* **custom_key**
 
   This namespace is not constrained, and developers can create any name and number of sub-namespaces under this space and define their meaning. For example, `custom_key.bitcc_config`, `custom_key.pgp.master_key`, etc. 
 
