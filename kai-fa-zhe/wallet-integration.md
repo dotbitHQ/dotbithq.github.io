@@ -64,10 +64,17 @@ DAS 的数据存储于 [Nervos CKB](https://github.com/nervosnetwork/ckb) 链上
 
 [Indexer API 文档](https://github.com/DeAccountSystems/das_account_indexer#searchaccount)
 
-我们建议开发者自建 Indexer 以满足个性化需求。但 DAS 团队同时提供了官方的公开 Indexer 供开发者使用: `https://indexer.da.systems`
+我们建议开发者自建 Indexer 以满足个性化需求。但 DAS 团队提供了有限功能的 Indexer 供开发者使用。
+
+完整功能的 Indexer，但如其域名所描述的，开发者不应在生产环境中使用该 Indexder。
+> https://indexer-not-use-in-production-env.da.systems
+
+仅可查询账户信息和反向解析记录的 Indexer
+> https://indexer-basic.da.systems
+
 
 ```shell
-curl --location --request POST 'https://indexer.da.systems' \
+curl --location --request POST 'https://indexer-basic.da.systems' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "jsonrpc": "2.0",
