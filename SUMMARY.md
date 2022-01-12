@@ -8,7 +8,7 @@
 * [定价](zhu-ce-das/pricing.md)
 * [开放注册规则](zhu-ce-das/open-registration-rules.md)
 * [字符集](zhu-ce-das/charsets.md)
-* [保留账户](https://github.com/DeAccountSystems/Documents/blob/main/Reserved_DAS/Reserved_DAS_List.md)
+* [保留账户](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/reserved_accounts.txt)
 
 ## 共同建设
 
