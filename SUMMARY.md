@@ -8,7 +8,7 @@
 * [Pricing](register-das/pricing.md)
 * [Open Registration Rules](register-das/open-registration-rules.md)
 * [Charsets](register-das/charsets.md)
-* [Reserved DAS List](https://github.com/DeAccountSystems/Documents/blob/main/Reserved_DAS/Reserved_DAS_List.md)
+* [Reserved DAS List](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/reserved_accounts.txt)
 
 ## Contribute to DAS
 
