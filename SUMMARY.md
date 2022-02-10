@@ -24,10 +24,19 @@
 * [Build applications on DAS](developers/build-application.md)
 * [Records namespace](developers/records-key-namespace.md)
 
+## We are hiring
+
+* [Position List](we-are-hiring/position-list.md)
+* [Chief .bit Evangelist](we-are-hiring/chief-avangelist.md)
+* [Frontend Engineer](we-are-hiring/frontend-engineer.md)
+* [Backend Engineer - Golang](we-are-hiring/backend-engineer-golang.md)
+* [Smart Contract Engineer - Rust](we-are-hiring/smart-contract-engineer.md)
+
+
+
 ## Others
 
 * [Why assets on CKB can be managed by BTC address?](others/why-assets-on-ckb-can-be-managed-by-btc-address.md)
-* [Change log](others/change-log.md)
 * [Github](https://github.com/DeAccountSystems)
 * [Website](https://da.systems)
 
