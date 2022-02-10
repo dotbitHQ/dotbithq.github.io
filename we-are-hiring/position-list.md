@@ -1,4 +1,4 @@
-* [Chief Evangelist](we-are-hiring/chief-avangelist.md)
-* [Frontend Engineer](we-are-hiring/frontend-engineer.md)
-* [Backend Engineer - Golang](we-are-hiring/backend-engineer-golang.md)
-* [Smart Contract Engineer - Rust](we-are-hiring/smart-contract-engineer.md)
+* [Chief Evangelist](https://docs.da.systems/docs/we-are-hiring/chief-evangelist)
+* [Frontend Engineer](https://docs.da.systems/docs/we-are-hiring/frontend-engineer)
+* [Backend Engineer - Golang](https://docs.da.systems/docs/we-are-hiring/backend-engineer-golang)
+* [Smart Contract Engineer - Rust](https://docs.da.systems/docs/we-are-hiring/smart-contract-engineer-rust)
