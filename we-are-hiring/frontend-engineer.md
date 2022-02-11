@@ -1,8 +1,8 @@
-### About You
+## About You
 
 You are a programmer who understands the principles of Bitcoin/Ethereum. You are passionate about the blockchain and open source community. You enjoy solving problems with technology. You hate simple and repetitive work, and you writing automation tools & eagerness to “automate all the things”. You believe that blockchain technology is the opportunity of the next decade. You like to think independently, be responsible and long-termist.
 
-### Responsibility
+## Responsibility
 
 You will be deeply involved in the core development of .bit. These include:
 
@@ -12,7 +12,7 @@ You will be deeply involved in the core development of .bit. These include:
 
 - Working with members of the community to resolve issues
 
-### Must have
+## Must have
 
 - At least 1 year of professional Javascript experience
 
@@ -24,7 +24,7 @@ You will be deeply involved in the core development of .bit. These include:
 
 
 
-### Nice to have 
+## Nice to have 
 
 - Experience with blockchain technologies, smart contracts, Ethereum
 
@@ -35,7 +35,7 @@ You will be deeply involved in the core development of .bit. These include:
 
 
 
-### What we offers
+## What we offers
 
 - Remote work from anywhere in the world 
 - Competitive compensation and equity
@@ -44,6 +44,6 @@ You will be deeply involved in the core development of .bit. These include:
 
 
 
-### Apply now
+## Apply now
 
 Please send your resume to **hiring@did.id**, we will give you feedback within 24 hours.
