@@ -1,8 +1,6 @@
-# Develop applications based on DAS
+# Build applications on DAS
 
-
-
-<img src="image-20210721120500021.png" alt="DAS Records" style="zoom:50%;" />
+<img src="./image-20210721120500021.png" alt="DAS Records" style="zoom:50%;" />
 
 There are several ideas for developing applications based on DAS.
 

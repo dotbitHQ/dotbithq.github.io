@@ -2,7 +2,7 @@
 
 
 
-<img src="image-20210721120817803.png" alt="Build Together" style="zoom:50%;" />
+<img src="./image-20210721120817803.png" alt="Build Together" style="zoom:50%;" />
 
 
 

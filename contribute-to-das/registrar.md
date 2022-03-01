@@ -1,4 +1,4 @@
-## Registrar
+# Registrar
 
 DAS is a set of smart contracts running on Nervos CKB. Ordinary users cannot interact with smart contracts directly, but need to complete a series of operations such as registration management of DAS through the user interface (Dapp UI).
 

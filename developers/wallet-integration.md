@@ -1,4 +1,4 @@
-# Integrating DAS in the wallets
+# Wallet Integration
 
 Wallets can integrate DAS on two levels: the transfer interface supports DAS accounts and the onboarding of DAS registration services.
 
@@ -12,7 +12,7 @@ Integrating DAS into your wallet can:
 
 ## Transfer interface supports DAS account
 
-<img src="image-20210718113458550.png" alt="DAS in Wallet" style="zoom:50%;" />
+<img src="./image-20210718113458550.png" alt="DAS in Wallet" style="zoom:50%;" />
 
 
 

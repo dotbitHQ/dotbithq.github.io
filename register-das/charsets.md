@@ -1,4 +1,4 @@
-# Character sets
+# Charsets
 
 You can register for a DAS account in multiple languages or even emoji. The supported language character sets are as follows.
 

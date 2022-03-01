@@ -1,0 +1,170 @@
+@import "palette";
+:root {
+  --sidebar-width: 19rem;
+}
+
+body .navbar .site-name,
+h1,
+h2 {
+  color: $titleColor;
+}
+h1 {
+  padding-bottom: 2rem;
+  border-bottom: 2px solid $lightDelimiterColor;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+// NAVBAR
+.navbar {
+  box-shadow: 0 3px 8px 0 rgba(116, 129, 141, 0.1);
+  .links {
+    flex-direction: row-reverse;
+
+    // SEARCH BOX
+    .search-box {
+      font-size: 1rem;
+      border-radius: 3px;
+      margin: 0 0 0 1rem;
+
+      input {
+        font: inherit;
+        font-size: 0.9rem;
+        border: none;
+        margin: 0;
+        text-align: left;
+        border-radius: 3px;
+        padding-left: 2rem;
+      }
+      .suggestions {
+        border-radius: 0;
+        border-color: $lightDelimiterColor;
+        top: 2.25rem;
+      }
+      @media (min-width: $MQNarrow) {
+        &:before {
+          top: 50%;
+          left: 0;
+          height: $navbarHeight;
+          content: "";
+          position: absolute;
+          transform: translateY(-50%);
+          border-left: 1px solid $lightDelimiterColor;
+        }
+        input {
+          height: 100%;
+          background-size: 0.9rem;
+          background-position-y: 50%;
+        }
+      }
+    }
+    #search-form {
+      line-height: inherit;
+    }
+  }
+}
+
+.sidebar {
+  padding-left: 1rem;
+  background-color: $sidebarBgColor;
+
+  .sidebar-item-children .sidebar-item-children li {
+    line-height: 1;
+
+    .sidebar-item:not(.sidebar-heading) {
+      text-overflow: ellipsis;
+      white-space: pre;
+      overflow-x: hidden;
+    }
+  }
+  // dont highlight content`s title
+  // standalone sidebar-item`s children
+  a+.sidebar-item-children,
+  // nested sidebar-item`s children
+  .sidebar-item-children .sidebar-item-children, {
+    .sidebar-item {
+
+      &.active {
+        background-color: unset;
+        border-bottom-color: transparent;
+        border-top-color: transparent;
+      }
+    }
+  }
+
+  // standalone sidebar-item`s children`s title should be indented
+  a+.sidebar-item-children {
+    .sidebar-item {
+      padding-left: 2rem;
+    }
+  }
+
+  .sidebar-item {
+    padding-left: 1.5rem;
+    line-height: 1.5;
+    border: 1px solid transparent;
+    color: $textColor;
+  }
+
+  p.sidebar-item {
+    margin-top: 1.5rem;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: rgba(136,153,168,1.00);
+  }
+
+  a.sidebar-item {
+    font-size: 14px;
+
+    &:hover {
+      background-color: $lightDelimiterColor !important;
+    }
+
+    &.active {
+      border-color: $lightDelimiterColor;
+      border-right: none;
+      background-color: white;
+    }
+  }
+
+  a.sidebar-item.sidebar-heading {
+    margin-bottom: 5px;
+    font-weight: normal;
+  }
+}
+
+// PAGE NAV
+.page-nav .inner {
+  display: grid;
+  grid-column-gap: 1.5rem;
+  grid-template-areas: "previous next";
+  grid-template-columns: 1fr 1fr;
+
+  span.prev,
+  span.next {
+    display: flex;
+    align-items: center;
+    border: 1px solid $lightDelimiterColor;
+    grid-area: previous;
+    box-shadow: 0 3px 8px 0 rgba(116, 129, 141, 0.1);
+    border-radius: 3px;
+    background-color: white;
+    padding-left: 1rem;
+
+    a {
+      flex: 1;
+      color: #242A31;
+      text-align: right;
+      padding: 1rem 1rem 1rem 0;
+    }
+  }
+  span.next {
+    grid-area: next;
+    padding-right: 1rem;
+    a {
+      text-align: left;
+    }
+  }
+}

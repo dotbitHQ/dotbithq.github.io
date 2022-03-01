@@ -1,0 +1,5 @@
+.idea/
+.cache/
+.temp/
+node_modules/
+yarn.lock
