@@ -6,6 +6,9 @@ import CleanUrlsPlugin from './plugins/clean-urls'
 export default defineUserConfig<DefaultThemeOptions>({
   // site config
   title: '.bit Document',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }]
+  ],
   locales: {
     '/': {
       lang: 'en-US',
@@ -24,7 +27,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   themeConfig: {
     darkMode: false,
     contributors: false,
-    logo: '/favicon.png',
+    logo: '/logo.png',
     repo: 'https://github.com/DeAccountSystems/docs.da.systems',
     locales: {
       '/': {

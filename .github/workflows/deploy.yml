@@ -13,7 +13,7 @@ jobs:
 
     env:
       NODE_VERSION: '16'
-      CUSTOM_CNAME: 'docs.da.systems'
+      CUSTOM_CNAME: 'docs.did.id'
 
     steps:
       - uses: actions/checkout@v2
