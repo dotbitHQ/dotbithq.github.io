@@ -6,7 +6,6 @@ import CleanUrlsPlugin from './plugins/clean-urls'
 export default defineUserConfig<DefaultThemeOptions>({
   // site config
   title: '.bit Document',
-  base: '/docs/',
   locales: {
     '/': {
       lang: 'en-US',
