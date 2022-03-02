@@ -2,7 +2,7 @@
 
 
 
-<img src="image-20210721120500021.png" alt="DAS Records" style="zoom:50%;" />Parsed records are the core of DAS, and the flexibility of parsed records is also the source of DAS's great scalability. A parsed record is a key-value pair, and DAS supports an infinite number of parsed records. As shown above, different applications will read different parse records to do different jobs. Therefore, it is important to manage the namespace of the key of the parsed record. The namespace usage specification is essentially a protocol that can be followed to enable good collaboration between applications.
+<img src="./image-20210721120500021.png" alt="DAS Records" style="zoom:50%;" />Parsed records are the core of DAS, and the flexibility of parsed records is also the source of DAS's great scalability. A parsed record is a key-value pair, and DAS supports an infinite number of parsed records. As shown above, different applications will read different parse records to do different jobs. Therefore, it is important to manage the namespace of the key of the parsed record. The namespace usage specification is essentially a protocol that can be followed to enable good collaboration between applications.
 
 ## Namespaces
 
