@@ -9,7 +9,7 @@ export default {
     }
   },
   beforeMount() {
-    document.location.replace(this.to);
+    this.$router.replace(this.to)
   }
 }
 </script>

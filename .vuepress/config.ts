@@ -1,6 +1,7 @@
 import {defineUserConfig, DefaultThemeOptions} from 'vuepress'
 import { en } from './locales/en'
 import { zh } from './locales/zh'
+import CleanUrlsPlugin from './plugins/clean-urls'
 
 export default defineUserConfig<DefaultThemeOptions>({
   // site config
@@ -49,8 +50,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     }
   },
   plugins: [
-    ['vuepress-plugin-clean-urls', {
-      normalSuffix: '',
+    [CleanUrlsPlugin, {
+      notFoundPath: '/404',
     }],
     [
       // 'vuepress-plugin-redirect',
