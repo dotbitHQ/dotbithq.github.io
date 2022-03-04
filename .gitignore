@@ -1,0 +1,6 @@
+.idea/
+.cache/
+.temp/
+.vuepress/dist/
+node_modules/
+yarn.lock
