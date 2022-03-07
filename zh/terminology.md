@@ -1,6 +1,6 @@
 # 术语
 
-* **DAS**，一般用户代指整个 Decentralized ‍Account ‍Systems 开源项目。
+* **.BIT**，一般用户代指整个 .BIT 开源项目。
 * **.bit 账户**，指每一个独立的账户，如 alice.bit, bob.bit。
 * **.bit 域名**，.bit 账户的另一个叫法。
 * **注册**，指通过向 .bit 合约支付费用，获得 .bit 账户的过程。

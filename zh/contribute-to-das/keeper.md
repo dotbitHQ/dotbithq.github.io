@@ -4,7 +4,7 @@
 
 
 
-Keeper 是任何人都可以无需许可的运行的链下程序。它会根据 CKB 链上的状态，发出交易，修改 CKB 的链上状态。而这些交易需要负责「链上验证」的程序验证通过才能打包上链。因此，任何人都可以根据 [.bit 的协议](https://github.com/DeAccountSystems/das-contracts)，实现自己 Keeper。
+Keeper 是任何人都可以无需许可的运行的链下程序。它会根据 CKB 链上的状态，发出交易，修改 CKB 的链上状态。而这些交易需要负责「链上验证」的程序验证通过才能打包上链。因此，任何人都可以根据 [.bit 的协议](https://github.com/dotbitHQ/das-contracts)，实现自己 Keeper。
 
 
 

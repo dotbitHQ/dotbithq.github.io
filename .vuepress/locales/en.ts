@@ -12,7 +12,7 @@ export const sidebar: SidebarConfig = [
       '/register-das/charsets',
       {
         text: 'Reserved .bit Accounts',
-        link: 'https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/reserved_accounts.txt',
+        link: 'https://github.com/dotbitHQ/cell-data-generator/blob/master/data/reserved_accounts.txt',
       },
     ],
   },
@@ -50,7 +50,7 @@ export const sidebar: SidebarConfig = [
       '/others/why-assets-on-ckb-can-be-managed-by-btc-address',
       {
         text: 'Github',
-        link: 'https://github.com/DeAccountSystems',
+        link: 'https://github.com/dotbitHQ',
       },
       {
         text: 'Website',

@@ -2,9 +2,9 @@
 
 可以使用多种语言甚至 emoji 注册 .bit 账户。已支持的语言字符集如下：
 
-1. [English](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/char_set_en.txt)
-2. [Emojis](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/char_set_emoji.txt)
-3. [Arabic numerals](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/char_set_digit.txt)
+1. [English](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_en.txt)
+2. [Emojis](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_emoji.txt)
+3. [Arabic numerals](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_digit.txt)
 
 .bit 支持的语言字符集将会不断增加。
 

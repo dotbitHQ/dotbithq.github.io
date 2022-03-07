@@ -36,4 +36,4 @@ The structure of a .bit account is as follows.
 
    Users ultimately use the various features of .bit through a variety of application interfaces. These applications can be used directly in the browser or can be integrated into popular wallet software.
 
-The source code for all the components above can be found on our [Github repository](https://github.com/DeAccountSystems). Also, developers can implement their own Keeper, Resolution Service, Client SDK, Dapp UI based on Core Protocol.
+The source code for all the components above can be found on our [Github repository](https://github.com/dotbitHQ). Also, developers can implement their own Keeper, Resolution Service, Client SDK, Dapp UI based on Core Protocol.

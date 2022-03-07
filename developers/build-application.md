@@ -26,7 +26,7 @@ If Alice owns alice.bit and adds her own links to various social networks in the
 
 These features are possible because bit.cc is responding based on Alice's resolution records. In the future, bit.cc will be able to present all of Alice's NFTs based on Alice's resolution records. alice.bit.cc will be a truly decentralized personal home page for Alice.
 
-[bit.cc docs](https://github.com/DeAccountSystems/bit.cc)
+[bit.cc docs](https://github.com/dotbitHQ/bit.cc)
 
 
 ## Preparation
@@ -36,11 +36,11 @@ The preparation work required to develop different types of applications varies.
 If a .bit account is a practical NFT asset, develop a trading/auction/rental marketplace for .bit. You need to understand.
 
 1. the basics of Nervos CKB, its data structure, and transaction structure ([Learn Nervos CKB](https://nervos.org))
-2. The basics of .bit, its data structure and transaction structure ([Learn .bit](https://github.com/DeAccountSystems/das-contracts))
+2. The basics of .bit, its data structure and transaction structure ([Learn .bit](https://github.com/dotbitHQ/das-contracts))
 
 
 
-To develop applications based on the parsed records of .bit accounts, you do not need to know the technical details of Nervos CKB and .bit. Just learn how to use [das-account-indexer](https://github.com/DeAccountSystems/das_account_indexer) or [das-sdk-js](https://github.com/DeAccountSystems/das-sdk-js) to get the parsed record for an account, or to query whether an address holds a .bit account. As well as understanding the [namespace specification](records-key-namespace.md) of .bit's parsed records.
+To develop applications based on the parsed records of .bit accounts, you do not need to know the technical details of Nervos CKB and .bit. Just learn how to use [das-account-indexer](https://github.com/dotbitHQ/das_account_indexer) or [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js) to get the parsed record for an account, or to query whether an address holds a .bit account. As well as understanding the [namespace specification](records-key-namespace.md) of .bit's parsed records.
 
 
 

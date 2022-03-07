@@ -27,7 +27,7 @@ https://bit.cc 便是典型的，将 .bit 账户视为公开 key-value 数据的
 
 这些功能得以实现，是因为 bit.cc 在根据 Alice 的解析记录来做出响应。未来，bit.cc 还可以根据 Alice 的解析记录信息，将 Alice 所有的 NFT 都呈现出来。alice.bit.cc 便是属于 Alice 的真正意义上的去中心化个人主页。
 
-[bit.cc 使用文档](https://github.com/DeAccountSystems/bit.cc/blob/master/README_CN.md)
+[bit.cc 使用文档](https://github.com/dotbitHQ/bit.cc/blob/master/README_CN.md)
 
 
 ## 准备工作
@@ -37,11 +37,11 @@ https://bit.cc 便是典型的，将 .bit 账户视为公开 key-value 数据的
 若将 .bit 账户是为一种实用的 NFT 资产，开发 .bit 的交易/拍卖/租赁市场。你需要了解：
 
 1. Nervos CKB 的基本原理，它的数据结构以及交易结构（[学习 Nervos CKB](https://nervos.org)）
-2. .bit 的基本原理，它的数据结构以及交易结构（[学习 .bit](https://github.com/DeAccountSystems/das-contracts)）
+2. .bit 的基本原理，它的数据结构以及交易结构（[学习 .bit](https://github.com/dotbitHQ/das-contracts)）
 
 
 
-基于 .bit 账户的解析记录开发应用，则无需了解 Nervos CKB 以及 .bit 的技术细节。只需了解如何使用[das-account-indexer](https://github.com/DeAccountSystems/das_account_indexer) 或 [das-sdk-js](https://github.com/DeAccountSystems/das-sdk-js) 获取某个账户的解析记录，或查询某个地址是否持有 .bit 账户。以及了解 .bit 的解析记录的[命名空间规范](records-key-namespace.md)。
+基于 .bit 账户的解析记录开发应用，则无需了解 Nervos CKB 以及 .bit 的技术细节。只需了解如何使用[das-account-indexer](https://github.com/dotbitHQ/das_account_indexer) 或 [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js) 获取某个账户的解析记录，或查询某个地址是否持有 .bit 账户。以及了解 .bit 的解析记录的[命名空间规范](records-key-namespace.md)。
 
 
 

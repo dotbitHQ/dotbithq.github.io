@@ -28,7 +28,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     darkMode: false,
     contributors: false,
     logo: '/logo.png',
-    repo: 'https://github.com/DeAccountSystems/docs.da.systems',
+    repo: 'https://github.com/dotbitHQ/docs.da.systems',
     locales: {
       '/': {
         selectLanguageName: 'English',

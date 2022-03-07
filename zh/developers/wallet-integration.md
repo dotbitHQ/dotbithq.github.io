@@ -39,22 +39,22 @@
 [免费 CKB 节点 RPC 和 Indexer RPC](https://talk.nervos.org/t/ckb-rpc-indexer-rpc/4949)
 
 #### 1. 运行 .bit Account Indexer
-[das_account_indexer](https://github.com/DeAccountSystems/das_account_indexer) 是 .bit 的数据存储层和 API 接口层。
+[das_account_indexer](https://github.com/dotbitHQ/das_account_indexer) 是 .bit 的数据存储层和 API 接口层。
 
 它通过 CKB 节点持续从 CKB 链上读取数据，解析之后存储在本地数据库（RocksDB）中，并提供了高性能的 JSON-RPC 服务，供业务读取 .bit 的解析数据。
 
 为了接入方业务的稳定性，我们建议自建 indexer 服务并跟进 .bit 官方的迭代更新。
 
-[查看 indexer 文档](https://github.com/DeAccountSystems/das_account_indexer)
+[查看 indexer 文档](https://github.com/dotbitHQ/das_account_indexer)
 
 
 #### 2. 接入 SDK
 
-[das-sdk-js](https://github.com/DeAccountSystems/das-sdk-js) 封装了对于 indexer 的 JSON-RPC 的调用。
+[das-sdk-js](https://github.com/dotbitHQ/das-sdk-js) 封装了对于 indexer 的 JSON-RPC 的调用。
 
 钱包只需集成该 SDK，并简单的调用对应的接口（数据由 .bit Account Indexer 提供），即可完成接入。
 
-[查看 das-sdk-js 文档](https://github.com/DeAccountSystems/das-sdk-js)
+[查看 das-sdk-js 文档](https://github.com/dotbitHQ/das-sdk-js)
 
 > 注意，应用在得到用户设置的 record 的 value 后，要对 value 进行合法性校验。
 
@@ -62,7 +62,7 @@
 #### 3. 接入 API 
 如果您的接入场景需要后台获取 .bit 账户数据（而非直接前端/客户端请求），可以直接请求 Indexer 的 API 而不使用 sdk。
 
-[Indexer API 文档](https://github.com/DeAccountSystems/das_account_indexer#searchaccount)
+[Indexer API 文档](https://github.com/dotbitHQ/das_account_indexer#searchaccount)
 
 我们建议开发者自建 Indexer 以满足个性化需求。但 .bit 团队提供了有限功能的 Indexer 供开发者使用。
 
@@ -95,7 +95,7 @@ curl --location --request POST 'https://indexer-basic.da.systems' \
 [查看交互设计指南](https://sedate-pleasure-684.notion.site/DAS-006aa490976c474e90725ce16465b95e)
 
 #### 5. 常用资源
-[**.bit 记录命名空间**](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt) 每一个 .bit 账户的解析记录的 key 都必须在命名空间中，包括 address/profile/dweb 等类型。
+[**.bit 记录命名空间**](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt) 每一个 .bit 账户的解析记录的 key 都必须在命名空间中，包括 address/profile/dweb 等类型。
 
 ## 上架 .bit 注册服务
 
@@ -125,5 +125,5 @@ curl --location --request POST 'https://indexer-basic.da.systems' \
 
 ## 在 .bit 官网展示你的钱包
 
-如果你的钱包完成了上述的集成工作，可以在 .bit 官网中展示你的钱包品牌及链接。请在完成集成工作后，[向我们的官网仓库提交 Pull Request](https://github.com/DeAccountSystems/da.systems)，我们将尽快将你的品牌展示到 .bit 官网。
+如果你的钱包完成了上述的集成工作，可以在 .bit 官网中展示你的钱包品牌及链接。请在完成集成工作后，[向我们的官网仓库提交 Pull Request](https://github.com/dotbitHQ/da.systems)，我们将尽快将你的品牌展示到 .bit 官网。
 

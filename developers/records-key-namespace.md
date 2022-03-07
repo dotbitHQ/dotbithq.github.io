@@ -12,15 +12,15 @@ The key of a parsed record is a hierarchical structure using `. ` separated by a
 
 * **address**
 
-  This namespace is generally used to store the user's digital assets receipt address, such as `address.btc`, `address.eth`, etc. Also, there is a [whitelist](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract that has built-in mainstream digital assets symbols as legal key.
+  This namespace is generally used to store the user's digital assets receipt address, such as `address.btc`, `address.eth`, etc. Also, there is a [whitelist](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract that has built-in mainstream digital assets symbols as legal key.
 
 * **profile**
 
-  This namespace is generally used to store users' personal information, such as `profile.twitter`, `profile.facebook`, etc. Also, there is a [whitelist](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract with built-in mainstream social network names as legitimate key.
+  This namespace is generally used to store users' personal information, such as `profile.twitter`, `profile.facebook`, etc. Also, there is a [whitelist](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract with built-in mainstream social network names as legitimate key.
 
 * **dweb**
 
-  This namespace is generally used to store decentralized network-related content, such as `dweb.ipfs`, `dweb.resilio`, etc. Also, there is a [dweb.resilio]() inside the contract. Also, there is a [whitelist](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract with the mainstream decentralized storage protocol built-in name as a legal key.
+  This namespace is generally used to store decentralized network-related content, such as `dweb.ipfs`, `dweb.resilio`, etc. Also, there is a [dweb.resilio]() inside the contract. Also, there is a [whitelist](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract with the mainstream decentralized storage protocol built-in name as a legal key.
 
 * **custom_key**
 
@@ -32,7 +32,7 @@ Note that the .bit contract does not verify the legitimacy of the value of the p
 
 ## Addition of first-level namespaces
 
-Currently, .bit only provides four level 1 namespaces `address`, `profile`, `dweb`, `custom_key`, but this is not the final result. The .bit team will gradually add more level 1 namespaces. If you think some namespaces should be added to allow better collaboration between applications. You can report in Github [Issues](https://github.com/DeAccountSystems/das-contracts/issues).
+Currently, .bit only provides four level 1 namespaces `address`, `profile`, `dweb`, `custom_key`, but this is not the final result. The .bit team will gradually add more level 1 namespaces. If you think some namespaces should be added to allow better collaboration between applications. You can report in Github [Issues](https://github.com/dotbitHQ/das-contracts/issues).
 
 
 

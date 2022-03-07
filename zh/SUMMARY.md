@@ -8,7 +8,7 @@
 * [定价](../v/chinese-1/zhu-ce-das/pricing.md)
 * [开放注册规则](../v/chinese-1/zhu-ce-das/open-registration-rules.md)
 * [字符集](../v/chinese-1/zhu-ce-das/charsets.md)
-* [保留账户](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/reserved_accounts.txt)
+* [保留账户](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/reserved_accounts.txt)
 
 ## 共同建设
 
@@ -27,6 +27,6 @@
 ## 其他
 
 * [BTC 地址如何管理 CKB 链上的资产](../v/chinese-1/qi-ta/Why-assets-on-ckb-can-managed-by-btc-address.md)
-* [Github](https://github.com/DeAccountSystems)
+* [Github](https://github.com/dotbitHQ)
 * [.bit 官网](https://did.id)
 

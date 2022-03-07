@@ -8,7 +8,7 @@
 * [Pricing](register-das/pricing.md)
 * [Open Registration Rules](register-das/open-registration-rules.md)
 * [Charsets](register-das/charsets.md)
-* [Reserved .bit List](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/reserved_accounts.txt)
+* [Reserved .bit List](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/reserved_accounts.txt)
 
 ## Contribute to .bit
 
@@ -37,6 +37,6 @@
 ## Others
 
 * [Why assets on CKB can be managed by BTC address?](others/why-assets-on-ckb-can-be-managed-by-btc-address.md)
-* [Github](https://github.com/DeAccountSystems)
+* [Github](https://github.com/dotbitHQ)
 * [Website](https://da.systems)
 

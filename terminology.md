@@ -1,6 +1,6 @@
 # Glossary
 
-* **.bit**, a general user proxy for the entire Decentralized Account Systems project.
+* **.BIT**, a general user proxy for the entire .BIT project.
 * **.bit account**, refers to each individual account, e.g. alice.bit, bob.bit.
 * **.bit domain**, another name for a .bit account.
 * **Registration**, refers to the process of obtaining a .bit account by paying a fee to the .bit contract.

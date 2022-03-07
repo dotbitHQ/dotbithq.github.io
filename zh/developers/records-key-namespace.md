@@ -20,15 +20,15 @@
 
 * **address**
 
-  该命名空间一般用于存放用户的数字资产收款地址，如`address.btc`，`address.eth`等。同时，合约内部有一个[白名单](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt)，内置了主流数字资产符号作为合法的 key。
+  该命名空间一般用于存放用户的数字资产收款地址，如`address.btc`，`address.eth`等。同时，合约内部有一个[白名单](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt)，内置了主流数字资产符号作为合法的 key。
 
 * **profile**
 
-  该命名空间一般用于存放用户的个人信息，如`profile.twitter`，`profile.facebook`等。同时，合约内部有一个[白名单](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt)，内置了主流社交网络名作为合法的key。
+  该命名空间一般用于存放用户的个人信息，如`profile.twitter`，`profile.facebook`等。同时，合约内部有一个[白名单](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt)，内置了主流社交网络名作为合法的key。
 
 * **dweb**
 
-  该命名空间一般用于存放去中心化网络相关的内容，如`dweb.ipfs`，`dweb.resilio`等。同时，合约内部有一个[白名单](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/record_key_namespace.txt)，内置了主流的去中心化存储协议名作为合法的key。
+  该命名空间一般用于存放去中心化网络相关的内容，如`dweb.ipfs`，`dweb.resilio`等。同时，合约内部有一个[白名单](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt)，内置了主流的去中心化存储协议名作为合法的key。
 
 * **custom_key**
 
@@ -42,7 +42,7 @@
 
 ## 一级命名空间的增加
 
-目前 .bit 只提供了`address`，`profile`，`dweb`，`custom_key`四个一级命名空间，但这不是最终结果。.bit 团队会根据情况，逐渐增加一级命名空间。同时，我们也需要社区的开发者给我们提供有效的建议。如果您认为应该增加某些命名空间，使得应用程序之间可以更好的协作。可以在 Github 中给我们提 [Issues](https://github.com/DeAccountSystems/das-contracts/issues)。
+目前 .bit 只提供了`address`，`profile`，`dweb`，`custom_key`四个一级命名空间，但这不是最终结果。.bit 团队会根据情况，逐渐增加一级命名空间。同时，我们也需要社区的开发者给我们提供有效的建议。如果您认为应该增加某些命名空间，使得应用程序之间可以更好的协作。可以在 Github 中给我们提 [Issues](https://github.com/dotbitHQ/das-contracts/issues)。
 
 
 
