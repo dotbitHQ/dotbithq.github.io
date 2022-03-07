@@ -38,5 +38,5 @@
 
 * [Why assets on CKB can be managed by BTC address?](others/why-assets-on-ckb-can-be-managed-by-btc-address.md)
 * [Github](https://github.com/dotbitHQ)
-* [Website](https://da.systems)
+* [Website](https://did.id)
 

@@ -19,12 +19,12 @@
 
 若要支持 .bit 账户解析，请按照以下步骤进行：
 
-> 建议在着手接入前，通读 [docs.da.systems](https://docs.da.systems/) 文档，可以提高开发者的接入效率。
+> 建议在着手接入前，通读 [docs.did.id](https://docs.did.id/) 文档，可以提高开发者的接入效率。
 > 重点内容：
-> [术语](https://docs.da.systems/docs/v/chinese-1/terminology), 
-> [常见问题](https://docs.da.systems/docs/v/chinese-1/faq), 
-> [开放注册规则](https://docs.da.systems/docs/v/chinese-1/zhu-ce-das/open-registration-rules), 
-> [解析记录命名空间/支持的公链](https://docs.da.systems/docs/v/chinese-1/kai-fa-zhe/records-key-namespace)
+> [术语](https://docs.did.id/docs/v/chinese-1/terminology), 
+> [常见问题](https://docs.did.id/docs/v/chinese-1/faq), 
+> [开放注册规则](https://docs.did.id/docs/v/chinese-1/zhu-ce-das/open-registration-rules), 
+> [解析记录命名空间/支持的公链](https://docs.did.id/docs/v/chinese-1/kai-fa-zhe/records-key-namespace)
 
 #### 0. 运行 CKB 节点和 Indexer
 
@@ -67,14 +67,14 @@
 我们建议开发者自建 Indexer 以满足个性化需求。但 .bit 团队提供了有限功能的 Indexer 供开发者使用。
 
 完整功能的 Indexer，但如其域名所描述的，开发者不应在生产环境中使用该 Indexder。
-> https://indexer-not-use-in-production-env.da.systems
+> https://indexer-not-use-in-production-env.did.id
 
 仅可查询账户信息和反向解析记录的 Indexer
-> https://indexer-basic.da.systems
+> https://indexer-basic.did.id
 
 
 ```shell
-curl --location --request POST 'https://indexer-basic.da.systems' \
+curl --location --request POST 'https://indexer-basic.did.id' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "jsonrpc": "2.0",
@@ -105,9 +105,9 @@ curl --location --request POST 'https://indexer-basic.da.systems' \
 
 .bit 注册服务信息：
 
-> 名称：DAS
+> 名称：.bit
 >
-> URL：https://da.systems?inviter=xxxwallet.bit&channel=xxxwallet.bit
+> URL：https://did.id?inviter=xxxwallet.bit&channel=xxxwallet.bit
 >
 > LOGO素材：[Download](https://projects.invisionapp.com/boards/QS42CVJRP25/#/6828463/200529574)
 >

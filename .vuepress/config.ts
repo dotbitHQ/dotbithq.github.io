@@ -28,7 +28,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     darkMode: false,
     contributors: false,
     logo: '/logo.png',
-    repo: 'https://github.com/dotbitHQ/docs.da.systems',
+    repo: 'https://github.com/dotbitHQ/dotbithq.github.io',
     locales: {
       '/': {
         selectLanguageName: 'English',
@@ -36,7 +36,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         sidebar: en.sidebar,
         navbar: [{
           text: 'Home',
-          link: 'https://da.systems'
+          link: 'https://did.id'
         }],
       },
       '/zh/': {
@@ -46,7 +46,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         sidebar: zh.sidebar,
         navbar: [{
           text: '官网',
-          link: 'https://da.systems'
+          link: 'https://did.id'
         }],
       }
     }

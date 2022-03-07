@@ -4,5 +4,5 @@
 
 
 
-典型的渠道商就是去中心化钱包。如果你有自己的钱包产品，可以通过简单的步骤将 .bit 集成到你的钱包从而成为渠道商。[钱包集成DAS](../../v/chinese-1/kai-fa-zhe/wallet-integration.md)。
+典型的渠道商就是去中心化钱包。如果你有自己的钱包产品，可以通过简单的步骤将 .bit 集成到你的钱包从而成为渠道商。[钱包集成 .bit](../../v/chinese-1/kai-fa-zhe/wallet-integration.md)。
 

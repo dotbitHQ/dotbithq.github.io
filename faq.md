@@ -15,7 +15,7 @@ The source code for all core components of .bit is open sourced and can be found
 
 ### What public chain addresses can I use to register for a .bit account?
 
-Currently, .bit accounts can be registered using  ETH / TRX / BSC / Polygon addresses. To register, visit https://da.systems and login with your MetaMask/TronLink or any wallets that support  ETH / TRX / BSC / Polygon .
+Currently, .bit accounts can be registered using  ETH / TRX / BSC / Polygon addresses. To register, visit https://did.id and login with your MetaMask/TronLink or any wallets that support  ETH / TRX / BSC / Polygon .
 
 .bit can be registered using any public chain address ([how?](others/Why-assets-on-ckb-can-managed-by-btc-address.md)) The .bit team is in the process of deploying more public chain signature algorithms to the Nervos CKB to support more public chain addresses for .bit registration. 
 

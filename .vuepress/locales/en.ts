@@ -54,7 +54,7 @@ export const sidebar: SidebarConfig = [
       },
       {
         text: 'Website',
-        link: 'https://da.systems',
+        link: 'https://did.id',
       },
     ],
   },
