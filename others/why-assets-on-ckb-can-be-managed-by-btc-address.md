@@ -41,5 +41,5 @@ For the same reason we can install any public chain's signature algorithm on Ner
 
 
 
-Such an elegant "cross-chain" approach was inspired by the [Lay2](https://lay2.tech/#/) team. The [PW-SDK](https://docs.lay2.dev/pw-sdk/) they built is the infrastructure of the Nervos ecosystem and is the core secret of how DAS accounts can be held by any public chain address. ❤
+Such an elegant "cross-chain" approach was inspired by the [Lay2](https://lay2.tech/#/) team. The [PW-SDK](https://docs.lay2.dev/pw-sdk/) they built is the infrastructure of the Nervos ecosystem and is the core secret of how .bit accounts can be held by any public chain address. ❤
 

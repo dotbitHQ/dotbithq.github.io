@@ -1,6 +1,6 @@
 # Open registration rules
 
-DAS accounts as a public resource should be avoided to be hoarded by a few people when the social influence is not enough.DAS account registration is opened gradually.
+.bit accounts as a public resource should be avoided to be hoarded by a few people when the social influence is not enough..bit account registration is opened gradually.
 
 | Account Character Length | Open Registration Rules                                      |
 | :----------------------- | :----------------------------------------------------------- |

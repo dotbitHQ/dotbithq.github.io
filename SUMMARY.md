@@ -4,15 +4,15 @@
 * [FAQ](faq.md)
 * [Glossary](terminology.md)
 
-## Register DAS
+## Register .bit
 * [Pricing](register-das/pricing.md)
 * [Open Registration Rules](register-das/open-registration-rules.md)
 * [Charsets](register-das/charsets.md)
-* [Reserved DAS List](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/reserved_accounts.txt)
+* [Reserved .bit List](https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/reserved_accounts.txt)
 
-## Contribute to DAS
+## Contribute to .bit
 
-* [Contribute to DAS](contribute-to-das/build-together.md)
+* [Contribute to .bit](contribute-to-das/build-together.md)
 * [Promoters](contribute-to-das/referral.md)
 * [Channel](contribute-to-das/channel.md)
 * [Registrar](contribute-to-das/registrar.md)
@@ -21,7 +21,7 @@
 ## Developers
 
 * [Wallet Integration](developers/wallet-integration.md)
-* [Build applications on DAS](developers/build-application.md)
+* [Build applications on .bit](developers/build-application.md)
 * [Records namespace](developers/records-key-namespace.md)
 
 ## We are hiring

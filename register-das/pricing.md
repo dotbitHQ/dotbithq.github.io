@@ -31,7 +31,7 @@ Fee paid at registration = Annual fee \* Length of registration period + Storage
 
 ### Storage Deposit
 
-The storage fee corresponds to the amount of on-chain storage space required to store account information on the Nervos CKB chain, and DAS is carefully structured so that a fixed storage fee is pledged regardless of the number of parsed records stored in the DAS account. The pledged storage fee is 206 CKB per account. **If an account expires and is not renewed, the storage deposit will be returned to the account's Owner address at the time of expiration**.
+The storage fee corresponds to the amount of on-chain storage space required to store account information on the Nervos CKB chain, and .bit is carefully structured so that a fixed storage fee is pledged regardless of the number of parsed records stored in the .bit account. The pledged storage fee is 206 CKB per account. **If an account expires and is not renewed, the storage deposit will be returned to the account's Owner address at the time of expiration**.
 
-Since DAS is a decentralized application running on Nervos CKB, it only recognizes CKB as a payment method for fees. Therefore, the DAS team maintains a CKB/USD price prediction machine service that allows the contract to know how much CKB should be charged when a user signs up, and allows users to pay in any currency due to the presence of a DAS registrar.
+Since .bit is a decentralized application running on Nervos CKB, it only recognizes CKB as a payment method for fees. Therefore, the .bit team maintains a CKB/USD price prediction machine service that allows the contract to know how much CKB should be charged when a user signs up, and allows users to pay in any currency due to the presence of a .bit registrar.
 

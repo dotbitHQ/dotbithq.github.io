@@ -1,11 +1,11 @@
-# Build applications on DAS
+# Build applications on .bit
 
-<img src="./image-20210721120500021.png" alt="DAS Records" style="zoom:50%;" />
+<img src="./image-20210721120500021.png" alt=".bit Records" style="zoom:50%;" />
 
-There are several ideas for developing applications based on DAS.
+There are several ideas for developing applications based on .bit.
 
-1. treating a DAS account as a practical NFT asset and developing a trading/auction/rental marketplace for DAS
-2. consider DAS account as a public key-value database that can only be modified by the user, where any type of parsed records can be stored. Developers can build applications based on this.
+1. Treat a .bit account as a practical NFT asset and develop a trading/auction/rental marketplace for .bit
+2. Consider .bit account as a public key-value database that can only be modified by the user, where any type of parsed records can be stored. Developers can build applications based on this.
 
 
 
@@ -13,7 +13,7 @@ There are several ideas for developing applications based on DAS.
 
 ## Application example: bit.cc - decentralized personal homepage
 
-https://bit.cc is a typical DAS application that treats DAS accounts as public key-value data. bit.cc can be seen as a decentralized version of LinkTree, a decentralized personal home. Unlike other personal homepage products, the information displayed on bit.cc's homepage is stored decentrally. Only DAS account owners who can modify it, and bit.cc cannot delete your profile.
+https://bit.cc is a typical .bit application that treats .bit accounts as public key-value data. bit.cc can be seen as a decentralized version of LinkTree, a decentralized personal home. Unlike other personal homepage products, the information displayed on bit.cc's homepage is stored decentrally. Only .bit account owners who can modify it, and bit.cc cannot delete your profile.
 
 
 
@@ -33,22 +33,22 @@ These features are possible because bit.cc is responding based on Alice's resolu
 
 The preparation work required to develop different types of applications varies.
 
-If a DAS account is a practical NFT asset, develop a trading/auction/rental marketplace for DAS. You need to understand.
+If a .bit account is a practical NFT asset, develop a trading/auction/rental marketplace for .bit. You need to understand.
 
 1. the basics of Nervos CKB, its data structure, and transaction structure ([Learn Nervos CKB](https://nervos.org))
-2. the basics of DAS, its data structure and transaction structure ([Learn DAS](https://github.com/DeAccountSystems/das-contracts))
+2. The basics of .bit, its data structure and transaction structure ([Learn .bit](https://github.com/DeAccountSystems/das-contracts))
 
 
 
-To develop applications based on the parsed records of DAS accounts, you do not need to know the technical details of Nervos CKB and DAS. Just learn how to use [das-account-indexer](https://github.com/DeAccountSystems/das_account_indexer) or [das-sdk-js](https://github.com/DeAccountSystems/das-sdk-js) to get the parsed record for an account, or to query whether an address holds a DAS account. As well as understanding the [namespace specification](records-key-namespace.md) of DAS's parsed records.
+To develop applications based on the parsed records of .bit accounts, you do not need to know the technical details of Nervos CKB and .bit. Just learn how to use [das-account-indexer](https://github.com/DeAccountSystems/das_account_indexer) or [das-sdk-js](https://github.com/DeAccountSystems/das-sdk-js) to get the parsed record for an account, or to query whether an address holds a .bit account. As well as understanding the [namespace specification](records-key-namespace.md) of .bit's parsed records.
 
 
 
-## Desired DAS applications
+## Desired .bit applications
 
-We believe that the following interesting applications should emerge based on DAS.
+We believe that the following interesting applications should emerge based on .bit.
 
-1. Sending end-to-end encrypted messages using DAS accounts
-2. Using DAS accounts to aggregate reputations across multiple chains
-3. Using DAS accounts to log into centralized services. 
-4. Decentralized personal pages/social networks based on DAS accounts
+1. Sending end-to-end encrypted messages using .bit accounts
+2. Using .bit accounts to aggregate reputations across multiple chains
+3. Using .bit accounts to log into centralized services. 
+4. Decentralized personal pages/social networks based on .bit accounts

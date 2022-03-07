@@ -2,13 +2,13 @@
 
 
 
-<img src="./image-20210721120500021.png" alt="DAS Records" style="zoom:50%;" />Parsed records are the core of DAS, and the flexibility of parsed records is also the source of DAS's great scalability. A parsed record is a key-value pair, and DAS supports an infinite number of parsed records. As shown above, different applications will read different parse records to do different jobs. Therefore, it is important to manage the namespace of the key of the parsed record. The namespace usage specification is essentially a protocol that can be followed to enable good collaboration between applications.
+<img src="./image-20210721120500021.png" alt=".bit Records" style="zoom:50%;" />Parsed records are the core of .bit, and the flexibility of parsed records is also the source of .bit's great scalability. A parsed record is a key-value pair, and .bit supports an infinite number of parsed records. As shown above, different applications will read different parse records to do different jobs. Therefore, it is important to manage the namespace of the key of the parsed record. The namespace usage specification is essentially a protocol that can be followed to enable good collaboration between applications.
 
 ## Namespaces
 
 The key of a parsed record is a hierarchical structure using `. ` separated by a hierarchy, such as `address.btc`, `profile.twitter`, `custom_key.bitcc_config`, etc. Among them, `address`, `profile`, and `custom_key` are called primary namespaces; `btc`, `twitter`, and `bitcc_config` are called secondary namespaces.
 
-DAS has strict constraints on the use of namespaces at the contract level, and currently provides four first-level namespaces.
+.bit has strict constraints on the use of namespaces at the contract level, and currently provides four first-level namespaces.
 
 * **address**
 
@@ -26,13 +26,13 @@ DAS has strict constraints on the use of namespaces at the contract level, and c
 
   This namespace is not constrained, and developers can create any name and number of sub-namespaces under this space and define their meaning. For example, `custom_key.bitcc_config`, `custom_key.pgp.master_key`, etc. 
 
-Note that the DAS contract does not verify the legitimacy of the value of the parsed record, the DAS just provides a convention. For example, a user would normally set the value of `address.btc` to a BTC address. However, the application should check if this value is really a legitimate BTC address when using this value.
+Note that the .bit contract does not verify the legitimacy of the value of the parsed record, the .bit just provides a convention. For example, a user would normally set the value of `address.btc` to a BTC address. However, the application should check if this value is really a legitimate BTC address when using this value.
 
 
 
 ## Addition of first-level namespaces
 
-Currently DAS only provides four level 1 namespaces `address`, `profile`, `dweb`, `custom_key`, but this is not the final result. the DAS team will gradually add more level 1 namespaces. If you think some namespaces should be added to allow better collaboration between applications. You can report in Github [Issues](https://github.com/DeAccountSystems/das-contracts/issues).
+Currently, .bit only provides four level 1 namespaces `address`, `profile`, `dweb`, `custom_key`, but this is not the final result. The .bit team will gradually add more level 1 namespaces. If you think some namespaces should be added to allow better collaboration between applications. You can report in Github [Issues](https://github.com/DeAccountSystems/das-contracts/issues).
 
 
 

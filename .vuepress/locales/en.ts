@@ -11,7 +11,7 @@ export const sidebar: SidebarConfig = [
       '/register-das/open-registration-rules',
       '/register-das/charsets',
       {
-        text: 'Reserved DAS List',
+        text: 'Reserved .bit Accounts',
         link: 'https://github.com/DeAccountSystems/cell-data-generator/blob/master/data/reserved_accounts.txt',
       },
     ],
