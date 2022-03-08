@@ -40,7 +40,7 @@ If a .bit account is a practical NFT asset, develop a trading/auction/rental mar
 
 
 
-To develop applications based on the parsed records of .bit accounts, you do not need to know the technical details of Nervos CKB and .bit. Just learn how to use [das-account-indexer](https://github.com/dotbitHQ/das_account_indexer) or [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js) to get the parsed record for an account, or to query whether an address holds a .bit account. As well as understanding the [namespace specification](records-key-namespace.md) of .bit's parsed records.
+To develop applications based on the parsed records of .bit accounts, you do not need to know the technical details of Nervos CKB and .bit. Just learn how to use [das-account-indexer](https://github.com/dotbitHQ/das-account-indexer) or [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js) to get the parsed record for an account, or to query whether an address holds a .bit account. As well as understanding the [namespace specification](records-key-namespace.md) of .bit's parsed records.
 
 
 

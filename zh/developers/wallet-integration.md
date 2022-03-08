@@ -39,13 +39,13 @@
 [免费 CKB 节点 RPC 和 Indexer RPC](https://talk.nervos.org/t/ckb-rpc-indexer-rpc/4949)
 
 #### 1. 运行 .bit Account Indexer
-[das_account_indexer](https://github.com/dotbitHQ/das_account_indexer) 是 .bit 的数据存储层和 API 接口层。
+[das-account-indexer](https://github.com/dotbitHQ/das-account-indexer) 是 .bit 的数据存储层和 API 接口层。
 
 它通过 CKB 节点持续从 CKB 链上读取数据，解析之后存储在本地数据库（RocksDB）中，并提供了高性能的 JSON-RPC 服务，供业务读取 .bit 的解析数据。
 
 为了接入方业务的稳定性，我们建议自建 indexer 服务并跟进 .bit 官方的迭代更新。
 
-[查看 indexer 文档](https://github.com/dotbitHQ/das_account_indexer)
+[查看 indexer 文档](https://github.com/dotbitHQ/das-account-indexer)
 
 
 #### 2. 接入 SDK
@@ -62,7 +62,7 @@
 #### 3. 接入 API 
 如果您的接入场景需要后台获取 .bit 账户数据（而非直接前端/客户端请求），可以直接请求 Indexer 的 API 而不使用 sdk。
 
-[Indexer API 文档](https://github.com/dotbitHQ/das_account_indexer#searchaccount)
+[Indexer API 文档](https://github.com/dotbitHQ/das-account-indexer#searchaccount)
 
 我们建议开发者自建 Indexer 以满足个性化需求。但 .bit 团队提供了有限功能的 Indexer 供开发者使用。
 
