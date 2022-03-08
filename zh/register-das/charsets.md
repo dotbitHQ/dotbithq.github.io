@@ -16,11 +16,11 @@
 
 字符集组合规则：
 
-|  | English | Arabic numerals | Emojis |
-| :--- | :---: | :---: | :---: |
-| English | ✅ | ✅ | ✅ |
-| Arabic numerals | ✅ | ✅ | ✅ |
-| Emojis | ✅ | ✅ | ✅ |
+| [CharSetType](https://github.com/dotbitHQ/das-types/blob/3dbce2d972e1950ba0a558daa2abb896bbc2ffca/rust/src/constants.rs#L135)  |                 | English | Arabic numerals | Emojis |
+|:-------------------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|:---------------:|:------:|
+| 2                                                                                                                              |     English     |    ✅    |        ✅        |   ✅    |
+| 1                                                                                                                              | Arabic numerals |    ✅    |        ✅        |   ✅    |
+| 0                                                                                                                              |     Emojis      |    ✅    |        ✅        |   ✅    |
 
 ✅ 表示这两个字符集的字符是可组合的，可以出现在同一个 .bit 账户名中。
 

@@ -14,11 +14,11 @@ Also, to avoid name fraud, .bit prohibits the use of certain character sets in c
 
 Character set combination rules.
 
-|  | English | Arabic numerals | Emojis |
-| :--- | :---: | :---: | :---: |
-| English | ✅ | ✅ | ✅ |
-| Arabic numerals | ✅ | ✅ | ✅ |
-| Emojis | ✅ | ✅ | ✅ |
+| [CharSetType](https://github.com/dotbitHQ/das-types/blob/3dbce2d972e1950ba0a558daa2abb896bbc2ffca/rust/src/constants.rs#L135)  |                 | English | Arabic numerals | Emojis  |
+|:-------------------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|:---------------:|:-------:|
+| 2                                                                                                                              |     English     |    ✅    |        ✅        |    ✅    |
+| 1                                                                                                                              | Arabic numerals |    ✅    |        ✅        |    ✅    |
+| 0                                                                                                                              |     Emojis      |    ✅    |        ✅        |    ✅    |
 
 ✅ Indicates that the characters in these two character sets are combinable and can appear in the same .bit account name.
 
