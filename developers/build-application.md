@@ -1,4 +1,4 @@
-# Buidl applications on .bit
+# Build applications on .bit
 
 <img src="./image-20210721120500021.png" alt=".bit Records" style="zoom:50%;" />
 
