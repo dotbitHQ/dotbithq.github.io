@@ -1,11 +1,11 @@
-# Build applications on .bit
+# Buidl applications on .bit
 
 <img src="./image-20210721120500021.png" alt=".bit Records" style="zoom:50%;" />
 
 There are several ideas for developing applications based on .bit.
 
 1. Treat a .bit account as a practical NFT asset and develop a trading/auction/rental marketplace for .bit
-2. Consider .bit account as a public key-value database that can only be modified by the user, where any type of parsed records can be stored. Developers can build applications based on this.
+2. Consider .bit account as a public key-value database that can only be modified by the user, where any type of parsed records can be stored. Developers can buidl applications based on this.
 
 
 

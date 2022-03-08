@@ -1,12 +1,8 @@
 #  Contribute to .bit
 
+<img src="./image-20210721120817803.png" alt="Buidl Together" style="zoom:50%;" />
 
-
-<img src="./image-20210721120817803.png" alt="Build Together" style="zoom:50%;" />
-
-
-
-.bit is committed to become the infrastructure of the crypto world, which can't be built without the community working together and we believe a well-designed revenue sharing system can make .bit community grow faster. We want to see every .bit community member to get the corresponding rewards from contributing to the growth of .bit. 
+.bit is committed to become the infrastructure of the crypto world, which can't be built without the community working together, and we believe a well-designed revenue sharing system can make .bit community grow faster. We want to see every .bit community member to get the corresponding rewards from contributing to the growth of .bit. 
 
 There are several roles we identified in the ecosystem and please note any organization/individual can play multiple roles at the same time.
 
@@ -20,7 +16,6 @@ There are several roles we identified in the ecosystem and please note any organ
 
 The channel rewards, promotion rewards, and Keeper rewards are capabilities implemented at the contract level, and the rewards are billed to the corresponding roles in real time.
 
-Eg. A user registers a .bit account through https://app.gogodas.com?inviter=dasdeveloper.bit&channel=imtokenreferral.bit. The inviter -`dasdeveloper.bit` - will get the promotion bonus, which is 10% of the registration fee. The channel - `imtokenreferral.bit` - will get the channel bonus, which is 10% of the registration fee. And the registrar - gogodas.com - will get a premium for a certain amount of ETH converted to CKB. The registrar's exact earnings depend on the premium percentage set by the registrar itself.
+E.g. A user registers a .bit account through https://app.gogodas.com?inviter=dasdeveloper.bit&channel=imtokenreferral.bit. The inviter -`dasdeveloper.bit` - will get the promotion bonus, which is 10% of the registration fee. The channel - `imtokenreferral.bit` - will get the channel bonus, which is 10% of the registration fee. And the registrar - gogodas.com - will get a premium for a certain amount of ETH converted to CKB. The registrar's exact earnings depend on the premium percentage set by the registrar itself.
 
-.bit is an open source project with smart contracts deployed on the blockchain at its core, and anyone can participate in building .bit without permission. Let's build it together!
-
+.bit is an open source project with smart contracts deployed on the blockchain at its core, and anyone can participate in building .bit without permission. Let's buidl it together!
