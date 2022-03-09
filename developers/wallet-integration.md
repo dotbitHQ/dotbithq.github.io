@@ -117,7 +117,7 @@ The .bit registration service will be uploaded to the wallet's Dapp store, users
 >
 > URL: https://did.id?inviter=xxxwallet.bit&channel=xxxwallet.bit
 >
-> LOGO material: [Download](https://projects.invisionapp.com/boards/QS42CVJRP25/#/6828463/200529574)
+> LOGO material: [Download](https://projects.invisionapp.com/boards/QG43J5JCPTH/)
 >
 > English introduction: Cross-chain decentralized account system
 >

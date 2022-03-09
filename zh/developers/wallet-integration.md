@@ -109,7 +109,7 @@ curl --location --request POST 'https://indexer-basic.did.id' \
 >
 > URL：https://did.id?inviter=xxxwallet.bit&channel=xxxwallet.bit
 >
-> LOGO素材：[Download](https://projects.invisionapp.com/boards/QS42CVJRP25/#/6828463/200529574)
+> LOGO素材：[下载](https://projects.invisionapp.com/boards/QG43J5JCPTH/)
 >
 > 英文简介：Cross-chain Decentralized Account System
 >
