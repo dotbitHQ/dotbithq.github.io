@@ -47,7 +47,7 @@ export const sidebar: SidebarConfig = [
   {
     text: '其他',
     children: [
-      '/others/why-assets-on-ckb-can-be-managed-by-btc-address',
+      '/zh/others/why-assets-on-ckb-can-be-managed-by-btc-address',
       {
         text: 'Github',
         link: 'https://github.com/dotbitHQ',
