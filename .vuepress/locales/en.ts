@@ -17,6 +17,12 @@ export const sidebar: SidebarConfig = [
     ],
   },
   {
+    text: 'Projects',
+    children: [
+      '/projects/data.did.id'
+    ],
+  },
+  {
     text: 'Contribute to .bit',
     children: [
       '/contribute-to-das/build-together',

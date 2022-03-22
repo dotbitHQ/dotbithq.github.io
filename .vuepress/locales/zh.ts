@@ -17,6 +17,12 @@ export const sidebar: SidebarConfig = [
     ],
   },
   {
+    text: '生态项目',
+    children: [
+      '/zh/projects/data.did.id'
+    ],
+  },
+  {
     text: '共同建设',
     children: [
       '/zh/contribute-to-das/build-together',
