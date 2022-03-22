@@ -75,7 +75,7 @@
 
 ```shell
 curl --location --request POST 'https://indexer-basic.did.id' \
---header 'Content-Type: application/json' \
+    --header 'Content-Type: application/json' \
 --data-raw '{
     "jsonrpc": "2.0",
     "id": 1,

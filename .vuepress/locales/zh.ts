@@ -38,6 +38,7 @@ export const sidebar: SidebarConfig = [
       '/zh/developers/wallet-integration',
       '/zh/developers/build-application',
       '/zh/developers/records-key-namespace',
+      '/zh/developers/dotbit-libraries',
     ],
   },
   {
