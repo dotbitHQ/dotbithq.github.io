@@ -58,10 +58,10 @@ On the blockchain, all operations of a user are public and transparent. Therefor
 
 The .bit contract requires a two-step process for registering a new account, corresponding to two transactions, in order to prevent any squatting behavior.
 
-1. **Hide the name of the account to be registered**: Hash the account to be registered with the registrant's public key, send the first transaction, and place this hash on the blockchain
-2. **Publish the account name to be registered**: Initiate a registration request, exposing the account name to be registered and carrying the hash from the previous step, while the contract requires the hash to reach a mature state, i.e. the last transaction has been packed into the block and reached a certain number of confirmations.
+1. **Apply for registration in private**: Hash the account to be registered with the registrant's public key, send the first transaction, and place this hash on the blockchain
+2. **Reveal the account name on the chain**: Initiate a registration request, exposing the account name to be registered and carrying the hash from the previous step, while the contract requires the hash to reach a mature state, i.e. the last transaction has been packed into the block and reached a certain number of confirmations.
 
-This way, when a malicious user sees that someone is registering an account and tries to grab it, he cannot initiate a second transaction directly because he does not have a mature hash associated with him, and he cannot complete the squatting.
+The two transactions need to be spaced, and the second transaction needs to include the Cell created by the first transaction. In addition, the user only discloses the plaintext of the account they want to register in the second step. By the time a malicious Keeper or miner sees the plaintext, it's too late. He has to start with the first transaction, and by the time he's ready, other Keepers have already registered the account for the user.
 
 ### Why does the interface show that I have finished the anti-squatting step but the .bit account I want to register is taken by someone else?
 
