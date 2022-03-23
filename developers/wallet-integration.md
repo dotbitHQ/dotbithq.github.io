@@ -101,7 +101,8 @@ Considering the feature of .bit, we have summarized several common UX/UI pattern
 
 Developers can refer to the UX/UI guide to determine the actual appearance in your application. 
 
-[UX/UI Guide](https://sedate-pleasure-684.notion.site/DAS-006aa490976c474e90725ce16465b95e)
+- [.bit Interaction Design Guide](https://sedate-pleasure-684.notion.site/bit-Interaction-Design-Guide-e5ccb17fc84b4e52ba7d11a273d390ad)
+- [.bit alias Interaction Design Guide](https://sedate-pleasure-684.notion.site/bit-alias-Interaction-Design-Guide-b8e8718dd0554e17b5e31a196b8e7ed5)
 
 #### 5. Common Resources
 [**.bit Namespaces**](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt) The key of every .bit account's data must be in the namespaces, including address, profile, dweb, etc.
@@ -119,16 +120,16 @@ The .bit registration service will be uploaded to the wallet's Dapp store, users
 >
 > LOGO material: [Download](https://projects.invisionapp.com/boards/QG43J5JCPTH/)
 >
-> English introduction: Cross-chain decentralized account system
+> English introduction: Your decentralized identity for Web3.0 life
 >
-> Chinese introduction: Cross-chain decentralized account system
+> Chinese introduction: 面向整个 Web3.0 的去中心化身份（DID）系统
 >
-> Applicable public chains: ETH/TRX
+> Applicable public chains: ETH/TRX/BSC/Polygon
 
 When integrating .bit registration service, please make sure to fill in `inviter` and `channel` information in the URL to get the share of registration fee ([view share ratio](.. /contribute-to-das/build-together.md)). `inviter` and `channel` need to be legitimate registered .bit accounts. Users can change `inviter` information manually in the registration screen, but cannot change `channel` information.
 
 
 
-## Show your wallet on .bit official website
+[//]: # (## Show your wallet on .bit official website)
 
-Please [submit a Pull Request](https://github.com/dotbitHQ/da.systems) to our official website repository after completing the integration, and we will display your brand on the .bit official website as soon as possible.
+[//]: # (Please [submit a Pull Request]&#40;https://github.com/dotbitHQ/da.systems&#41; to our official website repository after completing the integration, and we will display your brand on the .bit official website as soon as possible.)

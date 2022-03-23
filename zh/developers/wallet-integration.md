@@ -92,7 +92,8 @@ curl --location --request POST 'https://indexer-basic.did.id' \
 
 接入方可以参考交互设计指南，并结合自己的实际场景，来决定 .bit 在钱包中的实际效果。
 
-[查看交互设计指南](https://sedate-pleasure-684.notion.site/DAS-006aa490976c474e90725ce16465b95e)
+- [.bit 正向解析交互设计指南](https://sedate-pleasure-684.notion.site/bit-5a71d3f7c1f147ae9264769bb97d743a)
+- [.bit alias 交互设计指南](https://sedate-pleasure-684.notion.site/bit-alias-73bbde1179c54c02a754bc30788456dc)
 
 #### 5. 常用资源
 [**.bit 记录命名空间**](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt) 每一个 .bit 账户的解析记录的 key 都必须在命名空间中，包括 address/profile/dweb 等类型。
@@ -111,11 +112,11 @@ curl --location --request POST 'https://indexer-basic.did.id' \
 >
 > LOGO素材：[下载](https://projects.invisionapp.com/boards/QG43J5JCPTH/)
 >
-> 英文简介：Cross-chain Decentralized Account System
+> 英文简介：Your decentralized identity for Web3.0 life
 >
-> 中文简介：跨链去中心化账户系统
+> 中文简介：面向整个 Web3.0 的去中心化身份（DID）系统
 >
-> 适用的公链：ETH/TRX
+> 适用的公链：ETH/TRX/BSC/Polygon
 
 
 
@@ -123,7 +124,7 @@ curl --location --request POST 'https://indexer-basic.did.id' \
 
 
 
-## 在 .bit 官网展示你的钱包
+[//]: # (## 在 .bit 官网展示你的钱包)
 
-如果你的钱包完成了上述的集成工作，可以在 .bit 官网中展示你的钱包品牌及链接。请在完成集成工作后，[向我们的官网仓库提交 Pull Request](https://github.com/dotbitHQ/da.systems)，我们将尽快将你的品牌展示到 .bit 官网。
+[//]: # (如果你的钱包完成了上述的集成工作，可以在 .bit 官网中展示你的钱包品牌及链接。请在完成集成工作后，[向我们的官网仓库提交 Pull Request]&#40;https://github.com/dotbitHQ/da.systems&#41;，我们将尽快将你的品牌展示到 .bit 官网。)
 
