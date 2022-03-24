@@ -1,3 +1,7 @@
+---
+sidebarDepth: 1
+---
+
 # .bit Libraries
 We provided different open-source libraries to meet different development scenarios. We also welcome the community to contribute more open source projects to flourish the entire .bit ecosystem.
 

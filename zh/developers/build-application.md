@@ -17,7 +17,7 @@
 
 ## 应用举例 ：bit.cc - 去中心化个人主页
 
-https://bit.cc 便是典型的，将 .bit 账户视为公开 key-value 数据的 .bit 应用。bit.cc 可以看作去中心化版本的 LinkTree，去中心化的个人主页。与其他个人主页产品不同，bit.cc 提供的主页展示的信息都是去中心化存储的。有且仅有 .bit 账户所有人可以修改，bit.cc 也无法删除你的个人主页。
+[bit.cc](https://jeffx.bit.cc) 便是典型的，将 .bit 账户视为公开 key-value 数据的 .bit 应用。bit.cc 可以看作去中心化版本的 LinkTree，去中心化的个人主页。与其他个人主页产品不同，bit.cc 提供的主页展示的信息都是去中心化存储的。有且仅有 .bit 账户所有人可以修改，bit.cc 也无法删除你的个人主页。
 
 如果 Alice 拥有 alice.bit，并在解析记录中添加了自己在各个社交网络的连接。bit.cc 将以极其美观的样式展出这些链接，其他用户通过 alice.bit.cc 即可访问。bit.cc 的表现完全由 Alice 通过设置解析记录来控制。比如：
 

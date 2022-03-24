@@ -13,7 +13,7 @@ There are several ideas for developing applications based on .bit.
 
 ## Application example: bit.cc - decentralized personal homepage
 
-https://bit.cc is a typical .bit application that treats .bit accounts as public key-value data. bit.cc can be seen as a decentralized version of LinkTree, a decentralized personal home. Unlike other personal homepage products, the information displayed on bit.cc's homepage is stored decentrally. Only .bit account owners who can modify it, and bit.cc cannot delete your profile.
+[bit.cc](https://jeffx.bit.cc) is a typical .bit application that treats .bit accounts as public key-value data. bit.cc can be seen as a decentralized version of LinkTree, a decentralized personal home. Unlike other personal homepage products, the information displayed on bit.cc's homepage is stored decentrally. Only .bit account owners who can modify it, and bit.cc cannot delete your profile.
 
 
 

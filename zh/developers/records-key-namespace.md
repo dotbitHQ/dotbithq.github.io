@@ -1,4 +1,4 @@
-# 解析记录命名空间
+# .bit 命名空间
 
 
 
@@ -35,8 +35,10 @@
   该命名空间没有约束，开发者可以在这个空间下创建任意名字和数量的次级命名空间，并定义其含义。如`custom_key.bitcc_config`，`custom_key.pgp.master_key`等。 
 
 
+> [**查看所有.bit 命名空间**](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt)
 
-需要注意的是，.bit 合约并不会校验解析记录的值的合法性，.bit 只是提供了一种约定。例如，一般情况下用户都会将 `address.btc` 的值设置为一个 BTC 地址。但应用程序在使用这个值时，应该检查这个值是否真的是合法的 BTC 地址。
+##### 注意
+.bit 合约并不会校验解析记录的值的合法性，.bit 只是提供了一种约定。例如，一般情况下用户都会将 `address.btc` 的值设置为一个 BTC 地址。但应用程序在使用这个值时，应该检查这个值是否真的是合法的 BTC 地址。
 
 
 

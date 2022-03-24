@@ -26,7 +26,10 @@ The key of a parsed record is a hierarchical structure using `. ` separated by a
 
   This namespace is not constrained, and developers can create any name and number of sub-namespaces under this space and define their meaning. For example, `custom_key.bitcc_config`, `custom_key.pgp.master_key`, etc. 
 
-Note that the .bit contract does not verify the legitimacy of the value of the parsed record, the .bit just provides a convention. For example, a user would normally set the value of `address.btc` to a BTC address. However, the application should check if this value is really a legitimate BTC address when using this value.
+> [** See All .bit Namespaces**](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt)
+
+##### Note 
+The .bit contract does not verify the legitimacy of the value of the parsed record, the .bit just provides a convention. For example, a user would normally set the value of `address.btc` to a BTC address. However, the application should check if this value is really a legitimate BTC address when using this value.
 
 
 
