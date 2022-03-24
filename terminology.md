@@ -1,4 +1,4 @@
-# Glossary
+# Terminology
 
 * **.BIT**, generally referring the entire .BIT project.
 * **.bit account**, refers to each individual account, e.g. alice.bit, bob.bit.

@@ -35,8 +35,12 @@ export const sidebar: SidebarConfig = [
   {
     text: 'Developers',
     children: [
-      '/developers/wallet-integration',
+      '/developers/integration-guide',
       '/developers/build-application',
+      '/developers/integration-frontend',
+      '/developers/integration-backend',
+      '/developers/wallet-integration',
+      '/developers/dotbit-alias',
       '/developers/records-key-namespace',
       '/developers/dotbit-libraries',
     ],
