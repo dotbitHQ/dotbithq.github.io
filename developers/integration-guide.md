@@ -1,5 +1,7 @@
 # .bit Integration Guide
 
+> After the branding upgrade, we upgraded the `DAS` branding to `.bit`, but to maintain forward compatibility, the open source library will remain the `DAS` brand for now.
+
 ## Prepare for Integration
 It's recommended reading through [docs.did.id](https://docs.did.id) document, so that the developer's time can be saved.
 

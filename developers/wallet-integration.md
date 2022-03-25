@@ -22,7 +22,7 @@ Integrating .bit into your wallet can:
 
 Users can transfer money without having to copy and paste complex blockchain addresses, but simply fill in the recipient's .bit account to make the transfer. The wallet can translate the .bit account into the corresponding recipient address.
 
-Wallets just need to integrate `das-js-sdk` and simply call the corresponding interface to complete the access. [View access documentation](https://github.com/dotbitHQ/das-sdk-js).
+Wallets just need to integrate `das-js-sdk` and simply call the corresponding interface to complete the integration. [View Integration Document](./integration-frontend.md).
 
 ## Onboard .bit Registration Service
 
