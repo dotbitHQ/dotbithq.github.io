@@ -48,3 +48,10 @@
 ## 常用资源
 - [**.bit 记录命名空间**](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt) 每一个 .bit 账户的解析记录的 key 都必须在命名空间中，包括 address/profile/dweb 等类型。
 - [**.bit 开源库列表**](./dotbit-libraries.md) 列举了有用的 .bit 开源库，助力你应用的开发。
+
+## 联系我们
+
+如果在开发上有遇到任何问题，请随时通过以下方式联系我们：
+
+- [.bit Discord](https://discord.gg/KJp6EtSr)
+- [.bit Twitter](https://twitter.com/dotbitHQ)

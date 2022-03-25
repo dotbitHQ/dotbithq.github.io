@@ -50,3 +50,10 @@ We are constantly collecting projects that have completed integration with .bit.
 ## Useful Resources
 - [**.bit Record Key Namespaces**](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt) The key of the record for every .bit account must be in the namespace, including types such as address/profile/ dWeb. Here is the list of them.
 - [**.bit Open-Source Libraries**](./dotbit-libraries.md) Here's a list of useful .bit open source libraries to help you develop your application.
+
+## Contact Us
+
+If you encounter any problems in the development, please feel free to contact us through the following ways:
+
+- [.bit Discord](https://discord.gg/KJp6EtSr)
+- [.bit Twitter](https://twitter.com/dotbitHQ)
