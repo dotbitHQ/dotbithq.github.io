@@ -7,9 +7,9 @@ It continuously reads data from the CKB chain through the CKB node, parses it an
 
 > In the meantime, it is the backend service [das-sdk-js](./integration-frontend.md#das-sdk-js) needed.
 
-> Deploying Indexer need a CKB Node，see [CKB 节点和 CKB Indexer](#ckb-node-and-ckb-indexer)
+> Deploying Indexer need a CKB Node，see [CKB Node And CKB Indexer](#ckb-node-and-ckb-indexer)
 
-> [das-account-indexer API 文档](https://github.com/dotbitHQ/das-account-indexer/blob/main/API.md)
+> [das-account-indexer API Document](https://github.com/dotbitHQ/das-account-indexer/blob/main/API.md)
 
 #### Usage Example
 The following code takes getting basic user information as an example to illustrate the use of .bit Indexer.
