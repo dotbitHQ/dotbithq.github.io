@@ -55,19 +55,19 @@ export default defineUserConfig<DefaultThemeOptions>({
     [CleanUrlsPlugin, {
       notFoundPath: '/404',
     }],
-    [
-      // 'vuepress-plugin-redirect',
-      'vuepress-plugin-redirect',
-      {
-        // locales: true,
-        redirectors: [
-          {
-            base: '/',
-            alternative: '/guide/',
-          },
-        ],
-      },
-    ],
+    // [
+    //   // 'vuepress-plugin-redirect',
+    //   'vuepress-plugin-redirect',
+    //   {
+    //     // locales: true,
+    //     redirectors: [
+    //       {
+    //         base: '/',
+    //         alternative: '/guide/',
+    //       },
+    //     ],
+    //   },
+    // ],
     ['@vuepress/plugin-search', {
       locales: {
         '/': {
