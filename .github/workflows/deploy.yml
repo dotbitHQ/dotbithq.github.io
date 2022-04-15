@@ -25,25 +25,21 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
       - name: Cache dependencies
         uses: actions/cache@v2
-        id: yarn-cache
+        id: cache-node-modules
         with:
           path: |
             **/node_modules
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/package.json') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-
+            ${{ runner.os }}-yarn-${{ hashFiles('**/package.json') }}
 
       - name: Install dependencies
-        run: yarn install
+        run: npm install
 
       - name: Build documentation site
-        run: yarn build
+        run: npm run build
 
       - name: Output cname
         run: echo ${{env.CUSTOM_CNAME}} > .vuepress/dist/CNAME
