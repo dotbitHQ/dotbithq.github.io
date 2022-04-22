@@ -5,8 +5,8 @@ We have summarized several common interaction patterns/design suggestions for di
 
 Developers can use interaction design guidelines combining their own scenarios to determine how .bit will work in wallets.
 
-- [.bit Resolution Design Guide](https://sedate-pleasure-684.notion.site/bit-5a71d3f7c1f147ae9264769bb97d743a)
-- [.bit Alias Design Guide](https://sedate-pleasure-684.notion.site/bit-alias-73bbde1179c54c02a754bc30788456dc)
+- [.bit Resolution Design Guide](https://sedate-pleasure-684.notion.site/bit-Interaction-Design-Guide-e5ccb17fc84b4e52ba7d11a273d390ad)
+- [.bit Alias Design Guide](https://sedate-pleasure-684.notion.site/bit-alias-Interaction-Design-Guide-b8e8718dd0554e17b5e31a196b8e7ed5)
 
 
 ## UI Components

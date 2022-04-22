@@ -86,48 +86,36 @@ For details about the deployment mode, see the CKB official guide:
 
 > [CKB Node Deployment Guide](https://docs.nervos.org/docs/basics/guides/mainnet)  
 > [CKB Node JSON-RPC Protocol](https://github.com/nervosnetwork/ckb/blob/master/rpc/README.md)   
-> [CKB Indexer Deployment Guide](https://github.com/nervosnetwork/mercury)  
-> [CKB Indexer JSON-RPC Protocol](https://github.com/nervosnetwork/mercury/blob/main/core/rpc/README.md)
+> [CKB Indexer Deployment Guide](https://github.com/nervosnetwork/ckb-indexer)  
+> [CKB Indexer JSON-RPC Protocol](https://github.com/nervosnetwork/ckb-indexer#rpc)
 
 #### Usage Example
 
 ##### CKB Node
 **Request**
 ```shell
-curl -X POST https://ckb.ckbstack.org/mainnet -H 'content-type:application/json' -d'{"id":42,"jsonrpc":"2.0","method":"get_tip_header","params":[]}'
+curl -X POST https://mainnet.ckb.dev/rpc -H 'content-type:application/json' -d'{"id":42,"jsonrpc":"2.0","method":"get_tip_header","params":[]}'
 ```
 
 **Response**
 ```json5
-{"jsonrpc":"2.0","result":{"compact_target":"0x190dab53","dao":"0xc888253d5572a940e9c986e322752600aa7ce0a27f4273030033b709a4161807","epoch":"0x5ad04be00140c","extra_hash":"0x0000000000000000000000000000000000000000000000000000000000000000","hash":"0xda7e7cef5aac0a0261747432071e406d80e55a8768d281e1b2f4b1fc94e70158","nonce":"0x511790408c0f000000000001e58a1814","number":"0x6735a5","parent_hash":"0x51d1a69b9502ae7d8d5cd5a6d5c35fa998c75597cf2a3ac72c9efcc7f2a74eee","proposals_hash":"0x30452ba4a76719a4e2960d6824c9d53ed8f6782938a0fd55d3ac75ca6b7e57c3","timestamp":"0x17fba051826","transactions_root":"0xf64815d19d93d70fb74faa65ed420ca8978d6962698d4c59490a70bdb706b87b","version":"0x0"},"id":42}
+{"jsonrpc":"2.0","result":{"compact_target":"0x190a0088","dao":"0xac8ffb215ff346419e9af198c38b26000e53d3ad69969403002bdb8b29d71a07","epoch":"0x41c03f40014bb","extra_hash":"0x0000000000000000000000000000000000000000000000000000000000000000","hash":"0x13251222fc73918701aafc8edbb08057dde7ca95d9709990616fb8802b73af9d","nonce":"0x990fa3bc251b0000000000086019030c","number":"0x6a37e1","parent_hash":"0x4ea3a7a40877471c9a6b98306fbe453007a5306887ff8a05ab5393166f7d0f86","proposals_hash":"0x91cea8c15a4b9b0324561f629ff13aff4522f8a925671dfb8650256f7e68692d","timestamp":"0x180509c0e87","transactions_root":"0xf908c0afd0650812557edf3c346ad0f5ae9a44c24cc6cd58db4e6171631f7bbb","version":"0x0"},"id":42}
 ```
 
 ##### CKB Indexer
 **Request**
 ```shell
-curl -X POST https://mercury.ckbstack.org/mainnet -H 'content-type:application/json' -d'{"id":42,"jsonrpc":"2.0","method":"get_block_info","params":[{"block_number":10,"block_hash":null}]}'
+curl -X POST https://mainnet.ckb.dev/indexer 7 -H 'content-type:application/json' -d'{"id":42,"jsonrpc":"2.0","method":"get_tip"}'
 ```
 **Response**
 ```json5
-{"jsonrpc":"2.0","result":{"block_number":10,"block_hash":"0x5b65f681462648d109bfe17b78574d938e2e92752efbab8a41b6f8d982369b85","parent_hash":"0x629f92aedb4d7d71bf55523b2709e1b7d6f67f8bef9f7abc67bad6026cea5da2","timestamp":1573853448001,"transactions":[{"tx_hash":"0x672afe6ede97904ccddcbb38910c7e1c5aa9066b7e6715ee9e72d0153a471341","records":[],"fee":0,"burn":[],"timestamp":1573853448001}]},"id":42}
+{"jsonrpc":"2.0","result":{"block_hash":"0xc1d86e3986679d32090240f3e6abb641fe9d898976f8adb204b77d34ce11f3ec","block_number":"0x6a37db"},"id":42}
 ```
-
-#### Official Node
-If you do not want to deploy your own CKB node or your app is still under development, you can use public Node provided by CKB team:
-
-**CKB Node**:
-
-`https://ckb.ckbstack.org/mainnet`
-
-**CKB Indexer**:
-
-`https://mercury.ckbstack.org/mainnet`
-
 
 #### Community Node
 If you do not want to deploy your own CKB nodes or your application are in the testing stage, you can use the public nodes provided by the community (not recommended for long-term use) :
 
-> [Free CKB Node](https://talk.nervos.org/t/ckb-rpc-indexer-rpc/4949)
+> [Free CKB Node](https://talk.nervos.org/t/free-node-rpc-and-indexer-rpc-for-ckb-developers/4948)
 
 
 #### Next Step
