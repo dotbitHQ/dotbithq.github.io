@@ -83,7 +83,7 @@ Different registrars offer different user interfaces and payment methods.
 
 ### What happens after my account expires?
 
-After the .bit account expires, it will enter a 30-day grace period. If you renew your .bit account during the grace period, you will still have the account. If the .bit account is not renewed within the grace period, the .bit account will enter a 7-day reduced price auction period and the first bidder will get the account. After the auction period ends and no bids are placed, the account will become publicly available for registration at a price determined by the number of characters in the account.
+After the .bit account expires, it will enter a 90-day grace period. If you renew your .bit account during the grace period, you will still have the account. If the .bit account is not renewed within the grace period, the .bit account will enter a 28-day [Dutch Auction](https://en.wikipedia.org/wiki/Dutch_auction) period and the first bidder will get the account. After the auction period ends and no bids are placed, the account will become publicly available for registration at a price determined by the number of characters in the account.
 
 ## Administration Related
 
