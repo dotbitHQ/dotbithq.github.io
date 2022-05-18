@@ -8,8 +8,10 @@
 | 4-9 digits               | See [Release Plan](#release-plan)                    |
 | 1~3 digits               | To be determined.                                    |
 
-## Release Plan
-In consideration of fairness, only 35% of .bit accounts are randomly registrable for now.  
+> As of 2022-04-18, .bit accounts have been release to 60%, and the release of the remaining accounts if still under planing, please stay tuned.
+
+## Release Plan 2022-03-09
+In consideration of fairness, only 60% of .bit accounts are randomly registrable for now.  
 As .bit integrating with more DApps and .bit’s brand visibility enhancing, we think it’s time to release more accounts.   
 With our brand upgrading, we hereby reveal the plan for accounts releasing.
 
