@@ -1,9 +1,10 @@
-import {defineUserConfig, DefaultThemeOptions} from 'vuepress'
+import {defineUserConfig, defaultTheme} from 'vuepress'
+import {searchPlugin} from '@vuepress/plugin-search'
 import { en } from './locales/en'
 import { zh } from './locales/zh'
 import CleanUrlsPlugin from './plugins/clean-urls'
 
-export default defineUserConfig<DefaultThemeOptions>({
+export default defineUserConfig({
   // site config
   title: '.bit Document',
   head: [
@@ -23,8 +24,7 @@ export default defineUserConfig<DefaultThemeOptions>({
 
   // theme and its config
   // theme: 'vuepress-theme-book',
-  theme: '@vuepress/theme-default',
-  themeConfig: {
+  theme: defaultTheme({
     darkMode: false,
     contributors: false,
     logo: '/logo.png',
@@ -49,12 +49,12 @@ export default defineUserConfig<DefaultThemeOptions>({
           link: 'https://did.id'
         }],
       }
-    }
-  },
+    },
+  }),
   plugins: [
-    [CleanUrlsPlugin, {
-      notFoundPath: '/404',
-    }],
+      CleanUrlsPlugin({
+        notFoundPath: '/404',
+      }),
     // [
     //   // 'vuepress-plugin-redirect',
     //   'vuepress-plugin-redirect',
@@ -68,7 +68,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     //     ],
     //   },
     // ],
-    ['@vuepress/plugin-search', {
+    searchPlugin({
       locales: {
         '/': {
           placeholder: 'Search',
@@ -77,6 +77,6 @@ export default defineUserConfig<DefaultThemeOptions>({
           placeholder: '搜索',
         },
       },
-    }],
+    })
   ]
 })
