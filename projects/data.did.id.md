@@ -2,7 +2,7 @@
 Manage your .bit accounts' data with the most elegant way you have never seen.
 
 ## Introduction
-[data.did.id](https://data.did.id/dasdeveloper.bit) is an elegant tool to manage your .bit accounts' data.
+[data.did.id](https://data.did.id) is an elegant tool to manage your .bit accounts' data.
 
 With `data.did.id`, you can check the data of any .bit account, including but not limited to the following data:  
 - Personal Profile (profile)
@@ -24,13 +24,13 @@ Every day, many developers are exploring the way to create interesting applicati
 
 In this rapid-development blockchain era, it is most important to quickly verify the feasibility of a business, not to spend time on infrastructure research.
 
-With [data.did.id](https://data.did.id/dasdeveloper.bit) , developers can change users' data with a very simple yet elegant way, not having to worry about complicated on-chain operations.
+With [data.did.id](https://data.did.id) , developers can change users' data with a very simple yet elegant way, not having to worry about complicated on-chain operations.
 
-> [Click here to try →](https://data.did.id/dasdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D)
+> [Click here to see an example →](https://data.did.id/dasdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D) Notice: It's not your account.
 
 ### Quick Start
 
-[data.did.id](https://data.did.id/dasdeveloper.bit) will read the `records` query on URL。
+[data.did.id](https://data.did.id) will read the `records` query on URL。
 
 Developers only need to fill in the specific params according to the spec, then guide users to visit the corresponding link. After the user click on the confirm button, the data will be changed successfully. 
 

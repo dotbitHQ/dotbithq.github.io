@@ -2,7 +2,7 @@
 以一种前所未有的优雅方式管理您的所有 .bit 数据。
 
 ## 介绍
-[data.did.id](https://data.did.id/dasdeveloper.bit) 是一个优雅的 .bit 账户数据管理工具。
+[data.did.id](https://data.did.id) 是一个优雅的 .bit 账户数据管理工具。
 
 在这里，你可以**查看**任意一个 .bit 账户的数据，包括且不限于以下数据：
 - 个人资料（profile）
@@ -24,9 +24,9 @@
 
 在这个快速变化的区块链时代，最重要的是快速验证业务的可行性，而不是把时间花在对基础设施的研究上。
 
-通过 [data.did.id](https://data.did.id/dasdeveloper.bit) ，开发者可以以一种非常简单、优雅的方式去改变用户的数据，而不用考虑复杂的链上操作。
+通过 [data.did.id](https://data.did.id) ，开发者可以以一种非常简单、优雅的方式去改变用户的数据，而不用考虑复杂的链上操作。
 
-> [点击这里体验一下 →](https://data.did.id/dasdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D)
+> [点击这里查看示例 →](https://data.did.id/dasdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D)
 
 ### 快速开始
 
