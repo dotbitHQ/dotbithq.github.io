@@ -24,7 +24,7 @@ Currently, .bit accounts can be registered using  ETH / TRX / BSC / Polygon addr
 We don't think a one-time purchase for permanent use as a reasonable economic model, which include the following problems:
 
 1. .bit as an infrastructure needs continuous improvement by the developers. There are .bit accounts that more desired than others, and when those desired .bit accounts are purchased out, the .bit system will no longer generate revenue and the existing development team will have no incentive to continuously improve the system or attract new developers to maintain the system. It may sound attractive to buy once and use forever, but the user is actually buying an account that will not be maintained in the future. 
-2. Loss of private key, etc. will cause permanent lock of an .bit accounts. This is a waste of a limited public resource like .bit.
+2. Loss of private key, etc. will cause permanent lock of an .bit accounts. This is a waste of a limited public resource for .bit.
 
 ### What is the storage deposit?
 
