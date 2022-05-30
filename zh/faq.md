@@ -17,7 +17,7 @@
 
 目前支持使用 ETH / TRX / BSC / Polygon 地址注册 .bit 账户。访问 https://did.id 链接 MetaMask / TronLink 即可开始注册。也可在支持 ETH / TRX / BSC / Polygon 的钱包 APP 中直接访问 https://did.id 进行注册。
 
-技术上，.bit 可以使用任意公链地址进行注册（[查看原理](../v/chinese-1/qi-ta/Why-assets-on-ckb-can-managed-by-btc-address.md)）。.bit 团队正在将更多公链的签名算法部署到 Nervos CKB 上，以支持更多公链地址注册 .bit。
+技术上，.bit 可以使用任意公链地址进行注册（[查看原理](./others/why-assets-on-ckb-can-be-managed-by-btc-address.md)）。.bit 团队正在将更多公链的签名算法部署到 Nervos CKB 上，以支持更多公链地址注册 .bit。
 
 ### 为什么 .bit 账户要按年收费，为什么不能一次购买永久使用呢？
 
@@ -44,7 +44,7 @@
 
 这是 .bit 超越其他去中心化域名/账户系统的独特之处。事实上，不光可以使用所有公链地址注册 .bit 账户，你甚至可以使用普通的邮箱来注册/持有/管理 .bit 账户。并且，技术上是完全去中心化的，不需要信任任何中心化组织。
 
-这得益于 .bit 所依赖的 Nervos CKB 公链，相关的技术细节可以参考[BTC 地址如何管理 CKB 链上的资产](../v/chinese-1/qi-ta/Why-assets-on-ckb-can-managed-by-btc-address.md)
+这得益于 .bit 所依赖的 Nervos CKB 公链，相关的技术细节可以参考[BTC 地址如何管理 CKB 链上的资产](others/why-assets-on-ckb-can-be-managed-by-btc-address.md)
 
 ### 可以注册子账户吗？
 

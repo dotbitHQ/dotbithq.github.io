@@ -26,7 +26,7 @@
 
 ## 其他
 
-* [BTC 地址如何管理 CKB 链上的资产](../v/chinese-1/qi-ta/Why-assets-on-ckb-can-managed-by-btc-address.md)
+* [BTC 地址如何管理 CKB 链上的资产](others/why-assets-on-ckb-can-be-managed-by-btc-address.md)
 * [Github](https://github.com/dotbitHQ)
 * [.bit 官网](https://did.id)
 
