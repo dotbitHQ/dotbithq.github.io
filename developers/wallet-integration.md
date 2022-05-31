@@ -36,9 +36,9 @@ The .bit registration service will be uploaded to the wallet's Dapp store, users
 >
 > LOGO material: [Download](https://projects.invisionapp.com/boards/QG43J5JCPTH/)
 >
-> English introduction: Your decentralized identity for Web3.0 life
+> English introduction: Web3.0 identities for you and your community
 >
-> Chinese introduction: 面向整个 Web3.0 的去中心化身份（DID）系统
+> Chinese introduction: Web3.0 统一身份系统
 >
 > Applicable public chains: ETH/TRX/BSC/Polygon
 

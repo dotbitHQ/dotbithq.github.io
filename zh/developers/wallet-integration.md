@@ -31,9 +31,9 @@ sidebarDepth: 1
 >
 > LOGO素材：[下载](https://projects.invisionapp.com/boards/QG43J5JCPTH/)
 >
-> 英文简介：Your decentralized identity for Web3.0 life
+> 英文简介：Web3.0 identities for you and your community
 >
-> 中文简介：面向整个 Web3.0 的去中心化身份（DID）系统
+> 中文简介：Web3.0 统一身份系统
 >
 > 适用的公链：ETH/TRX/BSC/Polygon
 
