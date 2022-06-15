@@ -6,7 +6,7 @@ Cross-chain usually means assets are locked on chain A and corresponding assets 
 
 ## Understanding from a non-technical perspective
 
-Let's make some analogies. Let's compare a public chain to a country, and the address of that public chain is compared to the resident ID of that country. 
+Let's make some analogies by comparing a public chain to a country, and the address of the chain to the resident ID of the country. 
 
 1. ETH public chain --&gt; United States
 2. ETH address --&gt; U.S. ID card
