@@ -15,7 +15,7 @@ Let's make some analogies by comparing a public chain to a country, and the addr
 5. Nervos CKB Public Chain --&gt; Country C
 6. Nervos CKB Address --&gt; Country C ID
 
-Currently, the residents must have a US ID to hold and manage assets in the US, and the same is true for the UK. The two countries do not recognize each other's national IDs.
+Currently, the residents must have a US ID to hold and manage assets in the US, and is the same for the UK. The two countries do not recognize each other's national IDs.
 
 However, for Nervos CKB, a new C country, not only residents with C country IDs can hold assets in their country. Residents of other countries can also hold assets in Country C as long as they provide a valid resident ID from another country.
 
