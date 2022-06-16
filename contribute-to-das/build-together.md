@@ -1,6 +1,6 @@
 #  Contribute to .bit
 
-<img src="./image-20210721120817803.png" alt="Buidl Together" style="zoom:50%;" />
+<img src="./contribute-to-dotbit.png" alt="Buidl Together" style="zoom:50%;" />
 
 .bit is committed to become the infrastructure of the crypto world, which can't be built without the community working together, and we believe a well-designed revenue sharing system can make .bit community grow faster. We want to see every .bit community member to get the corresponding rewards from contributing to the growth of .bit. 
 
