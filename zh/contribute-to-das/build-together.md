@@ -2,7 +2,7 @@
 
 
 
-<img src="./image-20210718150449708.png" alt="共同建设 .bit" style="zoom:50%;" />
+<img src="./contribute-to-dotbit.png" alt="共同建设 .bit" style="zoom:50%;" />
 
 
 
