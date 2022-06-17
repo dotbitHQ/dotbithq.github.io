@@ -1,6 +1,6 @@
 # Open registration rules
 
-.bit accounts as a public resource should be avoided to be hoarded by a few people when the social influence is not enough..bit account registration is opened gradually.
+.bit accounts, as a public resource, should avoid to be hoarded by a few people when its social influence is not enough to reach a broad market. Therefore .bit team adopts the strategy that makes registration opening up gradually.
 
 | Account Character Length | Open Registration Rules                              |
 | :----------------------- |:-----------------------------------------------------|
@@ -9,13 +9,13 @@
 | 1~3 digits               | To be determined.                                    |
 
 ::: tip Notice 
-As of 2022-04-18, .bit accounts have been release to 60%, and the release of the remaining accounts if still under planing, please stay tuned. 
+As of 2022-04-18, .bit accounts have been released to 60%. The release of the remaining accounts is still under planing, please stay tuned. 
 :::
 
 ## Release Plan 2022-03-09
-In consideration of fairness, only 60% of .bit accounts are randomly registrable for now.  
-As .bit integrating with more DApps and .bit’s brand visibility enhancing, we think it’s time to release more accounts.   
-With our brand upgrading, we hereby reveal the plan for accounts releasing.
+In consideration of fairness, only 60% of .bit accounts can be registered randomly for now.  
+As .bit integrates with more DApps and .bit’s brand awareness grows,.bit team believes that it’s time to release more accounts.   
+Along with the rebranding,.bit team hereby reveals the plan for accounts releasing.
 
 ### Plan for accounts releasing:
 2022–03–21 12:00PM(UTC+0), release to 40%；  
