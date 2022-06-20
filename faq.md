@@ -91,9 +91,9 @@ After the .bit account expires, it will enter a 90-day grace period. If you rene
 
 **Owner**, each account has one owner that owns the .bit account and can modify the owner and manager.
 
-**manager**, each account has one manager, who can modify the account's parsed records.
+**manager**, each account has one manager, who can modify the account's records.
 
-The design of owner and aministrator is practicing the idea of separation of ownership and management. Modifying parsed records is a high frequency operation, while modifying ownership is a low frequency operation. The high-frequency operation will then use the private key frequently, increasing the risk of losing the private key. This separation design allows users to still have ownership of the account when the manager's private key is lost. The owner and manager can be the same address or different addresses. However, we highly recommend using different addresses for the owner and manager.
+The design of owner and aministrator is practicing the idea of separation of ownership and management. Modifying records is a high frequency operation, while modifying ownership is a low frequency operation. The high-frequency operation will then use the private key frequently, increasing the risk of losing the private key. This separation design allows users to still have ownership of the account when the manager's private key is lost. The owner and manager can be the same address or different addresses. However, we highly recommend using different addresses for the owner and manager.
 
 ### Can .bit accounts be transferred (sold) to other people?
 
@@ -101,25 +101,25 @@ Yes. You can transfer an account to another address by changing the owner of the
 
 ⚠️ Transferring an account is a high-risk operation, and completing the transfer means you lose control of the account completely.
 
-### What is a parsed record?
+### What is a record?
 
-Each piece of data associated with a .bit account, like a BTC address, a Twitter account, is a parsed record. Each parsed record is a combination of a key and a value.
+Each piece of data associated with a .bit account, like a BTC address, a Twitter account, is a record. Each record is a combination of a key and a value.
 
 ### Can a .bit account add more than one BTC address as a parse record?
 
 Yes. You can even set different labels for different BTC addresses. In fact, multiple records of the same type can be added to a .bit account, distinguished by different custom labels.
 
-### How many parsed records can a .bit account have?
+### How many records can a .bit account have?
 
-This depends on the size of the Witness data that a single CKB transaction can hold, which is large enough to be understood as unlimited.
+It depends on the size of the Witness data that a single CKB transaction can hold, which is large enough almost unlimited.
 
-### Can parsed records be modified?
+### Can Records be modified?
 
 Yes, they can be modified at any time. However, in order to avoid abuse, different operations will have different frequency limits, depending on the prompt at the time of operation.
 
 ### What are custom keys?
 
-.bit account has some built-in parsed record types, such as blockchain address, personal information, etc. It also supports users and developers to customize parse record types to support rich application scenarios. For details, please refer to [record namespace](kai-fa-zhe/records-key-namespace.md).
+.bit account has some built-in record types, such as blockchain address, personal information, etc. It also supports users and developers to customize parse record types to support rich application scenarios. For details, please refer to [record namespace](kai-fa-zhe/records-key-namespace.md).
 
 ## Inviter/registrar/channel related
 

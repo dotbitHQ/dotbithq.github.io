@@ -7,7 +7,7 @@
 * [New] Support ETH / TRX address registration for .bit accounts
 * [New] Support payment method: ETH / TRX / CKB
 * [New] Support modify Owner / Manager
-* [New] Support adding, deleting, changing and checking parsed records
+* [New] Support adding, deleting, changing and checking records
 * [New] Open source code
 * [New] Provide js-sdk
 

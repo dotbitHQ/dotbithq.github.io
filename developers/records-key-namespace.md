@@ -2,11 +2,11 @@
 
 
 
-<img src="./image-20210721120500021.png" alt=".bit Records" style="zoom:50%;" />Parsed records are the core of .bit, and the flexibility of parsed records is also the source of .bit's great scalability. A parsed record is a key-value pair, and .bit supports an infinite number of parsed records. As shown above, different applications will read different parse records to do different jobs. Therefore, it is important to manage the namespace of the key of the parsed record. The namespace usage specification is essentially a protocol that can be followed to enable good collaboration between applications.
+<img src="./image-20210721120500021.png" alt=".bit Records" style="zoom:50%;" />Parsed records are the core of .bit, and the flexibility of records is also the source of .bit's great scalability. A record is a key-value pair, and .bit supports an infinite number of records. As shown above, different applications will read different parse records to do different jobs. Therefore, it is important to manage the namespace of the key of the record. The namespace usage specification is essentially a protocol that can be followed to enable good collaboration between applications.
 
 ## Namespaces
 
-The key of a parsed record is a hierarchical structure using `. ` separated by a hierarchy, such as `address.btc`, `profile.twitter`, `custom_key.bitcc_config`, etc. Among them, `address`, `profile`, and `custom_key` are called primary namespaces; `btc`, `twitter`, and `bitcc_config` are called secondary namespaces.
+The key of a record is a hierarchical structure using `. ` separated by a hierarchy, such as `address.btc`, `profile.twitter`, `custom_key.bitcc_config`, etc. Among them, `address`, `profile`, and `custom_key` are called primary namespaces; `btc`, `twitter`, and `bitcc_config` are called secondary namespaces.
 
 .bit has strict constraints on the use of namespaces at the contract level, and currently provides four first-level namespaces.
 
@@ -29,7 +29,7 @@ The key of a parsed record is a hierarchical structure using `. ` separated by a
 > [** See All .bit Namespaces**](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt)
 
 ##### Note 
-The .bit contract does not verify the legitimacy of the value of the parsed record, the .bit just provides a convention. For example, a user would normally set the value of `address.btc` to a BTC address. However, the application should check if this value is really a legitimate BTC address when using this value.
+The .bit contract does not verify the legitimacy of the value of the record, the .bit just provides a convention. For example, a user would normally set the value of `address.btc` to a BTC address. However, the application should check if this value is really a legitimate BTC address when using this value.
 
 
 

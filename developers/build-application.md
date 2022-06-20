@@ -5,7 +5,7 @@
 There are several ideas for developing applications based on .bit.
 
 1. Treat a .bit account as a practical NFT asset and develop a trading/auction/rental marketplace for .bit
-2. Consider .bit account as a public key-value database that can only be modified by the user, where any type of parsed records can be stored. Developers can buidl applications based on this.
+2. Consider .bit account as a public key-value database that can only be modified by the user, where any type of records can be stored. Developers can buidl applications based on this.
 
 
 
@@ -40,7 +40,7 @@ If a .bit account is a practical NFT asset, develop a trading/auction/rental mar
 
 
 
-To develop applications based on the parsed records of .bit accounts, you do not need to know the technical details of Nervos CKB and .bit. Just learn how to use [das-account-indexer](https://github.com/dotbitHQ/das-account-indexer) or [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js) to get the parsed record for an account, or to query whether an address holds a .bit account. As well as understanding the [namespace specification](records-key-namespace.md) of .bit's parsed records.
+To develop applications based on the records of .bit accounts, you do not need to know the technical details of Nervos CKB and .bit. Just learn how to use [das-account-indexer](https://github.com/dotbitHQ/das-account-indexer) or [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js) to get the record for an account, or to query whether an address holds a .bit account. As well as understanding the [namespace specification](records-key-namespace.md) of .bit's records.
 
 
 
