@@ -130,7 +130,7 @@ Yes, they can be modified at any time. However, in order to avoid abuse, differe
 
 **Registrar**, an organization/individual that provides a registration interface and payment methods for users. [Learn about registrars](contribute-to-das/registrar.md).
 
-### Is the settle account of inviter/channel rewards a centralized process? Why does it pay out only if a certain amount is reached?
+### Is the settlement of inviter/channel rewards a centralized process? Why does it pay out only if a certain amount is reached?
 
 Inviters' rewards are settled in a decentralized way to the invitee as soon as the invitee completes registration. The rewards are only paid out after a certain amount is reached because of the underlying principle of Nervos CKB, which is designed to achieve decentralized settlement.
 
