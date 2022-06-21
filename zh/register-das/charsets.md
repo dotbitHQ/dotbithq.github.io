@@ -2,9 +2,9 @@
 
 可以使用多种语言甚至 emoji 注册 .bit 账户。已支持的语言字符集如下：
 
-1. [English](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_en.txt)
-2. [Emojis](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_emoji.txt)
-3. [Arabic numerals](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_digit.txt)
+0. [Emoji 表情](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_emoji.txt)
+1. [阿拉伯数字和标点符号](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_digit_and_symbol.txt)
+2. [英文字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_en.txt)
 
 .bit 支持的语言字符集将会不断增加。
 
@@ -16,11 +16,11 @@
 
 字符集组合规则：
 
-| [CharSetType](https://github.com/dotbitHQ/das-types/blob/3dbce2d972e1950ba0a558daa2abb896bbc2ffca/rust/src/constants.rs#L135)  |                 | English | Arabic numerals | Emojis |
-|:-------------------------------------------------------------------------------------------------------------------------------|:---------------:|:-------:|:---------------:|:------:|
-| 2                                                                                                                              |     English     |    ✅    |        ✅        |   ✅    |
-| 1                                                                                                                              | Arabic numerals |    ✅    |        ✅        |   ✅    |
-| 0                                                                                                                              |     Emojis      |    ✅    |        ✅        |   ✅    |
+| [CharSetType](https://github.com/dotbitHQ/das-types/blob/3dbce2d972e1950ba0a558daa2abb896bbc2ffca/rust/src/constants.rs#L135)  |            | English | Arabic numerals | Emojis |
+|:-------------------------------------------------------------------------------------------------------------------------------|:----------:|:-------:|:---------------:|:------:|
+| 0                                                                                                                              |  Emoji 表情  |    ✅    |        ✅        |   ✅    |
+| 1                                                                                                                              | 阿拉伯数字和标点符号 |    ✅    |        ✅        |   ✅    |
+| 2                                                                                                                              |    英文字母    |    ✅    |        ✅        |   ✅    |
 
 ✅ 表示这两个字符集的字符是可组合的，可以出现在同一个 .bit 账户名中。
 
