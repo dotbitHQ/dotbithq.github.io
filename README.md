@@ -6,13 +6,13 @@
 
 .bit is the first decentralized account system with broad compatibility, allowing users to register and manage their .bit accounts with any public chain address or even email.
 
-The core elements of a .bit account contain the owner/manager, and the parsed record (i.e. the data that associated with). Unlike ENS, the owner/manager of .bit can be any public chain private key or even email; unlike DNS, .bit supports any type of parsed record.
+The core elements of a .bit account contain the owner/manager, and the record (i.e. the data that associated with). Unlike ENS, the owner/manager of .bit can be any public chain private key or even email; unlike DNS, .bit supports any type of record.
 
 The structure of a .bit account is as follow:
 
 <img src="./image-20210721120318336.png" alt=".bit Account Structure" />
 
-.bit is a decentralized application running on [Nervos CKB](https://www.nervos.org/). .bit accounts and related parsed records are stored on the permissionless blockchain. Nervos CKB is a PoW public chain with a highly open architecture using the UTXO model.
+.bit is a decentralized application running on [Nervos CKB](https://www.nervos.org/). .bit accounts and related records are stored on the permissionless blockchain. Nervos CKB is a PoW public chain with a highly open architecture using the UTXO model.
 
 .bit have five main components:
 
