@@ -47,12 +47,17 @@ curl -X POST https://indexer-basic.did.id -d'{"jsonrpc": "2.0","id": 1,"method":
 ```
 
 ### Official Indexer Service
-Considering the stability of the service and the personalized needs of the business, we suggest building you own Indexer service and follow up the official updates of .bit.
+Considering the stability of the service and the personalized needs of the business, we suggest building you own Indexer service and follow up the official updates of .bit.(Yes! Decentralization!) 
 
-At the same time, however, the .bit team provided a public Indexer with limited functionality for developers to develop and debug at an early stage.
+At the same time, however, the .bit team provided a public Indexer with rate-limit for developers to develop and debug.
 
 
 #### Full Functional Indexer
+
+```shell
+https://indexer-v1.did.id
+```
+This service can query all data. However, as always, we still recommend developers building their own Indexer.
 
 ```shell
 https://indexer-not-use-in-production-env.did.id
@@ -73,7 +78,9 @@ This service can only query basic account data and .bit Alias data. The specific
 - ~~das_accountRecords~~
 
 #### Rate Limit
-Neither of the two public Indexers is currently rate-limited, so please use them on demand. However, if the frequency exceeds the capacity of the service, the caller faces the possibility of blocked by IP.
+Neither of the two public Indexers is currently rate-limited, so please use them on demand. 
+
+However, if the frequency exceeds the capacity of the service, the caller faces the possibility of blocked by IP.
 
 
 ### CKB Node and CKB Indexer

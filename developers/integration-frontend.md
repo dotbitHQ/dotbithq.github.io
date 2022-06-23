@@ -21,7 +21,7 @@ We recommend that developers buidl their own .bit Indexer, but developers can us
 import Das from 'das-sdk'
 
 const das = new Das({
-  url: 'https://indexer-not-use-in-production-env.did.id', // Avoding using this indexer in production
+  url: 'https://indexer-v1.did.id',
 })
 
 das.records('dasloveckb.bit').then(console.log)
@@ -34,13 +34,13 @@ das.records('dasloveckb.bit').then(console.log)
   label: 'coinbase',
   value: '0x1234...4567',
   ttl: 300,
-  avatar: 'https://identicons.da.systems/identicon/dasloveckb.bit'
+  avatar: 'https://display.did.id/identicon/dasloveckb.bit'
 }, {
   key: 'address.eth',
   label: 'onchain',
   value: '0x2345...6789',
   ttl: 300,
-  avatar: 'https://identicons.da.systems/identicon/dasloveckb.bit'
+  avatar: 'https://display.did.id/identicon/dasloveckb.bit'
 }]
 ```
 

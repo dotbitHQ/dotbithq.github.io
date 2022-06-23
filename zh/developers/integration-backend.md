@@ -47,16 +47,21 @@ curl -X POST https://indexer-basic.did.id -d'{"jsonrpc": "2.0","id": 1,"method":
 ```
 
 ### 官方 Indexer 服务
-考虑到服务的稳定性和业务个性化需求，我们建议自建 indexer 服务并跟进 .bit 官方的迭代更新。
+考虑到服务的稳定性和业务个性化需求，我们建议自建 indexer 服务并跟进 .bit 官方的迭代更新。（是的！去中心化！）。
 
 但同时，.bit 团队提供了有限功能的公开 Indexer 供开发者在早期阶段进行开发、调试。
 
 #### 全功能 Indexer
 
 ```shell
+https://indexer-v1.did.id
+```
+这个服务可以查询所有数据。但是一如既往，我们推荐开发者自建 Indexer。
+
+```shell
 https://indexer-not-use-in-production-env.did.id
 ```
-这个服务可以查询所有数据，但如其域名所描述的，不推荐开发者在生产环境中使用该 Indexer（是的！去中心化！）。
+这个服务可以查询所有数据，但如其域名所描述的，不推荐开发者在生产环境中使用该 Indexer
 
 #### 基本 Indexer
 

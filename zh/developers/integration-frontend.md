@@ -21,7 +21,7 @@ Dapp 只需集成该 SDK，并调用对应的接口（数据由 .bit [das-accoun
 import Das from 'das-sdk'
 
 const das = new Das({
-  url: 'https://indexer-not-use-in-production-env.did.id', // 避免在正式环境使用该 indexer
+  url: 'https://indexer-v1.did.id',
 })
 
 das.records('dasloveckb.bit').then(console.log)
@@ -34,13 +34,13 @@ das.records('dasloveckb.bit').then(console.log)
   label: 'coinbase',
   value: '0x1234...4567',
   ttl: 300,
-  avatar: 'https://identicons.da.systems/identicon/dasloveckb.bit'
+  avatar: 'https://display.did.id/identicon/dasloveckb.bit'
 }, {
   key: 'address.eth',
   label: 'onchain',
   value: '0x2345...6789',
   ttl: 300,
-  avatar: 'https://identicons.da.systems/identicon/dasloveckb.bit'
+  avatar: 'https://display.did.id/identicon/dasloveckb.bit'
 }]
 ```
 
