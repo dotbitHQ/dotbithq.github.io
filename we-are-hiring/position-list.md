@@ -6,3 +6,7 @@ Join us in building a decentralized identity system for the Web3.0 world. Make t
 * [Frontend Engineer](https://docs.did.id/docs/we-are-hiring/frontend-engineer)
 * [Backend Engineer - Golang](https://docs.did.id/docs/we-are-hiring/backend-engineer-golang)
 * [Smart Contract Engineer - Rust](https://docs.did.id/docs/we-are-hiring/smart-contract-engineer-rust)
+
+We are also willing to work with other talented enthusiastic people in different background, including marketing, engineering, operation, etc.
+
+Please send your email to **hiring@did.id**
