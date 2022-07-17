@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8c715202","path":"/terminology.html","title":"Terminology","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1655713696000},"filePathRelative":"terminology.md"}');export{e as data};

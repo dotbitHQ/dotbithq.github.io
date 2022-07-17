@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-723e8a30","path":"/register-das/charsets.html","title":"Charsets","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Fraud prevention","slug":"fraud-prevention","children":[]}],"git":{"updatedTime":1655809909000},"filePathRelative":"register-das/charsets.md"}');export{e as data};

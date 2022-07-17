@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-54d2fb2e","path":"/zh/terminology.html","title":"\u672F\u8BED","lang":"zh-CN","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1646707260000},"filePathRelative":"zh/terminology.md"}');export{e as data};

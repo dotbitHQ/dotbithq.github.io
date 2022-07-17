@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3212207c","path":"/contribute-to-das/build-together.html","title":"Contribute to .bit","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1655450937000},"filePathRelative":"contribute-to-das/build-together.md"}');export{t as data};
