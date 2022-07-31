@@ -38,5 +38,5 @@ You will do your best to spread the spirit of .bit. You will make people aware o
 
 ## Apply now
 
-Please send your resume to **hiring@did.id**, we will give you feedback within 24 hours.
+Please send your resume to **joindotbit@did.id**, we will give you feedback within 24 hours.
 
