@@ -48,4 +48,4 @@ You will be deeply involved in the core development of .bit. These include:
 
 ## Apply now
 
-Please send your resume to **hiring@did.id**, we will give you feedback within 24 hours.
+Please send your resume to **joindotbit@did.id**, we will give you feedback within 24 hours.
