@@ -3,12 +3,18 @@
 可以使用多种语言甚至 emoji 注册 .bit 账户。已支持的语言字符集如下：
 
 0. [Emoji 表情](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_emoji.txt)
-1. [阿拉伯数字和标点符号](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_digit_and_symbol.txt)
+1. [数字和标点符号](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_digit_and_symbol.txt)
 2. [英文字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_en.txt)
+5. [日语假名及汉字](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ja.txt)
+6. [谚文字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ko.txt)
+7. [西里尔字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ru.txt)
+8. [土耳其语字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_tr.txt)
+9. [泰文字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_th.txt)
+10. [越南语字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_vi.txt)
 
 .bit 支持的语言字符集将会不断增加。
 
-## 防止欺诈
+## 防欺诈
 
 同时 .bit 通过多种机制来避免名字欺诈的发生：
 1. 采用字符集白名单制。不可以使用非白名单内的字符（比如空白字符）注册 .bit。
@@ -16,11 +22,19 @@
 
 字符集组合规则：
 
-| [CharSetType](https://github.com/dotbitHQ/das-types/blob/3dbce2d972e1950ba0a558daa2abb896bbc2ffca/rust/src/constants.rs#L135)  |            | English | Arabic numerals | Emojis |
-|:-------------------------------------------------------------------------------------------------------------------------------|:----------:|:-------:|:---------------:|:------:|
-| 0                                                                                                                              |  Emoji 表情  |    ✅    |        ✅        |   ✅    |
-| 1                                                                                                                              | 阿拉伯数字和标点符号 |    ✅    |        ✅        |   ✅    |
-| 2                                                                                                                              |    英文字母    |    ✅    |        ✅        |   ✅    |
+| CharSetType |          | Emoji 表情 | 数字和标点符号 | 英文字母 | 日语假名及汉字 | 谚文字母 | 西里尔字母 | 土耳其语字母 | 泰文字母 | 越南语字母 |
+|:------------|:--------:|:--------:|:-------:|:----:|:-------:|:----:|:-----:|:------:|:----:|:-----:|
+| 0           | Emoji 表情 |    ✅     |    ✅    |  ✅   |    ✅    |  ✅   |   ✅   |   ✅    |  ✅   |   ✅   |
+| 1           | 数字和标点符号  |    ✅     |    ✅    |  ✅   |    ✅    |  ✅   |   ✅   |   ✅    |  ✅   |   ✅   | 
+| 2           |   英文字母   |    ✅     |    ✅    |  ✅   |    ❌    |  ❌   |   ❌   |   ❌    |  ❌   |   ❌   |  
+| 5           | 日语假名及汉字  |    ✅     |    ✅    |  ❌   |    ✅    |  ❌   |   ❌   |   ❌    |  ❌   |   ❌   |
+| 6           |   谚文字母   |    ✅     |    ✅    |  ❌   |    ❌    |  ✅   |   ❌   |   ❌    |  ❌   |   ❌   |  
+| 7           |  西里尔字母   |    ✅     |    ✅    |  ❌   |    ❌    |  ❌   |   ✅   |   ❌    |  ❌   |   ❌   | 
+| 8           |  土耳其语字母  |    ✅     |    ✅    |  ❌   |    ❌    |  ❌   |   ❌   |   ✅    |  ❌   |   ❌   |
+| 9           |   泰文字母   |    ✅     |    ✅    |  ❌   |    ❌    |  ❌   |   ❌   |   ❌    |  ✅   |   ❌   | 
+| 10          |  越南语字母   |    ✅     |    ✅    |  ❌   |    ❌    |  ❌   |   ❌   |   ❌    |  ❌   |   ✅   |
 
-✅ 表示这两个字符集的字符是可组合的，可以出现在同一个 .bit 账户名中。
+✅ 表示这两个字符集的字符是可组合的，可以出现在同一个 .bit 账户名中。而❌表示这两个字符集的字符是不可组合的。
+
+> [ChatSetType 定义](https://github.com/dotbitHQ/das-types/blob/3dbce2d972e1950ba0a558daa2abb896bbc2ffca/rust/src/constants.rs#L135)
 
