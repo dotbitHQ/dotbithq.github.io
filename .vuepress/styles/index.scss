@@ -3,17 +3,14 @@
   --sidebar-width: 19rem;
 }
 
-body .navbar .site-name,
-h1,
-h2 {
-  color: $titleColor;
-}
 h1 {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
   border-bottom: 2px solid $lightDelimiterColor;
-  font-size: 2rem;
-  font-weight: 500;
-  line-height: 1.5;
+}
+
+.logo {
+  max-width: 32px;
+  max-height: 32px;
 }
 
 // NAVBAR
@@ -104,7 +101,6 @@ h1 {
     padding-left: 1.5rem;
     line-height: 1.5;
     border: 1px solid transparent;
-    color: $textColor;
   }
 
   p.sidebar-item {
@@ -119,7 +115,7 @@ h1 {
     font-size: 14px;
 
     &:hover {
-      background-color: $lightDelimiterColor !important;
+      background-color: $lightDelimiterColor;
     }
 
     &.active {
@@ -165,6 +161,26 @@ h1 {
     padding-right: 1rem;
     a {
       text-align: left;
+    }
+  }
+}
+
+
+.dark {
+  h1 {
+    border-bottom-color: var(--c-border);
+  }
+
+  .sidebar {
+    background-color: unset;
+
+    .sidebar-item {
+      &:hover {
+        background-color: unset;
+      }
+      &.active {
+        background-color: unset;
+      }
     }
   }
 }

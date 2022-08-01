@@ -1,6 +1,6 @@
 # Charsets
 
-You can register for a .bit account in multiple languages or even emoji. The supported language character sets are as follow：
+You can register for a .bit account in multiple languages or even emoji. The supported language character sets are as follows:
 
 0. [Emojis](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_emoji.txt)
 1. [Numerical Digit & Symbols](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_digit_and_symbol.txt)

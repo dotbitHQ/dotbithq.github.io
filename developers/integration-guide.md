@@ -5,7 +5,7 @@
 ## Prepare for Integration
 It's recommended to read through [docs.did.id](https://docs.did.id) document to save developers' time for integration.
 
-The key content：
+The key content:
 - [Terminology](../terminology)
 - [FAQ](../faq)
 - [Open Registration Rules](../register-das/open-registration-rules)

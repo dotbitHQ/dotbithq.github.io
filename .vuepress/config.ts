@@ -25,7 +25,8 @@ export default defineUserConfig({
   // theme and its config
   // theme: 'vuepress-theme-book',
   theme: defaultTheme({
-    darkMode: false,
+    colorMode: 'auto',
+    colorModeSwitch: true,
     contributors: false,
     logo: '/logo.png',
     repo: 'https://github.com/dotbitHQ/dotbithq.github.io',

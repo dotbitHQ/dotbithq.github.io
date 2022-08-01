@@ -60,7 +60,7 @@ After the user confirms, the data will be updated.
 
 This process eliminates complex on-chain operations and does not compromise the security of user data.
 
-### Query：`records`
+### Query: `records`
 The 'records' query is an array, each of which is an action to the current .bit account, including the following actions:
 - Add (add)
 - Delete (delete)
