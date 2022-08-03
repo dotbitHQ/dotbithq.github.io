@@ -5,7 +5,7 @@
 0. [Emoji 表情](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_emoji.txt)
 1. [数字和标点符号](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_digit_and_symbol.txt)
 2. [英文字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_en.txt)
-5. [日语假名及汉字](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ja.txt)
+5. [~~日语假名及汉字~~]（敬请期待）(https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ja.txt)
 6. [谚文字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ko.txt)
 7. [~~西里尔字母~~（敬请期待）](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ru.txt)
 8. [土耳其语字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_tr.txt)
