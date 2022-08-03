@@ -7,12 +7,12 @@ You can register for a .bit account in multiple languages or even emoji. The sup
 2. [English Alphabet](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_en.txt)
 5. [Japanese Kana & Kanji](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ja.txt)
 6. [Korean Alphabet](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ko.txt)
-7. [Cyrillic Alphabet](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ru.txt)
+7. [~~Cyrillic Alphabet~~(Coming soon)](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ru.txt)
 8. [Turkish Alphabet](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_tr.txt)
 9. [Thai Alphabet](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_th.txt)
 10. [Vietnamese Alphabets](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_vi.txt)
 
-The number of language character sets supported by .bit will increase continuously.
+The number of Charsets supported by .bit will increase continuously.
 
 ## Fraud Prevention
 
@@ -24,17 +24,16 @@ This restriction effectively avoids frauds that are difficult to recognize by or
 
 Character set combination rules:
 
-| CharSetType |                           | Emojis | Numerical Digit & Symbols | English Alphabet | Japanese Kana & Kanji | Korean Alphabet | Cyrillic Alphabet | Turkish Alphabet | Thai Alphabet | Vietnamese Alphabets |
-|:------------|:-------------------------:|:------:|:-------------------------:|:----------------:|:---------------------:|:---------------:|:-----------------:|:----------------:|:-------------:|:--------------------:|
-| 0           |          Emojis           |   ✅    |             ✅             |        ✅         |           ✅           |        ✅        |         ✅         |        ✅         |       ✅       |          ✅           |
-| 1           | Numerical Digit & Symbols |   ✅    |             ✅             |        ✅         |           ✅           |        ✅        |         ✅         |        ✅         |       ✅       |          ✅           | 
-| 2           |     English Alphabet      |   ✅    |             ✅             |        ✅         |           ❌           |        ❌        |         ❌         |        ❌         |       ❌       |          ❌           |  
-| 5           |   Japanese Kana & Kanji   |   ✅    |             ✅             |        ❌         |           ✅           |        ❌        |         ❌         |        ❌         |       ❌       |          ❌           |
-| 6           |      Korean Alphabet      |   ✅    |             ✅             |        ❌         |           ❌           |        ✅        |         ❌         |        ❌         |       ❌       |          ❌           |  
-| 7           |     Cyrillic Alphabet     |   ✅    |             ✅             |        ❌         |           ❌           |        ❌        |         ✅         |        ❌         |       ❌       |          ❌           | 
-| 8           |     Turkish Alphabet      |   ✅    |             ✅             |        ❌         |           ❌           |        ❌        |         ❌         |        ✅         |       ❌       |          ❌           |
-| 9           |       Thai Alphabet       |   ✅    |             ✅             |        ❌         |           ❌           |        ❌        |         ❌         |        ❌         |       ✅       |          ❌           | 
-| 10          |   Vietnamese Alphabets    |   ✅    |             ✅             |        ❌         |           ❌           |        ❌        |         ❌         |        ❌         |       ❌       |          ✅           |
+| CharSetType |                           | Emojis | Numerical Digit & Symbols | English Alphabet | Japanese Kana & Kanji | Korean Alphabet | Turkish Alphabet | Thai Alphabet | Vietnamese Alphabets |
+|:------------|:-------------------------:|:------:|:-------------------------:|:----------------:|:---------------------:|:---------------:|:----------------:|:-------------:|:--------------------:|
+| 0           |          Emojis           |   ✅    |             ✅             |        ✅         |           ✅           |        ✅        |        ✅         |       ✅       |          ✅           |
+| 1           | Numerical Digit & Symbols |   ✅    |             ✅             |        ✅         |           ✅           |        ✅        |        ✅         |       ✅       |          ✅           | 
+| 2           |     English Alphabet      |   ✅    |             ✅             |        ✅         |           ❌           |        ❌        |        ❌         |       ❌       |          ❌           |  
+| 5           |   Japanese Kana & Kanji   |   ✅    |             ✅             |        ❌         |           ✅           |        ❌        |        ❌         |       ❌       |          ❌           |
+| 6           |      Korean Alphabet      |   ✅    |             ✅             |        ❌         |           ❌           |        ✅        |        ❌         |       ❌       |          ❌           |
+| 8           |     Turkish Alphabet      |   ✅    |             ✅             |        ❌         |           ❌           |        ❌        |        ✅         |       ❌       |          ❌           |
+| 9           |       Thai Alphabet       |   ✅    |             ✅             |        ❌         |           ❌           |        ❌        |        ❌         |       ✅       |          ❌           | 
+| 10          |   Vietnamese Alphabets    |   ✅    |             ✅             |        ❌         |           ❌           |        ❌        |        ❌         |       ❌       |          ✅           |
 
 ✅ Indicates that the characters in these two Charsets are combinable and can appear in the same .bit account name, while ❌ indicates that the characters in these two Charsets are not combinable. 
 

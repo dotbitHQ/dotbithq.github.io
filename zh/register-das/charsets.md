@@ -7,12 +7,12 @@
 2. [英文字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_en.txt)
 5. [日语假名及汉字](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ja.txt)
 6. [谚文字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ko.txt)
-7. [西里尔字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ru.txt)
+7. [~~西里尔字母~~（敬请期待）](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ru.txt)
 8. [土耳其语字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_tr.txt)
 9. [泰文字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_th.txt)
 10. [越南语字母](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_vi.txt)
 
-.bit 支持的语言字符集将会不断增加。
+.bit 支持的字符集将会不断增加。
 
 ## 防欺诈
 
@@ -22,17 +22,16 @@
 
 字符集组合规则：
 
-| CharSetType |          | Emoji 表情 | 数字和标点符号 | 英文字母 | 日语假名及汉字 | 谚文字母 | 西里尔字母 | 土耳其语字母 | 泰文字母 | 越南语字母 |
-|:------------|:--------:|:--------:|:-------:|:----:|:-------:|:----:|:-----:|:------:|:----:|:-----:|
-| 0           | Emoji 表情 |    ✅     |    ✅    |  ✅   |    ✅    |  ✅   |   ✅   |   ✅    |  ✅   |   ✅   |
-| 1           | 数字和标点符号  |    ✅     |    ✅    |  ✅   |    ✅    |  ✅   |   ✅   |   ✅    |  ✅   |   ✅   | 
-| 2           |   英文字母   |    ✅     |    ✅    |  ✅   |    ❌    |  ❌   |   ❌   |   ❌    |  ❌   |   ❌   |  
-| 5           | 日语假名及汉字  |    ✅     |    ✅    |  ❌   |    ✅    |  ❌   |   ❌   |   ❌    |  ❌   |   ❌   |
-| 6           |   谚文字母   |    ✅     |    ✅    |  ❌   |    ❌    |  ✅   |   ❌   |   ❌    |  ❌   |   ❌   |  
-| 7           |  西里尔字母   |    ✅     |    ✅    |  ❌   |    ❌    |  ❌   |   ✅   |   ❌    |  ❌   |   ❌   | 
-| 8           |  土耳其语字母  |    ✅     |    ✅    |  ❌   |    ❌    |  ❌   |   ❌   |   ✅    |  ❌   |   ❌   |
-| 9           |   泰文字母   |    ✅     |    ✅    |  ❌   |    ❌    |  ❌   |   ❌   |   ❌    |  ✅   |   ❌   | 
-| 10          |  越南语字母   |    ✅     |    ✅    |  ❌   |    ❌    |  ❌   |   ❌   |   ❌    |  ❌   |   ✅   |
+| CharSetType |          | Emoji 表情 | 数字和标点符号 | 英文字母 | 日语假名及汉字 | 谚文字母 | 土耳其语字母 | 泰文字母 | 越南语字母 |
+|:------------|:--------:|:--------:|:-------:|:----:|:-------:|:----:|:------:|:----:|:-----:|
+| 0           | Emoji 表情 |    ✅     |    ✅    |  ✅   |    ✅    |  ✅   |   ✅    |  ✅   |   ✅   |
+| 1           | 数字和标点符号  |    ✅     |    ✅    |  ✅   |    ✅    |  ✅   |   ✅    |  ✅   |   ✅   | 
+| 2           |   英文字母   |    ✅     |    ✅    |  ✅   |    ❌    |  ❌   |   ❌    |  ❌   |   ❌   |  
+| 5           | 日语假名及汉字  |    ✅     |    ✅    |  ❌   |    ✅    |  ❌   |   ❌    |  ❌   |   ❌   |
+| 6           |   谚文字母   |    ✅     |    ✅    |  ❌   |    ❌    |  ✅   |   ❌    |  ❌   |   ❌   |
+| 8           |  土耳其语字母  |    ✅     |    ✅    |  ❌   |    ❌    |  ❌   |   ✅    |  ❌   |   ❌   |
+| 9           |   泰文字母   |    ✅     |    ✅    |  ❌   |    ❌    |  ❌   |   ❌    |  ✅   |   ❌   | 
+| 10          |  越南语字母   |    ✅     |    ✅    |  ❌   |    ❌    |  ❌   |   ❌    |  ❌   |   ✅   |
 
 ✅ 表示这两个字符集的字符是可组合的，可以出现在同一个 .bit 账户名中。而❌表示这两个字符集的字符是不可组合的。
 
