@@ -5,7 +5,7 @@ You can register for a .bit account in multiple languages or even emoji. The sup
 0. [Emojis](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_emoji.txt)
 1. [Numerical Digit & Symbols](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_digit_and_symbol.txt)
 2. [English Alphabet](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_en.txt)
-5. [Japanese Kana & Kanji](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ja.txt)
+5. [~~Japanese Kana & Kanji~~(Coming soon)](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ja.txt)
 6. [Korean Alphabet](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ko.txt)
 7. [~~Cyrillic Alphabet~~(Coming soon)](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_ru.txt)
 8. [Turkish Alphabet](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/char_set_tr.txt)
