@@ -46,7 +46,11 @@ This is made possible by Nervos CKB public chain on which .bit relies, for techn
 
 ### Can I register a sub-account?
 
-Not at this time, but the sub-account function is on the roadmap of .bit.
+Yes!
+
+The .bit sub-account is live now, and under testing. A main-account need to be in the whitelist in the test phrase to enable sub-account. If you want to join the whitelist and try sub-account, please send a application to [supermancy@did.id](supermancy@did.id). 
+
+After that, you can issue sub-accounts on your account data page [data.did.id](https://data.did.id).
 
 ### Why do I only need a signature to manage my account but no need to pay network fees? Is .bit management centralized?
 
