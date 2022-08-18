@@ -24,7 +24,7 @@ You will be deeply involved in the core development of .bit. These include:
 
 - Experience with blockchain tools(Metamask, Tronlink)
 
-- Have a certain understanding of front-end security, understand the attack principle and corresponding strategy of XSS/CSRF
+- Have a certain understanding of front-end security
 
 
 ## Nice to have 

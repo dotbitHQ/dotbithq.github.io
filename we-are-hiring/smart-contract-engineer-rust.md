@@ -6,7 +6,7 @@ You are a programmer who understands the principles of Bitcoin/Ethereum. You are
 
 ## Responsibility
 
-You will be deeply involved in the core development of .bit.   These include:
+You will be deeply involved in the core development of .bit. These include:
 
 - Design technical solutions for .bit features and implement them
 - Write high quality code and corresponding unit test cases
