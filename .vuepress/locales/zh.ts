@@ -53,6 +53,7 @@ export const sidebar: SidebarConfig = [
       '/we-are-hiring/frontend-engineer',
       '/we-are-hiring/backend-engineer-golang',
       '/we-are-hiring/smart-contract-engineer-rust',
+      '/we-are-hiring/development-team-leader',
     ],
   },
   {
