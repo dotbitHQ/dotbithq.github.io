@@ -48,12 +48,12 @@ export const sidebar: SidebarConfig = [
   {
     text: '招聘',
     children: [
-      '/we-are-hiring/position-list',
+      'zh/we-are-hiring/position-list',
       '/we-are-hiring/chief-evangelist',
-      '/we-are-hiring/frontend-engineer',
-      '/we-are-hiring/backend-engineer-golang',
-      '/we-are-hiring/smart-contract-engineer-rust',
-      '/we-are-hiring/development-team-leader',
+      'zh/we-are-hiring/frontend-engineer',
+      'zh/we-are-hiring/backend-engineer-golang',
+      'zh/we-are-hiring/smart-contract-engineer-rust',
+      'zh/we-are-hiring/development-team-leader',
     ],
   },
   {
