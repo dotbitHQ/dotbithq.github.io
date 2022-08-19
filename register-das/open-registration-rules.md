@@ -12,6 +12,11 @@
 As of 2022-04-18, .bit accounts have been released to 60%. The release of the remaining accounts is still under planing, please stay tuned. 
 :::
 
+## Release Plan 2022-10-18
+Since .bit has already integrated with mainstream wallets and Dapps, and the ecosystem is active enough, we will fully release .bit accounts with 4-9 bits.
+All 4-9 digits .bit accounts will be released at 2022-10-18 12:00PM (UTC+0).
+By then, all .bit accounts with 4 bits or more will be fully released.
+
 ## Release Plan 2022-03-09
 In consideration of fairness, only 60% of .bit accounts can be registered randomly for now.  
 As .bit integrates with more DApps and .bit’s brand awareness grows,.bit team believes that it’s time to release more accounts.   
