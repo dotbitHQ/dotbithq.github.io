@@ -16,6 +16,6 @@ There are several roles we identify   in the ecosystem and please note any organ
 
 The Sale Channel rewards, Promotion rewards, and Keeper rewards are implemented at the contract level, and the rewards will use real time gross settlement for the corresponding roles.
 
-E.g. A user registers a .bit account through https://app.gogodas.com?inviter=dasdeveloper.bit&channel=imtokenreferral.bit. The inviter -`dasdeveloper.bit` - will get the promotion bonus, which is 10% of the registration fee. The agent - `imtokenreferral.bit` - will get the sale channel bonus, which is 10% of the registration fee. And the registrar - gogodas.com - will get a bonus for a certain amount of ETH converted to CKB. The registrar's final rewards are decided by the premium percentage set by himself.
+E.g. A user registers a .bit account through https://app.did.id?inviter=dasdeveloper.bit&channel=imtokenreferral.bit. The inviter -`dasdeveloper.bit` - will get the promotion bonus, which is 10% of the registration fee. The agent - `imtokenreferral.bit` - will get the sale channel bonus, which is 10% of the registration fee. And the registrar - gogodas.com - will get a bonus for a certain amount of ETH converted to CKB. The registrar's final rewards are decided by the premium percentage set by himself.
 
 .bit is an open source project with smart contracts deployed on the blockchain. Anyone can participate in building .bit without permission. Let's build together!
