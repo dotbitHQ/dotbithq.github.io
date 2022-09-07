@@ -25,6 +25,8 @@ You will be deeply involved in the core development of .bit. These include:
 
 - Be able to proactively dive into novel territory and share knowledge on what you’ve learned
 
+- Fluent in **English** and **Chinese**
+
 ## Nice to have
 
 - Nervos CKB fundamentals

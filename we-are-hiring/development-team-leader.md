@@ -28,12 +28,13 @@ You will be deeply involved in the core development of .bit. These include:
 
 - Speaking directly, not beating around the bush, and having the ability to face and resolve conflicts
 
+- Fluent in **English** and **Chinese**
+
 ## Nice to have
 
 - Nervos CKB fundamentals
 - Worked on open source projects
 - Remote work experience
-- Communicate and write proficiently in English
 
 ## What we offers
 

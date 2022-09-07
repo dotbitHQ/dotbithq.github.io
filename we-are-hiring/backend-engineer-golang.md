@@ -30,6 +30,8 @@ You will be deeply involved in the core development of .bit. These include:
 
 - Good communication skills and strong desire for self-learning
 
+- Fluent in **English** and **Chinese**
+
 ## Nice to have
 
 - Nervos CKB fundamentals

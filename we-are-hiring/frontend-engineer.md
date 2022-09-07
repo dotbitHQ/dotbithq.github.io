@@ -20,12 +20,13 @@ You will be deeply involved in the core development of .bit. These include:
 
 - Bachelor’s degree in Computer Science, Engineering or relevant field
 
-- Proficient in Vue.js and TypeScript
+- Proficient in Vue/React and TypeScript
 
 - Experience with blockchain tools(Metamask, Tronlink)
 
 - Have a certain understanding of front-end security
 
+- Fluent in **English** and **Chinese**
 
 ## Nice to have 
 
