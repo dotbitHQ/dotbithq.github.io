@@ -17,21 +17,24 @@ Since .bit has already integrated with mainstream wallets and Dapps, and the eco
 All 4-9 digits .bit accounts will be released at 2022-10-18 12:00PM (UTC+0).
 By then, all .bit accounts with 4 bits or more will be fully released.
 
+#### Plan for accounts releasing:
+2022–10-18 12:00PM(UTC+0), release to 100%;
+
 ## Release Plan 2022-03-09
 In consideration of fairness, only 60% of .bit accounts can be registered randomly for now.  
 As .bit integrates with more DApps and .bit’s brand awareness grows,.bit team believes that it’s time to release more accounts.   
 Along with the rebranding,.bit team hereby reveals the plan for accounts releasing.
 
-### Plan for accounts releasing:
-2022–03–21 12:00PM(UTC+0), release to 40%；  
-2022–03–28 12:00PM(UTC+0), release to 45%；  
-2022–04–04 12:00PM(UTC+0), release to 50%；  
-2022–04–11 12:00PM(UTC+0), release to 55%；  
-2022–04–18 12:00PM(UTC+0), release to 60%；
+#### Plan for accounts releasing:
+2022–03–21 12:00PM(UTC+0), release to 40%;
+2022–03–28 12:00PM(UTC+0), release to 45%;  
+2022–04–04 12:00PM(UTC+0), release to 50%;  
+2022–04–11 12:00PM(UTC+0), release to 55%;  
+2022–04–18 12:00PM(UTC+0), release to 60%;
 
 > The exact releasing time for each account can be searched on [app.did.id](https://app.did.id).(Only the upcoming 25% accounts' releasing date can be searched.)
 
-### Parameters for each release:
+#### Parameters for each release:
 Release to 40% = 1717986918  
 Release to 45% = 1932735282  
 Release to 50% = 2147483647  
