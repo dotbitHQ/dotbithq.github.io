@@ -2,7 +2,7 @@
 
 请加入我们为 Web3.0 世界构建去中心化身份系统。 希望通过我们的创新和努力，让世界变得更加美好。
 
-* [布道师](https://docs.did.id/docs/we-are-hiring/chief-evangelist)
+* [开发者布道师](https://docs.did.id/docs/we-are-hiring/chief-evangelist)
 * [前端开发工程师](https://docs.did.id/docs/zh/we-are-hiring/frontend-engineer)
 * [后端开发工程师 - Golang](https://docs.did.id/docs/zh/we-are-hiring/backend-engineer-golang)
 * [合约开发工程师 - Rust](https://docs.did.id/docs/zh/we-are-hiring/smart-contract-engineer-rust)
