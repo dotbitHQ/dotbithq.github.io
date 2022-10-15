@@ -13,12 +13,15 @@ As of 2022-04-18, .bit accounts have been released to 60%. The release of the re
 :::
 
 ## Release Plan 2022-10-18
-Since .bit has already integrated with mainstream wallets and Dapps, and the ecosystem is active enough, we will fully release .bit accounts with 4-9 bits.
-All 4-9 digits .bit accounts will be released at 2022-10-18 12:00PM (UTC+0).
-By then, all .bit accounts with 4 bits or more will be fully released.
+Since .bit has already integrated with mainstream wallets and Dapps, the number of unique wallet addresses has soared, and the ecosystem is active enough.
+And the .bit-initiated NameDAO has successfully expanded the influence of .bit and our community.
+
+We decide to start our new round of accounts release on October 18 at 12:00 PM (UTC+0), to further push the development of NameDAO.
 
 #### Plan for accounts releasing:
-2022–10-18 12:00PM(UTC+0), release to 100%;
+All .bit accounts with a length of 4 or more, and are constituted with characters of pure number, pure Emoji, pure Thai, pure Korean, pure Turkish, and pure Vietnamese can be registered.
+
+![release-plan-1018.png](./release-plan-1018.png)
 
 ## Release Plan 2022-03-09
 In consideration of fairness, only 60% of .bit accounts can be registered randomly for now.  
