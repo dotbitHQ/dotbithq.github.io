@@ -5,12 +5,23 @@
 | Account Character Length | Open Registration Rules                              |
 | :----------------------- |:-----------------------------------------------------|
 | 10 digits and above      | All registrations will be open on the day of launch. |
-| 4-9 digits               | See [Release Plan](#release-plan)                    |
+| 4-9 digits               | See **Notice** below)                                |
 | 1~3 digits               | To be determined.                                    |
 
 ::: tip Notice 
-As of 2022-04-18, .bit accounts have been released to 60%. The release of the remaining accounts is still under planing, please stay tuned. 
+Up to 2022-10-19, the .bit accounts of 4~9 length are released to 60% randomly.
+
+Pure Digit Charset, pure Emoji Charset, pure Thai Charset and pure Korean Charset are 100% released.
+
+The release plan of rest accounts are still in the planning.
 :::
+
+## Release Plan 2022-10-19
+As for the fact that Vietnamese Charset and Turkish Charset, have overlap with English Charset, to avoid potential problems caused by the releasing, we decided to keep the release ratio of Vietnamese Charset and Turkish Charset to the same with English Charset. 
+
+Hence, .bit account with pure Vietnamese Charset, pure Turkish Charset and pure English Charset are released to 60%.  
+
+The release status of other Charsets are still the same with the plan on 2022-10-18.
 
 ## Release Plan 2022-10-18
 Since .bit has already integrated with mainstream wallets and Dapps, the number of unique wallet addresses has soared, and the ecosystem is active enough.
