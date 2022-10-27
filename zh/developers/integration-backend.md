@@ -79,6 +79,13 @@ https://indexer-basic.did.id
 #### 频率限制
 目前两个公开 Indexer 都没有进行频率限制，请按需使用。但如果频率超出服务承载能力，调用方会面临封禁 ip 的可能。
 
+### Unifra Indexer 服务
+[Unifra](https://unifra.io/) 是一个专业的 Web3 基建服务商。
+
+Unifra 为 .bit 社区提供了高性能、高可靠性的 .bit indexer 服务。如果开发者不想自己搭建 .bit Indexer，我们推荐使用 Unifra 的服务，可以节省您大量的开发时间。
+
+[Unifra .bit Indexer 文档](https://docs.unifra.io/chain-apis/dotbit-.bit-indexer)
+
 ### CKB 节点和 CKB Indexer
 
 .bit 的数据存储于 [Nervos CKB](https://github.com/nervosnetwork/ckb) 链上，因此自建 .bit Indexer 的开发者需要部署相应的 CKB 节点和 CKB Indexer。

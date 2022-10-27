@@ -87,9 +87,12 @@ Different registrars offer different user interfaces and payment methods.
 
 ### What happens after my account expires?
 
+:::tip
+Dutch Auction is not enabled currently, the account will be directly reclaimed after the 90 days of protection period.
+:::
+
 When a .bit account expires, it will be in a 90-day grace period. If you renew your .bit account during the grace period, you will still keep the account. If the .bit account is not renewed within the grace period, the account will enter a 28-day [Dutch Auction](https://en.wikipedia.org/wiki/Dutch_auction) period, during which the first bidder will get the account. If the auction period ends with no bids for the account, it will become publicly available for registration at a price determined by the number of characters within.
 
-** Dutch Auction is not enabled, the account will be directly reclaimed after the protection period. **
 
 ## Administration Related
 

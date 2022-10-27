@@ -8,7 +8,7 @@
 | 4-9 digits               | See **Notice** below)                                |
 | 1~3 digits               | To be determined.                                    |
 
-::: tip Notice 
+:::tip Notice 
 Up to 2022-10-19, the .bit accounts of 4~9 length are released to 60% randomly.
 
 Pure Digit Charset, pure Emoji Charset, pure Thai Charset and pure Korean Charset are 100% released.
