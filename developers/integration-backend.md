@@ -82,6 +82,12 @@ Neither of the two public Indexers is currently rate-limited, so please use them
 
 However, if the frequency exceeds the capacity of the service, the caller faces the possibility of blocked by IP.
 
+### Unifra Indexer Service
+[Unifra](https://unifra.io/) is a professional Web3 Infrastructure Service Provider.
+
+Unifra provides a high-performance and high reliability .bit indexer service for .bit community. If developers don't want to build their owner .bit Indexer, Unifra is your best choice, with which can save you tons of time.
+
+[Unifra .bit Indexer docs](https://docs.unifra.io/chain-apis/dotbit-.bit-indexer)
 
 ### CKB Node and CKB Indexer
 
