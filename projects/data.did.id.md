@@ -125,3 +125,28 @@ Therefore, if you want to modify the data for a key, you need to use "replace" o
 
 ### Caveat
 Because of the semantic ambiguity of multiple actions, we do not recommend using multiple different `action` on the same key, as it may result in different results than expected.
+
+## DWeb
+.bit supports a variety of decentralized storage protocols, currently supporting IPFS, Arweave, Resilio, Skynet, and allows users to quickly access content on decentralized storage through the bit.cc subdomain corresponding to their .bit account.
+
+### DNSLink
+The .bit account supports setting up IPNS and already supports [DNSLink](https://dnslink.io/). you can refer to the [DNSLink tutorial](https://dnslink.io/#tutorial), add a `_dnslink` resolution record to the DNS of your domain, and then set the IPNS of your .bit account to your domain name. when you access the corresponding bit.cc subdomain, the corresponding IPFS content will be presented.
+
+Take the .bit account `bestcase.bit` as an example, first refer to the [DNSLink tutorial](https://dnslink.io/#tutorial) and add the following DNS resolution record to the domain `libp2p.io`
+
+```shell
+> my-dns-tool set \
+    --type=TXT \
+    --ttl=60 \
+    --domain=libp2p.io \
+    --name=_dnslink \
+    --value="dnslink=/ipfs/Qmc2o4ZNtbinEmRF9UGouBYTuiHbtCSShMFRbBY5ZiZDmU"
+```
+
+After adding the DNS resolution record, set the IPNS value of `bestcase.bit` to `libp2p.io` using [data.did.id](https://data.did.id), as follows
+
+![Set IPNS](./add-ipns-records.png)
+
+Once set, you can visit the `bestcase.bit` subdomain [bestcase.bit.cc](https://bestcase.bit.cc/) to see if the settings are in effect.
+
+For DNSLink tutorials, usage examples, and FAQs, please see [dnslink.io](https://dnslink.io/).
