@@ -130,7 +130,7 @@ Because of the semantic ambiguity of multiple actions, we do not recommend using
 .bit supports a variety of decentralized storage protocols, currently supporting IPFS, Arweave, Resilio, Skynet, and allows users to quickly access content on decentralized storage through the bit.cc subdomain corresponding to their .bit account.
 
 ### DNSLink
-The .bit account supports setting up IPNS and already supports [DNSLink](https://dnslink.io/). you can refer to the [DNSLink tutorial](https://dnslink.io/#tutorial), add a `_dnslink` resolution record to the DNS of your domain, and then set the IPNS of your .bit account to your domain name. when you access the corresponding bit.cc subdomain, the corresponding IPFS content will be presented.
+The .bit account supports setting up IPNS and already supports [DNSLink](https://dnslink.io/). You can refer to the [DNSLink tutorial](https://dnslink.io/#tutorial), add a `_dnslink` resolution record to the DNS of your domain, and then set the IPNS of your .bit account to your domain name. When you access the corresponding bit.cc subdomain, the corresponding IPFS content will be presented.
 
 Take the .bit account `bestcase.bit` as an example, first refer to the [DNSLink tutorial](https://dnslink.io/#tutorial) and add the following DNS resolution record to the domain `libp2p.io`
 
