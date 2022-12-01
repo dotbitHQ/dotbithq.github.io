@@ -125,3 +125,28 @@ const records = [{
 
 ### 注意
 鉴于多个操作（action）的语义二义性，我们不建议针对一个 key 使用多个不同的 `action`，不然可能会造成和预期不一样的结果。
+
+## DWeb
+.bit 支持多种去中心化存储协议，目前支持 IPFS、Arweave、Resilio、Skynet。可以让用户通过 .bit 账户对应的 bit.cc 子域名快速访问到去中心化存储上的内容。
+
+### DNSLink
+.bit 账户支持设置 IPNS，并且已经支持 [DNSLink](https://dnslink.io/)。你可以参照 [DNSLink 教程](https://dnslink.io/#tutorial)，在域名的 DNS 中添加 `_dnslink` 解析记录，然后将 .bit 账户的 IPNS 设置为你的域名，当你访问对应的 bit.cc 子域名，将会呈现出对应的 IPFS 内容。
+
+以 .bit 账户 `bestcase.bit` 为例，先参照 [DNSLink 教程](https://dnslink.io/#tutorial)，在域名 `libp2p.io` 中添加如下 DNS 解析记录
+
+```shell
+> my-dns-tool set \
+    --type=TXT \
+    --ttl=60 \
+    --domain=libp2p.io \
+    --name=_dnslink \
+    --value="dnslink=/ipfs/Qmc2o4ZNtbinEmRF9UGouBYTuiHbtCSShMFRbBY5ZiZDmU"
+```
+
+添加完 DNS 解析记录后，使用 [data.did.id](https://data.did.id) 设置 `bestcase.bit` 的 IPNS 值为 `libp2p.io`，如下图：
+
+![设置 IPNS](./add-ipns-records.png)
+
+设置好后就可以访问 `bestcase.bit` 对应的 bit.cc 子域名 [bestcase.bit.cc](https://bestcase.bit.cc/) 查看设置是否生效。
+
+如需 DNSLink 的教程、使用示例和常见问题解答，请查看 [dnslink.io](https://dnslink.io/)。
