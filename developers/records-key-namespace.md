@@ -20,7 +20,7 @@ The key of a record is a hierarchical structure using `. ` separated by a hierar
 
 * **dweb**
 
-  This namespace is generally used to store decentralized network-related content, such as `dweb.ipfs`, `dweb.resilio`, etc. Also, there is a [dweb.resilio]() inside the contract. Also, there is a [whitelist](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract with the mainstream decentralized storage protocol built-in name as a legal key.
+  This namespace is generally used to store decentralized network-related content, such as `dweb.ipfs`, `dweb.resilio`, etc. Also, there is a [whitelist](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt) inside the contract with the mainstream decentralized storage protocol built-in name as a legal key.
 
 * **custom_key**
 
