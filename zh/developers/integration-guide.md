@@ -53,5 +53,5 @@
 
 如果在开发上有遇到任何问题，请随时通过以下方式联系我们：
 
-- [.bit Discord](https://discord.gg/KJp6EtSr)
+- [.bit Discord](http://discord.gg/did)
 - [.bit Twitter](https://twitter.com/dotbitHQ)

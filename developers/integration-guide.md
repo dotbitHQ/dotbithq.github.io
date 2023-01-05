@@ -55,5 +55,5 @@ We are constantly collecting projects that have completed integration with .bit.
 
 If you encounter any problem related to development, please feel free to contact us through the following ways:
 
-- [.bit Discord](https://discord.gg/KJp6EtSr)
+- [.bit Discord](http://discord.gg/did)
 - [.bit Twitter](https://twitter.com/dotbitHQ)

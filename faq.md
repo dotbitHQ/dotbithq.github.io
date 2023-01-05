@@ -44,13 +44,13 @@ This is what makes .bit unique from other decentralized domain/account systems. 
 
 This is made possible by Nervos CKB public chain on which .bit is built on, for technical details please refer to this article: [Why assets on CKB can be managed by BTC address?](others/why-assets-on-ckb-can-be-managed-by-btc-address.md)
 
-### Can I register a sub-account?
+### Can I register a SubDID?
 
 Yes!
 
-The .bit sub-account feature is now live, in beta. A main-account needs to be in the whitelist in the test phrase to enable the sub-account feature. If you wish to join the whitelist and try the sub-account feature, please send an application to [supermancy@did.id](supermancy@did.id). 
+The .bit SubDID feature is now live, in beta. A main-account needs to be in the whitelist in the test phrase to enable the SubDID feature. If you wish to join the whitelist and try the SubDID feature, please send an application to [supermancy@did.id](supermancy@did.id). 
 
-Once approved, you can issue sub-accounts on your account via the data page [data.did.id](https://data.did.id).
+Once approved, you can mint SubDIDs on your account via the data page [data.did.id](https://data.did.id).
 
 ### Why do I only need a signature to manage my account but there is no need to pay network fees? Is .bit management centralized?
 
@@ -130,6 +130,10 @@ Yes, they can be modified at any time. However, in order to avoid abuse, differe
 
 .bit account has some built-in record types, such as blockchain address, personal information, etc. It also supports users and developers to customize parse record types for rich application scenarios. For details, please refer to [record namespace](kai-fa-zhe/records-key-namespace.md).
 
+### Can I renew any .bit account?
+
+Yes. Anyone can renew any .bit account. However, renewing an account does not mean that you will gain ownership of that account. Also, if you renew your account when it is about to be recycled, the account may already be recycled and registered by a new user. This means that your renewal will be completed successfully, but you will still lose ownership of the account.
+
 ## Inviter/registrar/channel related
 
 ### What is an inviter/registrar/channel?
@@ -170,3 +174,184 @@ There are currently no plans for other suffixes. Here are some reasons:
 
 No. `.bit` is not an Internet top-level domain and therefore cannot be accessed directly on the browser. However, each .bit account corresponds to a `.bit.cc` subdomain, which can be accessed directly through a browser. If Alice owns the .bit account `alice.bit`, she then automatically owns the Internet domain `alice.bit.cc`. Alice can set up resolution records to determine what users can access if they access `alice.bit.cc`.
 
+## .bit alias related
+
+### Why do I need to freeze 201 CKB to set a .bit alias?
+
+When you set the .bit alias, the relevant information needs to be stored on the blockchain and 201 CKB of storage space is required to store the data. When you delete the .bit alias, 201 CKB will be automatically returned to your balance. There is no cost to edit the .bit alias.
+
+### Can I set more than one .bit alias for one address?
+
+Currently only one .bit alias can be set for an address.
+
+### If I set alice.bit as the .bit alias of my address, will my .bit alias be cleared when the alice.bit account expires?
+
+Your .bit alias will be invalid, but it will not be cleared. When alice.bit expires, its data will be cleared. You can delete the .bit alias at any time and at the same time 201 CKB will automatically be returned to your balance.
+
+### If the .bit account I set is sold or transferred to someone else, will my .bit alias be cleared?
+
+Your .bit alias will be invalid, but it will not be cleared. When the .bit account is sold or its owner permission is transferred, its data will be cleared. You can delete the .bit alias at any time, and at the same time 201 CKB will be automatically returned to your balance.
+
+### Can I set someone else’s .bit account as my .bit alias?
+
+Yes. Any of the following conditions must be met for the .bit alias to be valid.
+
+- Your address is the Owner / Manager of the .bit account.
+- Your address is in the data of the .bit account.
+
+### Can I set the .bit alias of my multiple addresses to the same .bit account?
+
+Yes. It will work as long as the .bit alias for each address meets one of the following conditions.
+
+- Your address is the Owner / Manager of the .bit account.
+- Your address is in the data of the .bit account.
+
+### What Apps are integrated with .bit alias now?
+Currently, .bit DApp, DIDTop, NFTScan, NFTGo, WePiggy, ShowMe have supported .bit alias. [View more](https://www.did.id/ecosystems).
+
+## SubDID related
+
+### What is the difference between a SubDID and a parent account?
+
+A SubDID is completely independent and has the same functions as the parent account. Compared to the parent account, a SubDID has the following additional features.
+
+- Priced by the Owner of the parent account;
+- Unlimited minting;
+- Completely independent. Has the same functions as a typical .bit account.
+
+### Is there a fee for minting a SubDID?
+
+The price of SubDIDs is determined by the owner of the parent account.
+
+### Is it possible to mint multiple levels of SubDIDs?
+
+No. Currently, you can only mint up to three levels of SubDIDs, such as nnn.mmmm.bit.
+
+### How can I get back the 220 CKB frozen when SubDIDs are enabled?
+
+Since enabling the SubDID feature requires on-chain storage space, 220 CKB will be frozen from the Owner address. After the parent account expires, 220 CKB will be automatically returned to your [.bit Balance](https://balance.did.id/).
+
+### Can I mint a SubDID with both owner and manager addresses? Where are the fees for the minting SubDIDs deducted from?
+
+Only the owner address can enable the SubDID feature. Once enabled, only the manager address can mint SubDIDs. The cost of minting a SubDID will be deducted from the .bit Balance of the manager address.
+
+### What is the maximum validity of a SubDID?
+
+The validity of a SubDID cannot exceed that of the parent account. Anyone can renew both the parent accounts and the SubDIDs (The renewal feature of SubDIDs is under development).
+
+### What is the maximum initial age of a minted SubDID?
+
+When minting a SubDID, you need to fill in the initial age of the SubDID, the initial age cannot exceed 20 years. After minting successfully, anyone can renew the SubDID (The renewal feature of SubDIDs is under development).
+
+### Is there a maximum number of SubDIDs?
+
+The SubDIDs can be minted without total number limitation, but the maximum number minted each time is 500.
+
+### Can SubDIDs be renewed?
+
+No, the account renewal feature is under development. Anyone can renew a SubDID after a SubDID has been minted.
+
+### Why can’t I enable SubDIDs?
+
+Currently, .bit SubDIDs are only available to .bit partners. If you would like to distribute .bit SubDIDs in your community or combine .bit SubDIDs with your product, please send an email to supermancy@did.id with a brief description of your project and a short description of how you will distribute .bit SubDIDs in the body of the email.
+
+### What is the rule of minting SubDIDs?
+
+There is no limit to the length of prefix characters and open ratios for SubDIDs. Characters need to meet the [.bit character set rules](https://docs.did.id/register-das/charsets) and can only contain one language and a combination of numbers, partial Emoji, and "-".
+
+### What is SuperDID?
+
+[SuperDID](https://superdid.id/) is the largest .bit SubDID service platform. You can set up the pricing plan for your .bit SubDIDs and SuperDID supports multiple payment methods, including BNB, ETH, Polygon, etc. You can sell your SubDIDs directly by sharing a simple link to your community. It’s easy to set up, once and for all.
+The .bit contract automatically charges 3% of the sale price on SuperDID.
+Since the .bit smart contract runs on Nervos CKB, the sale fee will be based on the CKB.
+Your income will be withdrawn to your [.bit Balance](https://balance.did.id/).
+
+### How to apply to use SubDID?
+
+Currently, .bit SubDIDs are only available to .bit partners. If you would like to distribute .bit SubDIDs in your community or combine .bit SubDIDs with your product, please send an email to supermancy@did.id with a brief description of your project and a short description of how you will distribute .bit SubDIDs in the body of the email.
+
+
+## .bit NFT on Ethereum related
+
+### What is the difference between .bit NFTs on Ethereum and a normal .bit?
+
+With the powerful cross-chain capability of .bit, you can register .bit on different public chains. Also, you can transfer .bit between any public chain address at any time.
+A .bit NFT on Ethereum and a normal .bit can be converted at any time, and they have the following differences in terms of usage functions and scenarios.
+
+1) .bit NFT on Ethereum
+
+- Have all characteristics as an NFT on Ethereum. You can view it in your ETH wallet;
+- Trade on the Ethereum NFT marketplaces, such as [OpenSea](https://opensea.io/collection/dotbit), [Element](https://element.market/collections/dotbit), [LooksRare](https://looksrare.org/collections/0x60eB332Bd4A0E2a9eEB3212cFdD6Ef03Ce4CB3b5), etc.;
+- Functions such as managing data, renewing, setting .bit alias, distributing SubDIDs, etc. are not available.
+- Available in Ethereum network.
+- The account is in a special status and cannot be used as an inviter for new account registration.
+
+2) A normal .bit account
+
+- Support for managing data, renewing fees, setting .bit aliases, distributing SubDIDs, etc.;
+- Trade on [DID.Top](https://did.top/) marketplace;
+- Available in Ethereum, BNB Chain, Polygon and Tron networks.
+
+### After converting to .bit NFT on Ethereum, can I still convert it to a regular .bit?
+
+Yes. You can convert a .bit NFT on Ethereum to a regular .bit at any time.
+
+### Where can I trade after converting to .bit NFT on Ethereum?
+
+After conversion, .bit NFT meets the ERC-721 protocol on Ethereum and can be traded on all trading markets that support Ethereum NFT.
+
+### Can I manage the data in .bit and renew it after converting to .bit NFT on Ethereum?
+
+No. After converting to .bit NFT on Ethereum, the data stored in .bit will be cleared. You can convert it to a normal .bit and then manage the data and renew it.
+
+### After converting to .bit NFT on Ethereum, how do I transfer it to someone else?
+
+You can transfer your .bit NFT to someone else in your ETH wallet directly.
+
+### My .bit expires, will my .bit NFT on Ethereum be recycled?
+
+Yes. If your .bit expires after the grace period. Your .bit NFT on Ethereum will be recycled automatically. The .bit account will be automatically recycled.
+
+### Why can’t my .bit be converted to an NFT on Ethereum?
+
+You will not be able to convert your .bit to NFT on Ethereum if your account is in one of the following states.
+
+- The .bit account is on sale at [DIDTop](https://did.top/). You can convert after delisting from [DIDTop](https://did.top/).
+- The .bit account is owned by a Tron address. You can transfer its owner rights to your Ethereum / BNB chain / Polygon address and then convert it.
+- Your .bit will expire in less than a month. You can renew it and then convert it.
+
+### When converting to .bit NFT on Ethereum, can I cancel the preparation?
+
+After the step 1, you cannot cancel it. You should click the second step “Pay to Mint” to complete the conversion process. You can convert your .bit NFT on Ethereum to a normal .bit at any time.
+
+### How do I check the expiration date of my .bit NFT on Ethereum?
+
+You can check it on [OpenSea](https://opensea.io/collection/dotbit).
+
+## Account recycling related
+
+### Will the storage deposit be automatically refunded after the account is recycled?
+
+Yes. When an account is recycled, the storage deposit will be automatically refunded to the [.bit Balance](https://balance.did.id/) of the original owner of the account. You can view the refund in your [.bit Balance](https://balance.did.id/).
+
+### Where can I check my refunded storage deposit?
+
+You can view your the refund in your [.bit Balance](https://balance.did.id/).
+
+### My .bit has been converted to NFT on Ethereum, will it be recycled?
+
+Yes. Whether your .bit is converted to NFT on Ethereum or not, your .bit account will be automatically recycled if it is not renewed in time within the grace period.
+
+### Why doesn’t the .bit account enter the reduced price auction period when it is recycled?
+
+Currently, the reduced-price auction is not active, and the account will be recycled directly after the grace period. Then anyone can register for the account.
+
+### When I registered, I paid ETH / BNB / MATIC / TRX / … Why did I receive a storage deposit in CKB after my account expired?
+
+.bit has a unique [registrar](https://docs.did.id/contribute-to-das/registrar) role in the .bit ecosystem. .bit is a set of smart contracts running on the Nervos CKB, which identifies the CKB and registers a .bit account for users. The registrar provides a register interface and a promissory service for users. Users can pay in different tokens such as ETH, BNB, MATIC, TRX, USDT, etc. to register for a .bit account.
+
+The storage deposit will be automatically returned by the .bit contract to the owner after the account is recycled by the .bit contract, so the refund is CKB.
+
+### Why is there a delay in account recovery?
+
+The expiry time of an account is based on the on-chain time. The time required for account recycling depends on the CKB network and is expected to take 10 to 30 minutes. [View the current on-chain time](https://app.did.id/explorer).
