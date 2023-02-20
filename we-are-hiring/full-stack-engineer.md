@@ -6,15 +6,15 @@ You are a programmer who understands the principles of Bitcoin/Ethereum. You are
 
 ## Responsibility
 
-Be responsible for independent development of .bit open source innovation projects, including:
+Be responsible for individual development of .bit open source innovation projects, including:
 
-1. Discuss about product requirements with CEO directly
+- Discuss about product requirements with CEO directly
 
-2. Design technical architecture, implementing code, write unit test
+- Design technical architecture, implementing code, write unit test individually
 
-3. SDK development and documentation
+- SDK development and documentation
 
-4. Collect feedback from the open source community and iterate on the product
+- Collect feedback from the open source community and iterate on the product
 
 ## Must have
 
