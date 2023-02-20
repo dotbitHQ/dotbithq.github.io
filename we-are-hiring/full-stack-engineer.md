@@ -6,7 +6,7 @@ You are a programmer who understands the principles of Bitcoin/Ethereum. You are
 
 ## Responsibility
 
-Be responsible for individual development of .bit open source innovation projects, including:
+Be responsible for **individually development** of .bit open source innovation projects, including:
 
 - Discuss about product requirements with CEO directly
 
