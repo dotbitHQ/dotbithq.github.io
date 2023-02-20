@@ -2,7 +2,7 @@
 
 ## About you
 
-You are passionate about blockchain and the open source community. You enjoy solving problems through technical means. You hate simple and repetitive tasks, and you like to get everything in order through automated tools. You believe that Web3 is the next decade opportunity. You like to think independently. You're trustworthy and a stickler for long-termism. Writing code is your job, but it's also your hobby.
+You are a programmer who understands the principles of Bitcoin/Ethereum. You are passionate about the blockchain and open source community. You enjoy solving problems with technology. You hate simple and repetitive work, and you writing automation tools & eagerness to "automate all the things". You believe that blockchain technology is the opportunity of the next decade. You like to think independently, be responsible and long-termist. Writing code is your job, but it's also your hobby.
 
 ## Responsibility
 
