@@ -50,4 +50,4 @@ Be responsible for **individually development** of .bit open source innovation p
 
 ## Apply now
 
-Please send your resume to **aliez@did.id**, we will give you feedback within 24 hours.
+Please send your resume to **joindotbit@did.id**, we will give you feedback within 24 hours.
