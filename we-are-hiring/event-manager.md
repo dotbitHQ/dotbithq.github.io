@@ -1,5 +1,7 @@
 # Event Manager
 
+## JD
+
 .bit is looking for an enthusiastic and experienced event manager to assist hosting global offline events that enhance .bit's branding image. He/she is expected to be creative and maintains a "can-do" attitude. 
 
 ## Responsiblities

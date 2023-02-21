@@ -1,5 +1,7 @@
 # BD Manager
 
+## JD
+
 .bit is looking for ambitious and energetic Business Development Managers to promote project awareness globally. Business Development Managers are responsible for driving valuable technical integrations and marketing collaborations for .bit. 
 
 ## Responsibilities
