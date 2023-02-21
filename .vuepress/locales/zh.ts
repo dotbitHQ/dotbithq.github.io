@@ -50,10 +50,10 @@ export const sidebar: SidebarConfig = [
     children: [
       '/zh/we-are-hiring/position-list',
       '/we-are-hiring/full-stack-engineer',
-      '/we-are-hiring/communication-manager.md',
-      '/we-are-hiring/digital-marketing-manager.md',
-      '/we-are-hiring/bd-manager.md',
-      '/we-are-hiring/event-manager.md',
+      '/we-are-hiring/communication-manager',
+      '/we-are-hiring/digital-marketing-manager',
+      '/we-are-hiring/bd-manager',
+      '/we-are-hiring/event-manager',
       '/we-are-hiring/chief-evangelist'
     ],
   },
