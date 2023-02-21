@@ -20,7 +20,7 @@ We are seeking a highly motivated Communication Manager to oversee our public re
 
 ## Requirements and Qualifications
 
-- - Bachelor's degree in Public Relations, Communications, Marketing, or related field.
+- Bachelor's degree in Public Relations, Communications, Marketing, or related field.
 - 5+ years of experience in Public Relations, with proven experience developing and executing successful public relations strategies
 - Excellent written and verbal communication skills [English is a must have], with the ability to develop effective messaging and pitches.
 - Ability to build and maintain relationships with media outlets, journalists, and influencers.
