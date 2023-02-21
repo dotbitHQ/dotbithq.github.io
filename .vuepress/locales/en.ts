@@ -49,6 +49,11 @@ export const sidebar: SidebarConfig = [
     text: 'We Are Hiring',
     children: [
       '/we-are-hiring/position-list',
+      '/we-are-hiring/full-stack-engineer',
+      '/we-are-hiring/communication-manager',
+      '/we-are-hiring/digital-marketing-manager',
+      '/we-are-hiring/bd-manager',
+      '/we-are-hiring/event-manager',
       '/we-are-hiring/chief-evangelist',
       '/we-are-hiring/frontend-engineer',
       '/we-are-hiring/backend-engineer-golang',
