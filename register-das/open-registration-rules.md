@@ -3,10 +3,10 @@
 .bit accounts, as a public resource, should avoid to be hoarded by a few people when its social influence is not enough to reach a broad market. Therefore .bit team adopts the strategy that makes registration opening up gradually.
 
 | Account Character Length | Open Registration Rules                              |
-| :----------------------- |:-----------------------------------------------------|
-| 10 digits and above      | All registrations will be open on the day of launch. |
-| 4-9 digits               | See **Notice** below)                                |
-| 1~3 digits               | To be determined.                                    |
+|:-------------------------|:-----------------------------------------------------|
+| 10 chars and above       | All registrations will be open on the day of launch. |
+| 4-9 chars                | See **Notice** below)                                |
+| 1~3 chars                | To be determined.                                    |
 
 :::tip Notice 
 Up to 2022-10-19, the .bit accounts of 4~9 length are released to 60% randomly.
