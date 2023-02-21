@@ -172,7 +172,7 @@ h1 {
   }
 
   .sidebar {
-    background-color: unset;
+    background-color: var(--c-bg-navbar);
 
     .sidebar-item {
       &:hover {
