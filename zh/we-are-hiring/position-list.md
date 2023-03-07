@@ -7,6 +7,8 @@
 * [Digital Marketing Manager](/we-are-hiring/digital-marketing-manager.md)
 * [BD Manager](/we-are-hiring/bd-manager.md)
 * [Event Manager](/we-are-hiring/event-manager.md)
+* [Community Manager (Ambassador Program)](/we-are-hiring/community-manager-ambassador-program.md)
+* [Social Media Specialist (Content creation and Operations)](/we-are-hiring/social-media-specialist.md)
 * [开发者布道师](/we-are-hiring/chief-evangelist.md)
 
 我们也愿意与其他不同背景的有才华的热心人士合作，包括市场、技术、运营等。
