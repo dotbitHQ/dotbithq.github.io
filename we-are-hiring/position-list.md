@@ -4,7 +4,6 @@ Join us in building a decentralized identity system for the Web3.0 world. Make t
 
 * [Full Stack Engineer](/we-are-hiring/full-stack-engineer.md)
 * [Communication Manager (PR & Influencer)](/we-are-hiring/communication-manager.md)
-* [Digital Marketing Manager](/we-are-hiring/digital-marketing-manager.md)
 * [BD Manager](/we-are-hiring/bd-manager.md)
 * [Event Manager](/we-are-hiring/event-manager.md)
 * [Community Manager (Ambassador Program)](/we-are-hiring/community-manager-ambassador-program.md)
