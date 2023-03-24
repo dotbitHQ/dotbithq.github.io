@@ -5,7 +5,7 @@
 | Account Character Length | Open Registration Rules                              |
 |:-------------------------|:-----------------------------------------------------|
 | 10 chars and above       | All registrations will be open on the day of launch. |
-| 4-9 chars                | See **Notice** below)                                |
+| 4-9 chars                | See **Notice** below                                 |
 | 1~3 chars                | To be determined.                                    |
 
 :::tip Notice 
