@@ -48,7 +48,7 @@ This is made possible by Nervos CKB public chain on which .bit is built on, for 
 
 Yes!
 
-The .bit SubDID feature is now live, in beta. A main-account needs to be in the whitelist in the test phrase to enable the SubDID feature. If you wish to join the whitelist and try the SubDID feature, please send an application to [supermancy@did.id](supermancy@did.id). 
+The .bit SubDID feature is now live, in beta. A main-account needs to be in the whitelist in the test phrase to enable the SubDID feature. If you wish to join the whitelist and try the SubDID feature, please send an application to [supermancy@did.id](mailto:supermancy@did.id). 
 
 Once approved, you can mint SubDIDs on your account via the data page [data.did.id](https://data.did.id).
 
@@ -251,9 +251,9 @@ The SubDIDs can be minted without total number limitation, but the maximum numbe
 
 No, the account renewal feature is under development. Anyone can renew a SubDID after a SubDID has been minted.
 
-### Why can’t I enable SubDIDs?
+### Why can’t I enable SubDIDs? How to apply to use SubDIDs?
 
-Currently, .bit SubDIDs are only available to .bit partners. If you would like to distribute .bit SubDIDs in your community or combine .bit SubDIDs with your product, please send an email to supermancy@did.id with a brief description of your project and a short description of how you will distribute .bit SubDIDs in the body of the email.
+Currently, SubDID implements a whitelist system. All .bit accounts with a length of no less than 8 characters are automatically included in the whitelist. If you wish to use .bit SubDID in your community or product but your .bit account is not yet on the whitelist, please send an email to [supermancy@did.id](mailto:supermancy@did.id). The email content should include a brief introduction of the project/community, as well as a concise explanation of how and when to start distributing .bit SubDIDs.
 
 ### What is the rule of minting SubDIDs?
 
@@ -265,11 +265,6 @@ There is no limit to the length of prefix characters and open ratios for SubDIDs
 The .bit contract automatically charges 3% of the sale price on SuperDID.
 Since the .bit smart contract runs on Nervos CKB, the sale fee will be based on the CKB.
 Your income will be withdrawn to your [.bit Balance](https://balance.did.id/).
-
-### How to apply to use SubDID?
-
-Currently, .bit SubDIDs are only available to .bit partners. If you would like to distribute .bit SubDIDs in your community or combine .bit SubDIDs with your product, please send an email to supermancy@did.id with a brief description of your project and a short description of how you will distribute .bit SubDIDs in the body of the email.
-
 
 ## .bit NFT on Ethereum related
 
