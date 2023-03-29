@@ -8,6 +8,23 @@ h1 {
   border-bottom: 2px solid $lightDelimiterColor;
 }
 
+.theme-default-content {
+  h3 {
+    padding-top: calc(0.2rem + var(--navbar-height));
+  }
+  h5 {
+    margin-top: unset;
+    padding-top: unset;
+  }
+  h5 + p {
+    margin-top: 0.5rem;
+  }
+  h3 + h5 {
+    margin-top: calc(0.5rem - var(--navbar-height));
+    padding-top: calc(0.5rem + var(--navbar-height));
+  }
+}
+
 .logo {
   max-width: 32px;
   max-height: 32px;
@@ -104,7 +121,7 @@ h1 {
   }
 
   p.sidebar-item {
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     font-size: 14px;
     font-weight: normal;
     text-transform: uppercase;
@@ -126,7 +143,6 @@ h1 {
   }
 
   a.sidebar-item.sidebar-heading {
-    margin-bottom: 5px;
     font-weight: normal;
   }
 }

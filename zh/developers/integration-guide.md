@@ -9,7 +9,7 @@
 - [术语](../terminology)
 - [常见问题](../faq)
 - [开放注册规则](../register-das/open-registration-rules)
-- [解析记录命名空间/支持的公链](./records-key-namespace)
+- [数据容器（Data Container）](../technical-details/data-container.md)
 
 ## 接入指引
 

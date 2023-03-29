@@ -7,6 +7,7 @@ export const sidebar: SidebarConfig = [
   {
     text: '注册 .bit',
     children: [
+      '/zh/register-das/registration-process',
       '/zh/register-das/pricing',
       '/zh/register-das/open-registration-rules',
       '/zh/register-das/charsets',
@@ -17,9 +18,15 @@ export const sidebar: SidebarConfig = [
     ],
   },
   {
-    text: '生态项目',
+    text: '技术细节',
     children: [
-      '/zh/projects/data.did.id'
+      '/zh/technical-details/data-container',
+      '/zh/technical-details/alias',
+      '/zh/technical-details/subdid',
+      '/zh/technical-details/lifecycle',
+      '/zh/technical-details/multichain-principle',
+      '/zh/technical-details/permissions',
+      '/zh/technical-details/eth-nft',
     ],
   },
   {
@@ -41,8 +48,13 @@ export const sidebar: SidebarConfig = [
       '/zh/developers/integration-backend',
       '/zh/developers/wallet-integration',
       '/zh/developers/dotbit-alias',
-      '/zh/developers/records-key-namespace',
       '/zh/developers/dotbit-libraries',
+    ],
+  },
+  {
+    text: '生态项目',
+    children: [
+      '/zh/projects/data.did.id'
     ],
   },
   {

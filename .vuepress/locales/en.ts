@@ -41,7 +41,6 @@ export const sidebar: SidebarConfig = [
       '/developers/integration-backend',
       '/developers/wallet-integration',
       '/developers/dotbit-alias',
-      '/developers/records-key-namespace',
       '/developers/dotbit-libraries',
     ],
   },

@@ -8,9 +8,9 @@
 
 .bit 账户的结构如下：
 
-<img src="./image-20210620235300201.png" alt=".bit 账户结构" />
+<img src="./image-account-structure.png" alt=".bit 账户结构" />
 
-.bit 是一个去中心化应用，运行在 [Nervos CKB](https://www.nervos.org/) 上。.bit 账户以及账户的解析记录均存储在链上。Nervos CKB 是一条采用 UTXO 模型的，架构高度开放的 PoW 公链。.bit 以**开源**的方式提供一套完整的组件，包括：
+.bit 是一个去中心化协议，运行在 [Nervos CKB](https://www.nervos.org/) 上。.bit 账户以及账户的解析记录均存储在链上。Nervos CKB 是一条采用 UTXO 模型的，架构高度开放的 PoW 公链。.bit 以**开源**的方式提供一套完整的组件，包括：
 
 1. **Core Protocol**
 
