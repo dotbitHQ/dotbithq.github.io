@@ -174,40 +174,40 @@ There are currently no plans for other suffixes. Here are some reasons:
 
 No. `.bit` is not an Internet top-level domain and therefore cannot be accessed directly on the browser. However, each .bit account corresponds to a `.bit.cc` subdomain, which can be accessed directly through a browser. If Alice owns the .bit account `alice.bit`, she then automatically owns the Internet domain `alice.bit.cc`. Alice can set up resolution records to determine what users can access if they access `alice.bit.cc`.
 
-## .bit alias related
+## .bit Alias related
 
-### Why do I need to freeze 201 CKB to set a .bit alias?
+### If I had set up a .bit Alias before and froze 201 CKB, how can I get it back?
 
-When you set the .bit alias, the relevant information needs to be stored on the blockchain and 201 CKB of storage space is required to store the data. When you delete the .bit alias, 201 CKB will be automatically returned to your balance. There is no cost to edit the .bit alias.
+Now, setting up a .bit Alias no longer requires any fees. If you have set up a .bitAlias before and had 201 CKB frozen, you can retrieve it at any time at [.bit Alias App](https://app.did.id/alias).
 
-### Can I set more than one .bit alias for one address?
+### Can I set more than one .bit Alias for one address?
 
-Currently only one .bit alias can be set for an address.
+Currently only one .bit Alias can be set for an address.
 
-### If I set alice.bit as the .bit alias of my address, will my .bit alias be cleared when the alice.bit account expires?
+### If I set alice.bit as the .bit Alias of my address, will my .bit Alias be cleared when the alice.bit account expires?
 
-Your .bit alias will be invalid, but it will not be cleared. When alice.bit expires, its data will be cleared. You can delete the .bit alias at any time and at the same time 201 CKB will automatically be returned to your balance.
+Your .bit Alias will be invalid, but it will not be cleared. When alice.bit expires, its data will be cleared. You can delete the .bit Alias at any time.
 
-### If the .bit account I set is sold or transferred to someone else, will my .bit alias be cleared?
+### If the .bit account I set is sold or transferred to someone else, will my .bit Alias be cleared?
 
-Your .bit alias will be invalid, but it will not be cleared. When the .bit account is sold or its owner permission is transferred, its data will be cleared. You can delete the .bit alias at any time, and at the same time 201 CKB will be automatically returned to your balance.
+Your .bit Alias will be invalid, but it will not be cleared. When the .bit account is sold or its owner permission is transferred, its data will be cleared. You can delete the .bit Alias at any time.
 
-### Can I set someone else’s .bit account as my .bit alias?
+### Can I set someone else’s .bit account as my .bit Alias?
 
-Yes. Any of the following conditions must be met for the .bit alias to be valid.
-
-- Your address is the Owner / Manager of the .bit account.
-- Your address is in the data of the .bit account.
-
-### Can I set the .bit alias of my multiple addresses to the same .bit account?
-
-Yes. It will work as long as the .bit alias for each address meets one of the following conditions.
+Yes. Any of the following conditions must be met for the .bit Alias to be valid.
 
 - Your address is the Owner / Manager of the .bit account.
 - Your address is in the data of the .bit account.
 
-### What Apps are integrated with .bit alias now?
-Currently, .bit DApp, DIDTop, NFTScan, NFTGo, WePiggy, ShowMe have supported .bit alias. [View more](https://www.did.id/ecosystems).
+### Can I set the .bit Alias of my multiple addresses to the same .bit account?
+
+Yes. It will work as long as the .bit Alias for each address meets one of the following conditions.
+
+- Your address is the Owner / Manager of the .bit account.
+- Your address is in the data of the .bit account.
+
+### What Apps are integrated with .bit Alias now?
+Currently, .bit DApp, DIDTop, NFTScan, NFTGo, WePiggy, ShowMe have supported .bit Alias. [View more](https://www.did.id/ecosystems).
 
 ## SubDID related
 
@@ -277,13 +277,13 @@ A .bit NFT on Ethereum and a normal .bit can be converted at any time, and they 
 
 - Have all characteristics as an NFT on Ethereum. You can view it in your ETH wallet;
 - Trade on the Ethereum NFT marketplaces, such as [OpenSea](https://opensea.io/collection/dotbit), [Element](https://element.market/collections/dotbit), [LooksRare](https://looksrare.org/collections/0x60eB332Bd4A0E2a9eEB3212cFdD6Ef03Ce4CB3b5), etc.;
-- Functions such as managing data, renewing, setting .bit alias, distributing SubDIDs, etc. are not available.
+- Functions such as managing data, renewing, setting .bit Alias, distributing SubDIDs, etc. are not available.
 - Available in Ethereum network.
 - The account is in a special status and cannot be used as an inviter for new account registration.
 
 2) A normal .bit account
 
-- Support for managing data, renewing fees, setting .bit aliases, distributing SubDIDs, etc.;
+- Support for managing data, renewing fees, setting .bit Aliases, distributing SubDIDs, etc.;
 - Trade on [DID.Top](https://did.top/) marketplace;
 - Available in Ethereum, BNB Chain, Polygon and Tron networks.
 

@@ -24,7 +24,7 @@ If you want to resolve .bit Alias in frontend, you need to use [das-sdk-js](http
 
 > More information in [Frontend Integration](./integration-frontend.md)
 
-All you need to do is invoke the `reverseRecord` method and pass in the parameters to complete the resolution of the .bit alias.
+All you need to do is invoke the `reverseRecord` method and pass in the parameters to complete the resolution of the .bit Alias.
 
 #### Example
 ```javascript
