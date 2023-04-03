@@ -6,7 +6,7 @@
 接入方可以参考交互设计指南，并结合自己的实际场景，来决定 .bit 在钱包中的实际效果。
 
 - [.bit 正向解析交互设计指南](https://sedate-pleasure-684.notion.site/bit-5a71d3f7c1f147ae9264769bb97d743a)
-- [.bit alias 交互设计指南](https://sedate-pleasure-684.notion.site/bit-alias-73bbde1179c54c02a754bc30788456dc)
+- [.bit Alias 交互设计指南](https://sedate-pleasure-684.notion.site/bit-alias-73bbde1179c54c02a754bc30788456dc)
 
 
 ## UI 组件
