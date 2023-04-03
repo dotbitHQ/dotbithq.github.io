@@ -178,7 +178,7 @@ No. `.bit` is not an Internet top-level domain and therefore cannot be accessed 
 
 ### If I had set up a .bit Alias before and froze 201 CKB, how can I get it back?
 
-Now, setting up a .bit Alias no longer requires any fees. If you have set up a .bitAlias before and had 201 CKB frozen, you can retrieve it at any time at [.bit Alias App](https://app.did.id/alias).
+Now, setting up a .bit Alias no longer requires any fees. If you have set up a .bit Alias before and had 201 CKB frozen, you can retrieve it at any time at [.bit Alias App](https://app.did.id/alias).
 
 ### Can I set more than one .bit Alias for one address?
 
