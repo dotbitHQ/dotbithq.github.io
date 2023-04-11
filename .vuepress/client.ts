@@ -1,5 +1,7 @@
 import { defineClientConfig } from '@vuepress/client'
 import Redirect from './components/Redirect.vue'
+import CopyAddress from './components/CopyAddress.vue'
+import CopyAddressZh from './components/CopyAddressZh.vue'
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
@@ -29,6 +31,8 @@ async function waitFor(selector: string, timeout = 2000) {
 export default defineClientConfig({
   enhance: ({ app, router, siteData }) => {
     app.component(Redirect.name, Redirect)
+    app.component(CopyAddress.name, CopyAddress)
+    app.component(CopyAddressZh.name, CopyAddressZh)
 
     // redirect legacy path to new path
     router.beforeEach((to, from, next) => {
