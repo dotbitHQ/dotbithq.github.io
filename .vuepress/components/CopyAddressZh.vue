@@ -15,8 +15,6 @@ h1 {
 }
 
 .copy-address {
-  text-align: center;
-
   button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -29,7 +27,6 @@ h1 {
   }
 }
 .address {
-  font-size: 14px;
 }
 .tooltip {
   position: relative;
