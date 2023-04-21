@@ -1,6 +1,6 @@
-# Buidl applications on .bit
+# Build applications on .bit
 
-<img src="../imgs/image-20210721120500021.png" alt=".bit Records" style="zoom:50%;" />
+<img src="../imgs/image-data-container.png" alt=".bit Records" style="zoom:50%;" />
 
 There are several ideas for developing applications based on .bit.
 
