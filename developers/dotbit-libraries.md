@@ -9,7 +9,7 @@ We provided different open-source libraries to meet different development scenar
 
 ## Frontend
 
-### [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js)
+### [dotbit.js](https://github.com/dotbitHQ/dotbit.js)
 This is a JS SDK for resolving .bit account data.
 
 ### [das-ui-shared](https://github.com/dotbitHQ/das-ui-shared)

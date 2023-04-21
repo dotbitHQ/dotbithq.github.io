@@ -9,7 +9,7 @@ sidebarDepth: 1
 
 ## 前端
 
-### [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js)
+### [dotbit.js](https://github.com/dotbitHQ/dotbit.js)
 这是一个用于解析 .bit 账户数据的 JS SDK。
 
 ### [das-ui-shared](https://github.com/dotbitHQ/das-ui-shared)
@@ -20,7 +20,7 @@ sidebarDepth: 1
 ### [das-account-indexer](https://github.com/dotbitHQ/das-account-indexer)
 这是一个简单的后端 JSON-RPC 服务，提供了对于 .bit 账户的数据和别名的解析。
 
-同时这也是 [das-sdk-js](#das-sdk-js) 所依赖的后端服务。
+同时这也是 [dotbit.js](#dotbit.js) 所依赖的后端服务。
 
 ### [das-database](https://github.com/dotbitHQ/das-database)
 这是一个简单的区块解析工具，可以从 CKB 公链上解析 .bit 的不同的数据（如注册、编辑、买卖、转移等等）并存入本地数据库。

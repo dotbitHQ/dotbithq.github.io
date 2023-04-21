@@ -20,7 +20,7 @@ Users can visit [.bit Alias App](https://app.did.id/alias) and log in their wall
 ## Resolve .bit Alias
 
 ### Frontend Resolution
-If you want to resolve .bit Alias in frontend, you need to use [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js).
+If you want to resolve .bit Alias in frontend, you need to use [dotbit.js](https://github.com/dotbitHQ/dotbit.js).
 
 > More information in [Frontend Integration](./integration-frontend.md)
 

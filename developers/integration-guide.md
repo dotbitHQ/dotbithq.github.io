@@ -9,7 +9,7 @@ The key content:
 - [Terminology](../terminology)
 - [FAQ](../faq)
 - [Open Registration Rules](../register-das/open-registration-rules)
-- [Record Namespaces/Supported Chains](./records-key-namespace)
+- [Data Container](../technical-details/data-container.md)
 
 ## Integration Guide
 

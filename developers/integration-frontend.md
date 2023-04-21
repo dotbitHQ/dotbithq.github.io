@@ -1,49 +1,53 @@
-# Frontend Integration
+# Integrating .bit into Frontend
 
-## [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js)
-[das-sdk-js](https://github.com/dotbitHQ/das-sdk-js) is a NPM package that encapsulates JSON-RPC calls to indexer.
+## dotbit.js
+[dotbit.js](https://github.com/dotbitHQ/dotbit.js) is an npm package that wraps the JSON-RPC calls to the indexer.
 
-The dapp only need to integrate this SDK and invoke corresponding API, whose data is provided by [das-account-indexer](./integration-backend.md#das-account-indexer), can get the needed data.  
+Dapps only need to integrate this SDK and call the corresponding interfaces (data provided by .bit [das-account-indexer](./integration-backend.md#das-account-indexer)) to obtain the required data.
 
-> Note that after the application gets the value of the user-set data, it should always verify the validity of the value.
+> Note that after obtaining the value of the data set by the user, the validity of its value should be verified.
 
-> [das-sdk-js Document](https://github.com/dotbitHQ/das-sdk-js)
+> [dotbit.js documentation](https://github.com/dotbitHQ/dotbit.js)
 
-### Prerequisites
-This SDK relies on the JSON-RPC service provided by [das-account-indexer](./integration-backend.md).
+### Dependencies
+Using this SDK requires the JSON-RPC service provided by [das-account-indexer](./integration-backend.md).
 
-We recommend that developers buidl their own .bit Indexer, but developers can use the official .bit Indexer service for development and testing. See:
-> [Official Indexer Service](./integration-backend.md#official-indexer-service)
+We recommend that developers build their own .bit Indexer, but developers can use the official .bit Indexer service for development and testing during the development phase. For details, please refer to:
+> [Official Indexer service](./integration-backend.md#official-indexer-service)
 
-### Usage Example
+### Usage example
 
 ```javascript
-import Das from 'das-sdk'
+// For ES Module
+import { createInstance } from 'dotbit'
+const dotbit = createInstance()
 
-const das = new Das({
-  url: 'https://indexer-v1.did.id',
-})
-
-das.records('dasloveckb.bit').then(console.log)
+// Get the account info of a .bit account
+dotbit.records("jeffx.bit").then(console.log)
 ```
 
 **Output**
-```json5
-[{
-  key: 'address.eth',
-  label: 'coinbase',
-  value: '0x1234...4567',
-  ttl: 300,
-  avatar: 'https://display.did.id/identicon/dasloveckb.bit'
-}, {
-  key: 'address.eth',
-  label: 'onchain',
-  value: '0x2345...6789',
-  ttl: 300,
-  avatar: 'https://display.did.id/identicon/dasloveckb.bit'
-}]
+```js
+[
+    {
+      key: 'address.polygon',
+      label: 'Usually',
+      value: '0xB2bE2887A26f44555835EEaCC47d65B88b6B42c2',
+      ttl: '300',
+      type: 'address',
+      subtype: 'polygon'
+    },
+  {
+    key: 'profile.discord',
+    label: 'Discord Username',
+    value: 'west.bit#8906',
+    ttl: '300',
+    type: 'profile',
+    subtype: 'discord'
+  },
+]
 ```
 
-#### Next Step
-- If you need to integrate .bit in backend, please read [Backend Integration](./integration-backend.md)
-- If you need design guide, please see [Design Guide](./design-guide.md)
+#### Next steps
+- If you need to integrate .bit on the backend, please refer to [Backend Integration](./integration-backend.md)
+- If you need to view the design guide, please see [Design Guide](./design-guide.md)

@@ -41,7 +41,7 @@
 
 
 
-基于 .bit 账户的解析记录开发应用，则无需了解 Nervos CKB 以及 .bit 的技术细节。只需了解如何使用[das-account-indexer](https://github.com/dotbitHQ/das-account-indexer) 或 [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js) 获取某个账户的解析记录，或查询某个地址是否持有 .bit 账户。以及了解 .bit 的 [数据容器（Data Container）](../technical-details/data-container.md)。
+基于 .bit 账户的解析记录开发应用，则无需了解 Nervos CKB 以及 .bit 的技术细节。只需了解如何使用[das-account-indexer](https://github.com/dotbitHQ/das-account-indexer) 或 [dotbit.js](https://github.com/dotbitHQ/dotbit.js) 获取某个账户的解析记录，或查询某个地址是否持有 .bit 账户。以及了解 .bit 的 [数据容器（Data Container）](../technical-details/data-container.md)。
 
 
 

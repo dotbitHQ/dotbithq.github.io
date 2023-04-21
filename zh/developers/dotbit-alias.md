@@ -19,7 +19,7 @@
 ## 解析 .bit 别名
 
 ### 前端解析
-若要前端解析 .bit 别名，要使用 [das-sdk-js](https://github.com/dotbitHQ/das-sdk-js) 。
+若要前端解析 .bit 别名，要使用 [dotbit.js](https://github.com/dotbitHQ/dotbit.js) 。
 
 > 详见 [前端集成 .bit](./integration-frontend.md)
 
