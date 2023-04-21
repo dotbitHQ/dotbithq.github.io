@@ -1,13 +1,13 @@
 # .bit Data Container
 
-The .bit Data Container is the core capability of .bit, and its powerful extension capabilities also come from the flexibility of parsing records.
-Each .bit account has a data container in which users can store different data, which is called a parsing record.
+The .bit Data Container is the core capability of .bit, and its powerful extension capabilities also come from the flexibility of records.
+Each .bit account has a data container in which users can store different data, which is called a record.
 
 Its basic structure is as follows:
 
 <img src="../imgs/image-data-container.png" alt=".bit 解析记录" style="zoom:50%;" />
 
-Developers can use APIs or SDKs to read different parsing records to complete different tasks, such as wallet transfers, community identity, Dweb, and so on. The data structure obtained by developers is generally as follows:
+Developers can use APIs or SDKs to read different records to complete different tasks, such as wallet transfers, community identity, Dweb, and so on. The data structure obtained by developers is generally as follows:
 
 ```json
 [
@@ -31,41 +31,41 @@ Developers can use APIs or SDKs to read different parsing records to complete di
   }
 ]
 ```
-## Parsing Record
-Each piece of data associated with a .bit account, such as a BTC address or a Twitter account, is called a parsing record.
+## Record
+Each piece of data associated with a .bit account, such as a BTC address or a Twitter account, is called a record.
 
-Each parsing record is a combination of a key and a value, along with a label and time-to-live (TTL).
+Each record is a combination of a key and a value, along with a label and time-to-live (TTL).
 
-### Parsing Record Namespace
-Since parsing records are essentially key-value pairs of strings, in theory, any type of data can be stored. However, to ensure consistency and cooperation within the ecosystem, we have standardized the parsing record namespace. It is essentially a protocol that, when followed, enables good cooperation between applications. There are three main types:
+### Record Namespace
+Since records are essentially key-value pairs of strings, in theory, any type of data can be stored. However, to ensure consistency and cooperation within the ecosystem, we have standardized the record namespace. It is essentially a protocol that, when followed, enables good cooperation between applications. There are three main types:
 
 - **address**  
-  This type of parsing record is mainly used to record users' blockchain addresses, including ETH, BTC, DogeCoin, and so on. They are in the form of `address.0`, `address.60`, etc.  
+  This type of record is mainly used to record users' blockchain addresses, including ETH, BTC, DogeCoin, and so on. They are in the form of `address.0`, `address.60`, etc.  
   Here, `0` and `60` represent specific blockchains, following the SLIP-0044 specification. For specific definitions, see [SLIP-0044](https://github.com/satoshilabs/slips/blob/master/slip-0044.md).
 
 - **profile**  
-  This type of parsing record is mainly used to record users' personal social information, including Twitter, email, Telegram, and so on. They are in the form of `profile.twitter`, `profile.email`, and so on.
+  This type of record is mainly used to record users' personal social information, including Twitter, email, Telegram, and so on. They are in the form of `profile.twitter`, `profile.email`, and so on.
 
 - **dweb**  
-  This type of parsing record is mainly used to record users' decentralized storage information, including IPFS, Arweave, and so on. They are in the form of `dweb.ipfs`, `dweb.arweave`, and so on.
+  This type of record is mainly used to record users' decentralized storage information, including IPFS, Arweave, and so on. They are in the form of `dweb.ipfs`, `dweb.arweave`, and so on.
 
-Only keys of the specified namespace can be set for the above three types of parsing records.
+Only keys of the specified namespace can be set for the above three types of records.
 
-> View the specific whitelist: [.bit Parsing Record Namespace](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt)
+> View the specific whitelist: [.bit Record Namespace](https://github.com/dotbitHQ/cell-data-generator/blob/master/data/record_key_namespace.txt)
 
 - **custom_key**  
   To meet developers' personalized needs, we have added the `custom_key` type.  
   This namespace is unconstrained, and developers can create any number of sub-namespaces with different names and define their meanings under this namespace. For example, `custom_key.bitcc_config`, `custom_key.pgp.master_key`, and so on.
 
-### Parsing Record Key
-The namespace and subtype together form the key of the parsing record.
+### Record Key
+The namespace and subtype together form the key of the record.
 
-Multiple identical keys can exist within a .bit account. To differentiate between parsing records, labels are used.
+Multiple identical keys can exist within a .bit account. To differentiate between records, labels are used.
 
-### Parsing Record Value
-The .bit contract does not verify the legality of the value of parsing records. .bit only provides a convention. For example, users generally set the value of `address.btc` to a BTC address. However, when an application uses this value, it should check whether it is a valid BTC address.
+### Record Value
+The .bit contract does not verify the legality of the value of records. .bit only provides a convention. For example, users generally set the value of `address.btc` to a BTC address. However, when an application uses this value, it should check whether it is a valid BTC address.
 
-### Parsing Record Label
+### Record Label
 Different labels can even be set for different BTC/ETH addresses. In fact, multiple records of the same type can be added in .bit, differentiated by custom labels.
 
 ## FAQ
@@ -97,4 +97,4 @@ Yes, they can be modified at any time. However, different operations will have d
 ### What is a `custom_key`?
 
 .bit has built-in some types of resolution records, such as blockchain addresses and personal information. At the same time, it also supports users and developers to customize resolution record types to support rich application scenarios.
-See also: [Resolution Record Namespace](#resolution-record-namespace).
+See also: [Record Namespace](#record-namespace).
