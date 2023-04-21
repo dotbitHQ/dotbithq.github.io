@@ -1,16 +1,60 @@
 # Terminology
 
-* **.BIT**, generally refers the entire .BIT project.
-* **.bit account**, refers to each individual account, e.g. alice.bit, bob.bit.
-* **.bit domain**, is another name for a .bit account.
-* **Registration**, refers to the process of obtaining a .bit account by paying fee to the .bit contract.
-* **Owner**, each account has an owner, who owns the .bit account and can modify the owner and administrator.
-* **Manager**, each account has an manager, who owns the .bit account and can modify the account's record.
-* **Record**, every data associated with a .bit account, such as a BTC address, a Twitter account,etc., is called a record.
-* **Registration Fee**, there is a cost of annual fee for holding a .bit account, which varies for accounts with different character lengths.
-* **Storage Fee**, each account's record is stored on chain and requires a fixed size storage space, so a storage fee is required. The storage fee will be refunded when the account is reclaimed.
-* **Inviter**, any .bit account can be an inviter. For registration, you can get a discount after filling in an exisiting .bit account as an inviter; Others also can get a bonus when they fill in your .bit account as an inviter while registering for their accounts.
-* **Channel**, any product that integrates with .bit registration service (such as a wallet) can be called a channel. If a user completes the registration process through a channel, the channel can earn part of the registration fee.
-* **Registrar**, an organization/individual that provides a registration interface and payment methods for users.
-* **On-chain time**, the time on the blockchain, which usually lags slightly behind real world time and does not pass as evenly as real world time.
+### .BIT
+##### .bit
+Generally refers to the entire .bit open-source project.
+##### .bit account
+Refers to each individual account, such as alice.bit, bob.bit.
+##### .bit domain
+Another name for a .bit account.
 
+### Register .bit
+##### Register
+The process of obtaining a .bit account by paying a fee to the .bit contract.
+##### Registration fee
+Holding a .bit account requires paying a certain fee annually, and the fees vary depending on the length of the account name.
+##### Storage fee
+The resolution records of each account are stored on the blockchain and require a fixed storage space, so a certain storage fee must be paid. The storage fee will be refunded after the account expires and is reclaimed.
+##### Inviter
+Any .bit account can act as an inviter. When you register an account, you fill in a .bit account as the inviter, and you can get certain discounts; when someone else registers an account and fills in your .bit account as the inviter, you can also get certain rewards.
+##### Channel
+Any product (such as a wallet) that integrates .bit registration services can be called a channel. If a user completes the registration through the channel, the channel can get a certain proportion of the registration fee.
+##### Registrar
+An organization or individual that provides users with a registration interface and payment method.
+##### On-chain time
+Refers to the time on the blockchain, which is usually slightly behind the real-world time and does not pass uniformly like real-world time.
+
+### Manage .bit
+##### Owner
+Each account has an owner who owns the ownership of the .bit account and can modify the owner and administrator.
+##### Administrator
+Each account has an administrator who has the management rights of the .bit account and can modify the resolution records of the account.
+##### Resolution record
+Each piece of data associated with a .bit account, such as a BTC address or a Twitter account, is called a resolution record.
+
+### .bit Contract
+##### Nervos
+The .bit contract is deployed on [Nervos](https://nervos.org), a public chain with smart contracts based on the Cell (UTXO) model.
+
+##### Cell
+Cell is the most basic unit of Nervos. Cell is a concept abstracted from the UTXO model of Bitcoin and can carry many different types of data: tokens, code, JSON, etc.
+
+According to different uses, the Cells used by .bit have different names:
+- AccountCell: the basic unit carrying the .bit account, and a primary account has an AccountCell.
+- IncomeCell: the Cell that carries the CKB balance within the .bit ecosystem, which is often used in commission rebates, reward scenarios, etc.
+- BalanceCell: the Cell that carries the .bit account balance.
+
+> View all Cell types: [Cell Protocol v1](https://github.com/dotbitHQ/das-contracts/blob/master/docs/zh-hans/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/Cell-%E7%BB%93%E6%9E%84%E5%8D%8F%E8%AE%AE.md)
+
+### Third-Party Terms
+##### coin_type
+A digital string that meets the SLIP-0044 specification, used to represent a token or public chain.
+
+In .bit, the coin_type is mainly used in the resolution records of the [data container](./technical-details/data-container.md) to distinguish between different public chain addresses.
+
+> View the complete [SLIP-0044](https://github.com/satoshilabs/slips/blob/master/slip-0044.md)
+
+##### chain_id
+An Ethereum network identifier that complies with the EIP-155 specification. Used to distinguish between different EVM-compatible chains/networks.
+
+> View the full list of `chain_id` networks: [ChainList](https://chainlist.org/)

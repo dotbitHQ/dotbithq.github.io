@@ -16,7 +16,7 @@ Integrating .bit into your wallet can:
 
 ## Support .bit account when transfer 
 
-<img src="./image-20210718113458550.png" alt=".bit in Wallet" style="zoom:50%;" />
+<img src="./image-lookup-ui.png" alt=".bit in Wallet" style="zoom:50%;" />
 
 
 

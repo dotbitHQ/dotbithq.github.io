@@ -1,11 +1,25 @@
-# 爱好者/推广者
+# Enthusiasts/Promoters
 
-.bit 团队认为那些推动 .bit 普及的行为，也应该能分享 .bit 发展壮大的成果。因此，.bit 在合约层面实现了邀请返佣机制。
+The .bit team believes that those who promote the adoption of .bit should be able to share in the benefits of its growth. Therefore, .bit has implemented an invite-reward mechanism at the contract level.
 
+If someone registers a .bit account using your invite link or fills in your .bit account as the referrer, you will receive a certain percentage of their registration fee as a referral reward. [View reward details](build-together.md).
 
+The referral reward is settled in a decentralized manner and is paid to the referrer immediately after the invitee completes registration. Due to the underlying principles of Nervos CKB, rewards need to reach a certain amount before being distributed. Also, since .bit is a smart contract running on Nervos CKB, it can only recognize Nervos CKB assets internally. In fact, the cost of actions such as registration/renewal/management/reward settlement within .bit is based on CKB. Therefore, referral rewards are also paid in CKB form, which can be viewed and extracted in the registration service management interface.
 
-如果别人在注册 .bit 账户时，使用了你的邀请链接，或者填写了你的 .bit 账户作为邀请人。那么，你将获得对方注册费用的一定比例作为邀请奖励。[查看奖励细则](build-together.md)。
+## FAQ
 
+### What are referrers/registrars/channels?
 
+**Referrers**: any .bit account can act as a referrer. If you fill in a .bit account as your referrer when registering an account, you can get a certain discount; if someone fills in your .bit account as the referrer when registering, you can also get a certain reward. [Learn about referrers](../v/chinese-1/gong-tong-jian-she/referral.md).
 
-邀请奖励是去中心化结算的，并且在被邀请人完成注册后，立即结算给邀请人。由于 Nervos CKB 的底层原理，奖励需要满一定数额才发放。同时，由于 .bit 是运行在 Nervos CKB 上的智能合约，其内部只能识别 Nervos CKB 的资产。事实上，注册/续费/管理/奖励结算这些动作的费用，.bit 内部都是使用 CKB 作为依据的。因此，推广奖励也是以 CKB 的形式发放的。可以在注册服务的管理界面中查看并提取奖励。
+**Channels**: any product (such as a wallet) that integrates .bit registration services can be called a channel. If users complete registration through the channel, the channel can get a certain percentage of the registration fee. [Learn about channels](../v/chinese-1/gong-tong-jian-she/channel.md).
+
+**Registrars**: organizations that provide users with registration interfaces and payment methods. [Learn about registrars](../v/chinese-1/gong-tong-jian-she/registrar.md).
+
+### Are referrer/channel rewards settled centrally? Why do they have to reach a certain amount before being distributed?
+
+Referral rewards are settled in a decentralized manner and are paid to the referrer immediately after the invitee completes registration. The reason why they have to reach a certain amount before being distributed is due to the underlying principles of Nervos CKB. It is necessary to reach a certain amount to ensure the decentralized settlement.
+
+### Why is CKB the settlement currency for referrer/channel rewards?
+
+This is because .bit is a smart contract running on Nervos CKB, and it can only recognize Nervos CKB assets internally. In fact, the cost of actions such as registration/renewal/management/reward settlement within .bit is based on CKB. The reason why other currencies can be used to pay registration fees is that the registrar provides corresponding services.

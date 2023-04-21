@@ -33,7 +33,7 @@
 #### 释放细节
 所有字符长度在 4 位及 4 位以上的纯数字 .bit，纯 Emoji .bit，纯泰文字符 .bit，纯韩文字符 .bit，纯土耳其字符 .bit，纯越南字符 .bit 均可注册。
 
-![release-plan-1018.png](./release-plan-1018.png)
+![release-plan-1018.png](./image-release-plan-1018.png)
 
 
 ## 释放计划 2022-03-09

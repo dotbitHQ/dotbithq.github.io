@@ -15,7 +15,7 @@ sidebarDepth: 1
 
 ## 转账界面支持填写 .bit 账户
 
-<img src="./image-20210718113458550.png" alt=".bit in Wallet" style="zoom:50%;" />
+<img src="./image-dotbit-transfer-ui.png" alt=".bit in Wallet" style="zoom:50%;" />
 
 在转账界面支持填写 .bit 账户，意味着用户转账时，无需再复制粘贴复杂的区块链地址，只需填入收款方的 .bit 账户即可进行转账。钱包可以将 .bit 账户翻译成对应的收款地址。
 

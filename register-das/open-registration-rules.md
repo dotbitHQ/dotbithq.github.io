@@ -32,7 +32,7 @@ We decide to start our new round of accounts release on October 18 at 12:00 PM (
 #### Plan for accounts releasing:
 All .bit accounts with a length of 4 or more, and are constituted with characters of pure number, pure Emoji, pure Thai, pure Korean, pure Turkish, and pure Vietnamese can be registered.
 
-![release-plan-1018.png](./release-plan-1018.png)
+![release-plan-1018.png](./image-release-plan-1018.png)
 
 ## Release Plan 2022-03-09
 In consideration of fairness, only 60% of .bit accounts can be registered randomly for now.  

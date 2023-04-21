@@ -5,7 +5,7 @@
 
 它通过 CKB 节点持续从 CKB 链上读取数据，解析之后存储在本地数据库（RocksDB）中，并提供了高性能的 JSON-RPC 服务，供业务读取 .bit 的解析数据。
 
-> 同时它也是 [das-sdk-js](./integration-frontend.md#das-sdk-js) 所依赖的后端服务。
+> 同时它也是 [dotbit.js](./integration-frontend.md#dotbit.js) 所依赖的后端服务。
 
 > 部署 Indexer 需要依赖 CKB 节点，见 [CKB 节点和 CKB Indexer](#ckb-节点和-ckb-indexer)
 

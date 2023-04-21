@@ -5,7 +5,7 @@ If developer need to integrate .bit in backend, then [das-account-indexer](https
 
 It continuously reads data from the CKB chain through the CKB node, parses it and stores it in the local database (RocksDB), and provides a high-performance JSON-RPC service for the business to read the .bit parsed data.
 
-> In the meantime, it is the backend service [das-sdk-js](./integration-frontend.md#das-sdk-js) needed.
+> In the meantime, it is the backend service [dotbit.js](./integration-frontend.md#dotbit.js) needed.
 
 > Deploying Indexer need a CKB Node，see [CKB Node And CKB Indexer](#ckb-node-and-ckb-indexer)
 
