@@ -19,7 +19,7 @@ Currently, opening SubDID requires two steps:
 2. Enable SubDID functionality.
 
 ### Opening SubDID Whitelist
-Currently, the SubDID function is still in limited testing. If you want to open a SubDID, you can send an email to [supermancy@did.id](mailto:supermancy@did.id) and attach your project description and how you will distribute .bit SubDID in the email body.
+Currently, the SubDID function is still in limited testing. If you want to open a SubDID, you can send an email to [melissa@did.id](mailto:melissa@did.id) and attach your project description and how you will distribute .bit SubDID in the email body.
 
 ### Enabling SubDID Functionality
 As enabling the SubDID function requires occupying on-chain storage space, you need to reserve 220 CKB and manually enable the SubDID function.
@@ -77,7 +77,7 @@ It is not currently supported, and the renewal function of accounts is under dev
 
 ### Why can't I enable SubDID?
 
-Currently, .bit SubDID are only open to .bit partners. If you want to use .bit SubDID in your community or product, please send an email to [supermancy@did.id](mailto:supermancy@did.id) and attach your project description and how you will distribute .bit SubDID in the email body.
+Currently, .bit SubDID are only open to .bit partners. If you want to use .bit SubDID in your community or product, please send an email to [melissa@did.id](mailto:melissa@did.id) and attach your project description and how you will distribute .bit SubDID in the email body.
 
 ### What is SuperDID?
 

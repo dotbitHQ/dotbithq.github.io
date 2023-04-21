@@ -76,7 +76,7 @@ To prevent fraud, .bit has some restrictions, meaning that certain character set
 
 Yes!
 
-The sub-account function is online and in the testing phase. To enable sub-account during the testing phase, whitelist registration is required. If you want to apply for the whitelist to experience the sub-account function, please send an email to: [supermancy@did.id](supermancy@did.id).
+The SubDID function is online and in the testing phase. To enable SubDID during the testing phase, whitelist registration is required. If you want to apply for the whitelist to experience the SubDID function, please email: [melissa@did.id](melissa@did.id).
 
 After activation, SubDID can be issued on your account data page [data.did.id](https://data.did.id).
 

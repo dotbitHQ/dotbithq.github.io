@@ -19,7 +19,7 @@ tim.bankless.bit
 2. 开通子账户功能。
 
 ### 开通子账户白名单
-目前子账户功能还在限量测试中。您如果想开通子账户，可以发送邮件到 [supermancy@did.id](mailto:supermancy@did.id)，并在邮件正文中附上你的项目简介和简述你将如何分发 .bit 子账户。
+目前子账户功能还在限量测试中。您如果想开通子账户，可以发送邮件到 [melissa@did.id](mailto:melissa@did.id)，并在邮件正文中附上你的项目简介和简述你将如何分发 .bit 子账户。
 
 ### 开通子账户功能
 由于启用子账户功能需占用链上存储空间，因此需要您预留有 220 个 CKB 并手动开启子账户功能。
@@ -78,7 +78,7 @@ tim.bankless.bit
 
 ### 为什么我不能启用子账户？
 
-目前，.bit 子账户仅面向 .bit 合作伙伴开放。如果你希望在你的社区或产品中使用 .bit 子账户，请发邮件到 [supermancy@did.id](mailto:supermancy@did.id)，并在邮件正文中附上你的项目简介和简述你将如何分发 .bit 子账户。
+目前，.bit 子账户仅面向 .bit 合作伙伴开放。如果你希望在你的社区或产品中使用 .bit 子账户，请发邮件到 [melissa@did.id](mailto:melissa@did.id)，并在邮件正文中附上你的项目简介和简述你将如何分发 .bit 子账户。
 
 ### SuperDID 是什么？
 
