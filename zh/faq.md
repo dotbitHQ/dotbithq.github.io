@@ -14,7 +14,7 @@
 ## 注册相关
 详见 [.bit 注册流程](./technical-details/registration-process.md#FAQ)
 
-## .bit 别名相关
+## 别名相关
 详见 [.bit 别名](./technical-details/alias.md#FAQ)
 
 ## 子账户相关

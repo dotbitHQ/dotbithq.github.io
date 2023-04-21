@@ -2,8 +2,8 @@ import { SidebarConfig } from '@vuepress/theme-default'
 
 export const sidebar: SidebarConfig = [
   '/',
-  '/faq',
   '/terminology',
+  '/faq',
   {
     text: 'Register .bit',
     children: [
@@ -14,6 +14,19 @@ export const sidebar: SidebarConfig = [
         text: 'Reserved .bit Accounts',
         link: 'https://github.com/dotbitHQ/cell-data-generator/blob/master/data/reserved_accounts.txt',
       },
+    ],
+  },
+  {
+    text: 'Technical Details',
+    children: [
+      '/technical-details/registration-process',
+      '/technical-details/data-container',
+      '/technical-details/alias',
+      '/technical-details/subdid',
+      '/technical-details/lifecycle',
+      '/technical-details/multichain-principle',
+      '/technical-details/permissions',
+      '/technical-details/eth-nft',
     ],
   },
   {
