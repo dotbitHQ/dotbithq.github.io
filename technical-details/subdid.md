@@ -1,4 +1,4 @@
-# .bit SubDID (Sub-decentralized identifier)
+# .bit SubDID
 
 SubDID is a new concept proposed by the .bit team, which is very suitable for various DAOs, communities, fan clubs, user management, and other fields.
 

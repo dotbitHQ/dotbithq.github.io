@@ -20,10 +20,10 @@ export const sidebar: SidebarConfig = [...prefixZh(
     text: '技术细节',
     children: prefixZh(
       '/technical-details/registration-process',
+      '/technical-details/lifecycle',
       '/technical-details/data-container',
       '/technical-details/alias',
       '/technical-details/subdid',
-      '/technical-details/lifecycle',
       '/technical-details/multichain-principle',
       '/technical-details/permissions',
       '/technical-details/eth-nft',

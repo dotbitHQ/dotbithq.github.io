@@ -20,10 +20,10 @@ export const sidebar: SidebarConfig = [
     text: 'Technical Details',
     children: [
       '/technical-details/registration-process',
+      '/technical-details/lifecycle',
       '/technical-details/data-container',
       '/technical-details/alias',
       '/technical-details/subdid',
-      '/technical-details/lifecycle',
       '/technical-details/multichain-principle',
       '/technical-details/permissions',
       '/technical-details/eth-nft',

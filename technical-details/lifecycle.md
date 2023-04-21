@@ -1,14 +1,14 @@
-# 账户状态 & 生命周期
+# Account Status & Lifecycle
 The status of .bit accounts is complex and requires a careful understanding of the definitions of each state and their transition relationships in order to better develop based on .bit and provide the best experience for users.
 
 ### On-chain status of accounts
 From on-chain data, .bit accounts have the following states:
 
-| Status | Value | Description |
-|--------|-------|-------------|
-| Normal | 0     | Account is being used normally |
-| Selling | 1    | Account is being sold |
-| Cross-chain | 3 | Account is in the process of cross-chain transfer |
+| Status      | Value | Description                                       |
+|-------------|-------|---------------------------------------------------|
+| Normal      | 0     | Account is being used normally                    |
+| Selling     | 1     | Account is being sold                             |
+| Cross-chain | 3     | Account is in the process of cross-chain transfer |
 
 You can try the following command to view the status of a specific account:
 

@@ -1,4 +1,4 @@
-# Account Registration Process
+# Registration Process
 
 Unlike the account model used by the Ethereum public chain, .bit relies on the UTXO (Cell) model used by the Nervos public chain, which is characterized by off-chain determinism.
 
