@@ -61,4 +61,4 @@ Based on the following reasons, we believe that .bit should not have other suffi
 
 ### Can `.bit` domain names be accessed through a browser?
 
-`.bit` is not a top-level domain name on the Internet, so it cannot be accessed directly. However, each .bit account corresponds to a subdomain of `.bit.host`, which can be accessed directly through the browser. If Alice owns the .bit account `alice.bit`, then she will automatically own the Internet domain name `alice.bit.host`. Alice can decide what users see when they access `alice.bit.host` by setting up resolution records. 
+`.bit` is not a top-level domain name on the Internet, so it cannot be accessed directly. However, each .bit account corresponds to a subdomain of `.bit.cc`, which can be accessed directly through the browser. If Alice owns the .bit account `alice.bit`, then she will automatically own the Internet domain name `alice.bit.cc`. Alice can decide what users see when they access `alice.bit.cc` by setting up resolution records. 
