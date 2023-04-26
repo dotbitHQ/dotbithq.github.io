@@ -5,16 +5,19 @@ From the beginning of the design, the .bit team has considered different scenari
 At the same time, the permission mechanism is also the core principle of .bit's support for multiple chains.
 
 ## Design Concept
-Each asset should distinguish between ownership and management. Ownership and management are sometimes unified and sometimes separate. Unified scenarios include: houses purchased by oneself, bank deposits owned by oneself, etc. Separate scenarios include: renting a house, accessing the database of a programmer's company, etc.
+Every asset should distinguish between **ownership** and **management rights**. Ownership and management rights are sometimes unified and sometimes not. Unified situations include: a house purchased by oneself, one's own bank deposits, and so on. Non-unified situations include renting a house, a programmer's access to a company's database, and so on.
 
-Starting from ownership and management, two additional roles are derived: Owner and Manager. These two roles have different permissions and usage scenarios.
+Starting from ownership and management, two additional roles are derived: **Owner** and **Manager**. These two roles have different permissions and use cases.
 
-The design of Owner and Manager is to practice the idea of separating ownership and management. Modifying resolution records is a high-frequency operation, while modifying ownership is a low-frequency operation. Frequent use of private keys increases the risk of losing the private key. This separation design can enable users to retain ownership of the account when the Manager's private key is lost.
+The design of **Owner** and **Manager** is based on the idea of separating ownership and management rights. Modifying resolution records is a high-frequency operation, while modifying ownership is a low-frequency operation. High-frequency operations frequently use private keys, increasing the risk of private key loss. This separation design ensures that the owner still has ownership of the account in case the manager's private key is lost.
 
-The Owner and Manager can be the same address or different addresses. However, we highly recommend using different addresses as Owner and Manager.
+The **Owner** and **Manager** can be the same address or different addresses. However, we highly recommend using different addresses as the owner and manager.
 
 ## Owner
-The Owner is the ultimate holder of an account and has the ultimate disposal right over an account. The Owner can also
+The owner is the ultimate holder of an account and has the final disposition right over an account. The owner can transfer their account, modify the manager, and so on.
+
+## Manager
+The manager is the role responsible for daily account operations, such as modifying records, distributing sub-accounts, and so on.
 
 ## Differences between Owner and Manager
 **Owner**: Each account has an Owner who owns the ownership of the .bit account and can modify the Owner and Manager.
@@ -23,10 +26,10 @@ The Owner is the ultimate holder of an account and has the ultimate disposal rig
 
 Here are the specific differences in their operations:
 
-|  Role   | Modify Record | Modify Owner | Modify Manager | Enable SubDID | Distribute Sub-Accounts | Cross-Chain |
-|:-------:|:-------------:|:------------:|:--------------:|:-------------:|:-----------------------:|:-----------:|
-|  Owner  |       ❌       |      ✅       |       ✅        |       ✅       |            ❌            |      ✅      |
-| Manager |       ✅       |      ❌       |       ❌        |       ❌       |            ✅            |      ❌      |
+|  Role   | Modify Owner | Modify Manager | Cross-Chain | Enable SubDID | Distribute SubDID | Modify Record |
+|:-------:|:------------:|:--------------:|:-----------:|:-------------:|:-----------------:|:-------------:|
+|  Owner  |      ✅       |       ✅        |      ✅      |       ✅       |         ❌         |       ❌       |
+| Manager |      ❌       |       ❌        |      ❌      |       ❌       |         ✅         |       ✅       |
 
 ## Underlying Design
 From a contract perspective, both Owner and Manager are `args` of the LockScript in the AccountCell. The composition of an args is as follows:
