@@ -15,10 +15,10 @@ Where `bitcoin.bit`, `bankless.bit`, `twitter.bit` are called parent accounts, a
 
 ## Opening SubDID
 Currently, opening SubDID requires two steps:
-1. Open the SubDID whitelist.
+1. Join the SubDID whitelist.
 2. Enable SubDID functionality.
 
-### Opening SubDID Whitelist
+### Joining SubDID Whitelist
 Currently, the SubDID function is still in limited testing. If you want to open a SubDID, you can send an email to [melissa@did.id](mailto:melissa@did.id) and attach your project description and how you will distribute .bit SubDID in the email body.
 
 ### Enabling SubDID Functionality
