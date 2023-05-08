@@ -1,4 +1,4 @@
-# Developer Evangelist
+# Developer Advocate
 
 ## About You
 
@@ -6,28 +6,26 @@ You are passionate about the Web3, blockchain and open source community. You are
 
 ## Responsibility
 
-You will do your best to spread the spirit of .bit. You will make people aware of the technical and product features of .bit. These include:
+You will be a key player in our team, helping us promote the concept of .bit and educate more people about its technical and product features. Your responsibilities will include:
 
-- Communicate with developers through conference presentations, customer visits, parties, online events, publications, technical training, etc.
-
-- Promote .bit's technology ideas, use cases, best practices, and more. Help .bit gain industry attention and increase .bit's influence, visibility and reputation.
-- Maintain developer relationships and act as a technical expert to assist developers in integrating .bit into their products.
+- Interacting with developers through various means such as conference speaking, customer visits, offline meetups, online communication, article writing, and technical training.
+- Spreading information about the technical features, user cases, and best practices of .bit, helping .bit improve its reputation, influence, and popularity within the industry.
+- Maintaining relationships with developers, assisting them as a technical expert to integrate .bit into their products.
+- Participating in product development and testing, providing feedback and suggestions to the development team from a developer's perspective.
 
 ## Must have
 
-- Extensive experience in software development
-
-- Understand the principles of blockchain technology
-
-- Excellent presentation and communication skills
-
-- Excellent writing skills
-
-- Fluent in **English** and **Chinese**
+- Excellent programming skills and technical comprehension, and understand the basic principles of blockchain.
+- Excellent communication skills, able to express technical concepts and ideas clearly and concisely.
+- Enjoy interacting with others in public and private settings, and have the ability and willingness to participate in developer community activities.
+- Excellent writing skills and can write fluent and clear technical documents.
+- Can accept occasional global travel to participate in offline activities.
+- Overseas study/work experience.
+- Fluent in both **English** and **Chinese**.
 
 ## Nice to have
 
-- Influence in Web3/blockchain community.
+- Influence in Web3/blockchain/open-source community.
 
 ## What we offers
 
