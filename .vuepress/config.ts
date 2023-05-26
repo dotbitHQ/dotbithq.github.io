@@ -30,6 +30,7 @@ export default defineUserConfig({
     contributors: false,
     logo: '/logo.png',
     repo: 'https://github.com/dotbitHQ/dotbithq.github.io',
+    sidebarDepth: 1,
     locales: {
       '/': {
         selectLanguageName: 'English',

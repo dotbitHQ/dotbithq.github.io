@@ -13,27 +13,41 @@ tim.bankless.bit
 
 其中 `bitcoin.bit`，`bankless.bit`，`twitter.bit` 称为父账户，而 `001.bitcoin.bit`, `tim.bankless.bit`, `😊.twitter.bit` 称为子账户（SubDID）。
 
-## 开通子账户
-当前，开通子账户需要两步：
-1. 开通子账户白名单。
-2. 开通子账户功能。
-
-### 开通子账户白名单
-目前子账户功能还在限量测试中。您如果想开通子账户，可以发送邮件到 [melissa@did.id](mailto:melissa@did.id)，并在邮件正文中附上你的项目简介和简述你将如何分发 .bit 子账户。
-
-### 开通子账户功能
+## 开通子账户功能
 由于启用子账户功能需占用链上存储空间，因此需要您预留有 220 个 CKB 并手动开启子账户功能。
 
 > 开通页面：[data.did.id](https://data.did.id/)
 
 父账户的子账户功能一经启用将无法关闭。父账户过期后，220 CKB 将自动返还到你的 [.bit 余额](https://balance.did.id/)中。
 
+## 分发子账户
+有三种分发子账户的方式：
+
+### 在线手动分发
+你可以直接在个人数据页分发子账户。
+SubDID 可以分发到 ETH/BNB/Polygon/Tron 地址。您也可以直接填写用户的 .bit 账号，SubDID 将直接分发到该 .bit 账号的所有者（Owner）地址。
+
+![Mint SubDID](./image-mint-subdid-manually.png)
+
+### 通过 SuperDID 来分发
+[SuperDID](https://superdid.id/) 是最大的 .bit SubDID 服务平台。您可以为您的 .bit SubDID 设置定价计划，SuperDID 支持多种支付方式，包括 BNB、ETH、Polygon 等。您可以通过分享一个简单的链接直接销售您的 SubDID 给社区。设置简单，一劳永逸。
+
+.bit 合约会自动从 SuperDID 的销售价格中收取 3% 的费用。由于 .bit 智能合约在 Nervos CKB 上运行，销售费用将基于 CKB 计算。您的收入将提取到您的 [.bit 余额](https://balance.did.id/)中。
+
+> [SuperDID](https://superdid.id/)
+
+### 通过 SDK 来分发
+您还可以使用 .bit 成熟的 JS SDK 来分发子账户。这是对于开发者来说最好的方式，一切分发逻辑和规则都可以由您确定。
+
+> JS SDK: [dotbit.js](https://github.com/dotbitHQ/dotbit.js/blob/main/docs/api/bit-account.md#mintsubaccountparams)
+
+
 ## 定价
 .bit 子账户的定价完全由父账户决定，最低可以低至 1CKB（大概 0.5 美分）。发行 1 万个子账户只需要花费 50 美元，这几乎等于 0 成本。
 
 > 查看 [CKB 价格](https://coinmarketcap.com/currencies/nervos-network/)
 
-## 于父账户区别
+## 子账户与父账户区别
 除了分发过程和[有效期](#有效期)，子账户完全独立于主账户，其数据容器和所有权均不受主账户控制，您可以完全相信您的子账户的数据安全性。子账户具备和主账户大部分的能力。除此之外有以下不同：
 - 子账户由父账户定价，成本更低，低至 1CKB。
 - 完全独立于主账户，不受主账户控制。

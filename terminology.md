@@ -8,6 +8,16 @@ Refers to each individual account, such as alice.bit, bob.bit.
 ##### .bit domain
 Another name for a .bit account.
 
+##### .bit Alias
+Each blockchain address can be uniquely mapped to a .bit account for easy identification of the address's ownership and to optimize user experience. This feature is called .bit Alias.
+
+> See [.bit Alias](./technical-details/alias.md) for more details.
+
+##### .bit SubDID (SubDID)
+Each main account can distribute its own SubDID, similar in form to `child.parent.bit`. SubDID can be used in any community to enhance community cohesion.
+
+> See [.bit SubDID](./technical-details/subdid.md) for more details.
+
 ### Register .bit
 ##### Register
 The process of obtaining a .bit account by paying a fee to the .bit contract.

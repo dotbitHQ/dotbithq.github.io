@@ -64,7 +64,6 @@ Due to the complex state transitions, we list the available operations for each 
 |            Selling            |    ❌     |   ✅   |  ❌   |       ✅        |      ❌      |       ✅       |      ✅       |    ✅     |  ✅  |     ✅      |      ❌❗      |
 |          Cross-chain          |    ❌     |   ❌   |  ❌   |       ✅        |      ❌      |       ❌       |      ❌       |    ❌     |  ✅  |     ✅      |      ❌       |
 |         Grace period          |    ❌     |  ✅❗   |  ❌   |       ✅        |      ❌      |       ❌       |      ❌       |    ❌     |  ✅  |     ✅      |      ❌       |
-|        Auction period         |    ❌     |   ❌   |  ❌   |       ✅        |      ❌      |       ❌       |      ❌       |    ❌     |  ✅  |     ✅      |      ❌       |
 
 **Special States**
 1. Lock and mint for cross-chain operation

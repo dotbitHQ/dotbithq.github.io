@@ -13,20 +13,33 @@ tim.bankless.bit
 
 Where `bitcoin.bit`, `bankless.bit`, `twitter.bit` are called parent accounts, and `001.bitcoin.bit`, `tim.bankless.bit`, `😊.twitter.bit` are called SubDID (SubDID).
 
-## Opening SubDID
-Currently, opening SubDID requires two steps:
-1. Join the SubDID whitelist.
-2. Enable SubDID functionality.
-
-### Joining SubDID Whitelist
-Currently, the SubDID function is still in limited testing. If you want to open a SubDID, you can send an email to [melissa@did.id](mailto:melissa@did.id) and attach your project description and how you will distribute .bit SubDID in the email body.
-
-### Enabling SubDID Functionality
+## Enabling SubDID Functionality
 As enabling the SubDID function requires occupying on-chain storage space, you need to reserve 220 CKB and manually enable the SubDID function.
 
 > Enable page: [data.did.id](https://data.did.id/)
 
 Once the SubDID function of the parent account is enabled, it cannot be disabled. After the parent account expires, 220 CKB will be automatically returned to your [.bit balance](https://balance.did.id/).
+
+## Mint SubDID
+There are three ways to mint SubDID:
+
+### Manual Mint
+You can directly mint SubDID on the personal data page.
+SubDID can be minted to ETH/BNB/Polygon/Tron addresses. You can also fill in the user's .bit account directly, and the SubDID will be minted directly to the owner address of that .bit account.
+
+![Mint SubDID](./image-mint-subdid-manually.png)
+
+### Mint through SuperDID
+[SuperDID](https://superdid.id/) is the largest .bit SubDID service platform. You can set pricing plans for your .bit SubDID, and SuperDID supports multiple payment methods, including BNB, ETH, Polygon, etc. You can directly sell your SubDID to the community by sharing a simple link. It's easy to set up once and for all.
+
+The .bit contract automatically charges a 3% fee from the sale price on SuperDID. Since the .bit smart contract runs on Nervos CKB, the sale fee is calculated based on CKB. Your income will be withdrawn to your [.bit balance](https://balance.did.id/).
+
+> [SuperDID](https://superdid.id/)
+
+### Mint through SDK
+You can also mint SubDID using the mature .bit JS SDK. This is the best way for developers, as you can determine all distribution logic and rules.
+
+> JS SDK: [dotbit.js](https://github.com/dotbitHQ/dotbit.js/blob/main/docs/api/bit-account.md#mintsubaccountparams)
 
 ## Pricing
 The pricing of .bit SubDID is entirely determined by the parent account and can be as low as 1 CKB (about 0.5 cents). Issuing 10,000 SubDID only costs $50, which is almost zero cost.
@@ -38,7 +51,7 @@ Except for the distribution process and [expiration date](#expiration-date), Sub
 - SubDID are priced by the parent account and have lower costs, as low as 1 CKB.
 - Completely independent of the parent account and not controlled by the parent account.
 - SubDID cannot be converted into .bit ETH NFT.
-- SubDID cannot distribute SubDID to the next level.
+- SubDID cannot mint SubDID to the next level.
 
 ## SubDID Length & Character Set
 Currently, there are no restrictions on the character length and opening ratio of SubDID. Characters must meet the requirements of the [.bit character set rules](../register-das/charsets), can only include one language and numbers, some Emojis, and "-" combined.
@@ -77,7 +90,7 @@ It is not currently supported, and the renewal function of accounts is under dev
 
 ### Why can't I enable SubDID?
 
-Currently, .bit SubDID are only open to .bit partners. If you want to use .bit SubDID in your community or product, please send an email to [melissa@did.id](mailto:melissa@did.id) and attach your project description and how you will distribute .bit SubDID in the email body.
+Currently, .bit SubDID are only open to .bit partners. If you want to use .bit SubDID in your community or product, please send an email to [melissa@did.id](mailto:melissa@did.id) and attach your project description and how you will mint .bit SubDID in the email body.
 
 ### What is SuperDID?
 

@@ -8,6 +8,16 @@
 ##### .bit 域名
 .bit 账户的另一个叫法。
 
+##### .bit 别名（Alias）
+每个区块链地址都可以唯一映射到一个 .bit 账号，以方便用户识别这个地址的归属，优化用户体验。这个功能称之为 .bit 别名。
+
+> 详见 [.bit 别名](./technical-details/alias.md)
+
+##### .bit 子账户（SubDID）
+每个主账户都可以分发自己的子账户，形态类似于 `child.parent.bit`。子账户可以用于任何社区，加强社区凝聚力。
+
+> 详见 [.bit 子账户](./technical-details/subdid.md)
+
 ### 注册 .bit
 ##### 注册
 指通过向 .bit 合约支付费用，获得 .bit 账户的过程。
