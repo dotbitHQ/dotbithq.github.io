@@ -26,11 +26,11 @@
 
 通过 [data.did.id](https://data.did.id) ，开发者可以以一种非常简单、优雅的方式去改变用户的数据，而不用考虑复杂的链上操作。
 
-> [点击这里查看示例 →](https://data.did.id/dasdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D)
+> [点击这里查看示例 →](https://data.did.id/bitdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D)
 
 ### 快速开始
 
-[data.did.id](https://data.did.id/dasdeveloper.bit) 会读取 URL 上的 `records` 参数。
+[data.did.id](https://data.did.id/bitdeveloper.bit) 会读取 URL 上的 `records` 参数。
 
 开发者只需要根据规范来填入特定的参数，并引导用户访问相应的链接，待用户确定后即可完成对用户数据的更改。
 
@@ -51,7 +51,7 @@ const records = [{
 
 const queryString = window.encodeURIComponent(JSON.stringify(records))
 
-window.open(`https://data.did.id/dasdeveloper.bit?records=${queryString}`)
+window.open(`https://data.did.id/bitdeveloper.bit?records=${queryString}`)
 ```
 用户打开相应的链接之后，将会看到类似如下界面：
 ![通过 URL 参数编辑数据](./edit-records-via-query.png)

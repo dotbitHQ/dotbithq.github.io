@@ -26,7 +26,7 @@ In this rapid development period of blockchain industry, it is crucial to quickl
 
 With [data.did.id](https://data.did.id) , developers can change users' data with a very simple yet elegant way without having to worry about complicated on-chain operations.
 
-> [Click here to see an example →](https://data.did.id/dasdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D) Notice: It's not your account.
+> [Click here to see an example →](https://data.did.id/bitdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D) Notice: It's not your account.
 
 ### Quick Start
 
@@ -51,7 +51,7 @@ const records = [{
 
 const queryString = window.encodeURIComponent(JSON.stringify(records))
 
-window.open(`https://data.did.id/dasdeveloper.bit?records=${queryString}`)
+window.open(`https://data.did.id/bitdeveloper.bit?records=${queryString}`)
 ```
 After opening the corresponding link, the user will see a page similar to the following:
 ![Edit records via query](./edit-records-via-query.png)
