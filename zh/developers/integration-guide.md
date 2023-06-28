@@ -40,7 +40,7 @@
 
 
 ## 在 .bit 官网展示你的 Dapp
-我们不断地收集已经集成了 .bit 的项目。如果你想要在 .bit 官网展示您的项目信息，请向该邮箱（[supermancy@did.id](mailto:supermancy@did.id)）发送信息，并附带以下信息：
+我们不断地收集已经集成了 .bit 的项目。如果你想要在 .bit 官网展示您的项目信息，请向该邮箱（[mancy@d.id](mailto:mancy@d.id)）发送信息，并附带以下信息：
 - 项目名称
 - 项目描述
 - Logo 和 链接

@@ -41,7 +41,7 @@ If you are developing a wallet, you can not only resolve _.bit_ account to impro
 
 ## List Your Dapp on .bit Official Website
 
-We are constantly collecting projects that have completed integration with .bit. If we missed your project's information, please email [supermancy@did.id](mailto:supermancy@did.id) with the following information:
+We are constantly collecting projects that have completed integration with .bit. If we missed your project's information, please email [mancy@d.id](mailto:mancy@d.id) with the following information:
 
 - Project name;
 - Logo and URL;

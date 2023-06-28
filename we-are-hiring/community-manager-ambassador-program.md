@@ -38,7 +38,7 @@ If you possess these qualifications and are passionate about cultivating a thriv
 
 Please read through our websites and docs, and make a doc explaining your plans to promote .bit.
 
-After that, please send your resume and the plan to **joindotbit@did.id**, we will give you feedback within 24 hours.
+After that, please send your resume and the plan to **hiring@d.id**, we will give you feedback within 24 hours.
 
 ## Useful Links
 

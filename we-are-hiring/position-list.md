@@ -10,4 +10,4 @@ Join us in building a decentralized identity system for the Web3.0 world. Make t
 
 We are also willing to work with other talented enthusiastic people in different background, including marketing, engineering, operation, etc.
 
-Please send your email to **joindotbit@did.id**
+Please send your email to **hiring@d.id**

@@ -76,9 +76,7 @@
 
 可以！
 
-子账户功能已上线，并在测试阶段。测试阶段开通子账户需要加入白名单。 如果你想加入白名单体验子账户功能，请发邮件申请：[melissa@did.id](melissa@did.id)。
-
-开通后，可以在您的账户数据页进行子账户的发放 [data.did.id](https://data.did.id)。
+SubDID 功能现已完全可用。任何一个 .bit 账户的持有者都可以在 [topdid](https://topdid.com) 上发布 SubDID。您可以选择手动发布您的 SubDID，或者设置自己的定价然后自动分发。任何人都可以申请自己的 SubDID。有关如何使用 [topdid.com](https://topdid.com) 的更多信息，请参阅常见[问题解答](https://positive-metatarsal-7cf.notion.site/FAQ-SubDID-Distribution-Tool-b4e03c9d037d4c668cd585bfd20507cf)。
 
 > 更多内容，请查看：[.bit SubDID](./subdid.md)
 

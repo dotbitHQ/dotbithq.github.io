@@ -40,7 +40,7 @@ Global Remote
 
 If you are passionate about project and event management and want to work in a dynamic and innovative environment, we encourage you to apply for this exciting opportunity.
 
-Please send your resume to **joindotbit@did.id**, we will give you feedback within 24 hours.
+Please send your resume to **hiring@d.id**, we will give you feedback within 24 hours.
 
 ## Useful Links
 - Website: [did.id](https://did.id)

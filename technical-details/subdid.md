@@ -88,10 +88,6 @@ There is no limit to the number of SubDID. The same parent account can mint an u
 
 It is not currently supported, and the renewal function of accounts is under development. After the SubDID is minted, anyone can renew it.
 
-### Why can't I enable SubDID?
-
-Currently, .bit SubDID are only open to .bit partners. If you want to use .bit SubDID in your community or product, please send an email to [melissa@did.id](mailto:melissa@did.id) and attach your project description and how you will mint .bit SubDID in the email body.
-
 ### What is SuperDID?
 
 [SuperDID](https://superdid.id/) is the largest .bit SubDID service platform. You can set pricing plans for your .bit SubDID and support multiple payment methods, including BNB, ETH, Polygon, etc. You can share your exclusive link with your community and sell your SubDID directly. Easy to set up, once and for all.

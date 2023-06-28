@@ -76,9 +76,7 @@ To prevent fraud, .bit has some restrictions, meaning that certain character set
 
 Yes!
 
-The SubDID function is online and in the testing phase. To enable SubDID during the testing phase, whitelist registration is required. If you want to apply for the whitelist to experience the SubDID function, please email: [melissa@did.id](melissa@did.id).
-
-After activation, SubDID can be issued on your account data page [data.did.id](https://data.did.id).
+The SubDID feature is now fully available. Any holder of a .bit account can issue SubDIDs on [topdid](https://topdid.com). You can choose to issue your SubDIDs manually or set your own pricing then automatically distribute them. Anyone can claim their own SubDID. Please refer to the [FAQ](https://positive-metatarsal-7cf.notion.site/FAQ-SubDID-Distribution-Tool-b4e03c9d037d4c668cd585bfd20507cf) for more information on how to use [topdid.com](https://topdid.com)
 
 > For more information, please refer to: [.bit SubDID](./subdid.md)
 
