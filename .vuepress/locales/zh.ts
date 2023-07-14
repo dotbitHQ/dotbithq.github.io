@@ -61,7 +61,6 @@ export const sidebar: SidebarConfig = [...prefixZh(
     text: '招聘',
     children: [
       ...prefixZh('/we-are-hiring/position-list'),
-      '/we-are-hiring/full-stack-engineer',
       '/we-are-hiring/bd-manager',
       '/we-are-hiring/event-marketing-manager',
       '/we-are-hiring/community-manager-ambassador-program',

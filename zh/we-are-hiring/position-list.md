@@ -2,7 +2,6 @@
 
 请加入我们为 Web3.0 世界构建去中心化身份系统。 希望通过我们的创新和努力，让世界变得更加美好。
 
-* [全栈开发工程师](/zh/we-are-hiring/full-stack-engineer.md)
 * [BD Manager](/we-are-hiring/bd-manager.md)
 * [Event Marketing Manager (Global)](/we-are-hiring/event-marketing-manager.md)
 * [Community Manager (Ambassador Program)](/we-are-hiring/community-manager-ambassador-program.md)
