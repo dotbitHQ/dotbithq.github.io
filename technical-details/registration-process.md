@@ -6,7 +6,7 @@ Different programming models also bring different development experiences. Here,
 
 ![.bit System Design](./image-system-design.png)
 
-1. Users first access .bit registration services (such as [app.did.id](https://app.did.id)) through the browser in their wallet.
+1. Users first access .bit registration services (such as [https://d.id/bit/reg](https://d.id/bit/reg)) through the browser in their wallet.
 2. The registration service (Registrar) can be any service provided by anyone to offer .bit registration functionality to users, including web, mobile, and client applications.
 3. The registration service converts the user's registration request and other operations into a transaction, which is then signed by the user and submitted to the blockchain through the wallet.
 4. The Keeper service is a decentralized .bit node that monitors transactions on the chain through node RPCs.
@@ -42,7 +42,7 @@ After registering a .bit account, it can be managed. Different functions can be 
 
 Currently, ETH/TRX/Dogecoin/BSC/Polygon addresses can be used to register a .bit account.
 
-After visiting [did.id](https://app.did.id), connect your MetaMask or TronLink wallet to start the registration process. You can also directly visit [app.did.id](https://did.id) for registration using wallets that support ETH/TRX/Dogecoin/BSC/Polygon.
+After visiting [https://d.id/bit/reg](https://d.id/bit/reg), connect your MetaMask or TronLink wallet to start the registration process. You can also directly visit [https://d.id/bit/reg](https://d.id/bit/reg) for registration using wallets that support ETH/TRX/Dogecoin/BSC/Polygon.
 
 Technically, .bit can be registered using any public chain address ([see the principle](../others/why-assets-on-ckb-can-be-managed-by-btc-address.md)). The .bit team is deploying more public chain signature algorithms to Nervos CKB to support registration with more public chain addresses.
 
@@ -72,13 +72,13 @@ In addition, since the .bit smart contract runs on Nervos CKB, the storage depos
 
 To prevent fraud, .bit has some restrictions, meaning that certain character sets cannot appear simultaneously in the account name. For detailed rules, please refer to: [Character Sets](../register-das/charsets.md)
 
-### Can SubDID be registered?
+### Can Second-Level DID be registered?
 
 Yes!
 
-The SubDID feature is now fully available. Any holder of a .bit account can issue SubDIDs on [topdid](https://topdid.com). You can choose to issue your SubDIDs manually or set your own pricing then automatically distribute them. Anyone can claim their own SubDID. Please refer to the [FAQ](https://positive-metatarsal-7cf.notion.site/FAQ-SubDID-Distribution-Tool-b4e03c9d037d4c668cd585bfd20507cf) for more information on how to use [topdid.com](https://topdid.com)
+The Second-Level DID feature is now fully available. Any holder of a .bit account can issue Second-Level DIDs on [topdid](https://topdid.com). You can choose to issue your Second-Level DIDs manually or set your own pricing then automatically distribute them. Anyone can claim their own Second-Level DID. Please refer to the [FAQ](https://positive-metatarsal-7cf.notion.site/FAQ-SubDID-Distribution-Tool-b4e03c9d037d4c668cd585bfd20507cf) for more information on how to use [topdid.com](https://topdid.com)
 
-> For more information, please refer to: [.bit SubDID](./subdid.md)
+> For more information, please refer to: [.bit Second-Level DID](./subdid.md)
 
 ### What is anti-registration snatching? What is the principle of anti-registration snatching?
 

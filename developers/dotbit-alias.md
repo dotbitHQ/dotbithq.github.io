@@ -12,7 +12,7 @@ For more information, please refer to the .bit website and articles:
 ## Setting up .bit Alias
 The .bit Alias now supports ETH/BSC/TRX/Polygon addresses.
 
-Users can visit [.bit Alias App](https://app.did.id/alias) and log in their wallet, then they can set up .bit Alias for their addresses.
+Users can visit [.bit Alias App](https://d.id/bit/alias) and log in their wallet, then they can set up .bit Alias for their addresses.
 
 > More information in [.bit Alias Guide](https://talk.did.id/t/bit/400#h-7)
 

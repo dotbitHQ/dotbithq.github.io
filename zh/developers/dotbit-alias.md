@@ -11,7 +11,7 @@
 ## 设置 .bit 别名
 现在 .bit 别名支持 ETH/BSC/TRX/Polygon 等地址。
 
-用户可以访问 [.bit Alias App](https://app.did.id/alias) 并登录钱包，之后即可设置自己对应地址的 .bit 别名。
+用户可以访问 [.bit Alias App](https://d.id/bit/alias) 并登录钱包，之后即可设置自己对应地址的 .bit 别名。
 
 > 详见 [.bit 别名设置指南](https://talk.did.id/t/bit/400#h-7)
 

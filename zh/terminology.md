@@ -13,10 +13,10 @@
 
 > 详见 [.bit 别名](./technical-details/alias.md)
 
-##### .bit 子账户（SubDID）
-每个主账户都可以分发自己的子账户，形态类似于 `child.parent.bit`。子账户可以用于任何社区，加强社区凝聚力。
+##### .bit 二级 DID
+每个顶级 DID 都可以分发自己的 DID，形态类似于 `child.parent.bit`。二级 DID 可以用于任何社区，加强社区凝聚力。
 
-> 详见 [.bit 子账户](./technical-details/subdid.md)
+> 详见 [.bit 二级 DID](./technical-details/subdid.md)
 
 ### 注册 .bit
 ##### 注册

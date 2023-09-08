@@ -26,10 +26,10 @@ The manager is the role responsible for daily account operations, such as modify
 
 Here are the specific differences in their operations:
 
-|  Role   | Modify Owner | Modify Manager | Cross-Chain | Enable SubDID | Distribute SubDID | Modify Record |
-|:-------:|:------------:|:--------------:|:-----------:|:-------------:|:-----------------:|:-------------:|
-|  Owner  |      ✅       |       ✅        |      ✅      |       ✅       |         ❌         |       ❌       |
-| Manager |      ❌       |       ❌        |      ❌      |       ❌       |         ✅         |       ✅       |
+|  Role   | Modify Owner | Modify Manager | Cross-Chain | upgrade to Top-Level DID | Distribute DID | Modify Record |
+|:-------:|:------------:|:--------------:|:-----------:|:------------------------:|:--------------:|:-------------:|
+|  Owner  |      ✅       |       ✅        |      ✅      |            ✅             |       ❌        |       ❌       |
+| Manager |      ❌       |       ❌        |      ❌      |            ❌             |       ✅        |       ✅       |
 
 ## Underlying Design
 From a contract perspective, both Owner and Manager are `args` of the LockScript in the AccountCell. The composition of an args is as follows:

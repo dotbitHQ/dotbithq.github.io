@@ -46,7 +46,7 @@ Along with the rebranding,.bit team hereby reveals the plan for accounts releasi
 2022–04–11 12:00PM(UTC+0), release to 55%;  
 2022–04–18 12:00PM(UTC+0), release to 60%;
 
-> The exact releasing time for each account can be searched on [app.did.id](https://app.did.id).(Only the upcoming 25% accounts' releasing date can be searched.)
+> The exact releasing time for each account can be searched on [https://d.id/bit/reg](https://d.id/bit/reg).(Only the upcoming 25% accounts' releasing date can be searched.)
 
 #### Parameters for each release:
 Release to 40% = 1717986918  

@@ -57,7 +57,7 @@ Behind this is the use of the .bit alias function to prompt the wallet which .bi
 ## Two-Factor Authentication
 To enable .bit aliases, users need to perform two operations:
 1. Add the address they want to set the alias to to their .bit data container or ensure that the `owner` or `manager` address of their .bit account is their address.
-2. Open the [.bit alias setting](https://app.did.id/alias) page, log in to the address you want to set the alias for, and set it to one of your .bit accounts.
+2. Open the [.bit alias setting](https://d.id/bit/alias) page, log in to the address you want to set the alias for, and set it to one of your .bit accounts.
 
 When developers verify, they need to follow these two steps:
 1. Based on the address provided by the user, call the .bit alias interface to obtain the corresponding .bit alias.
@@ -90,7 +90,7 @@ In the previous version of .bit aliases, we charged a storage fee of 201 CKB for
 
 Therefore, we have launched a brand new .bit alias! From now on, you can set aliases for any address without paying any fees!
 
-> [Set now](https://app.did.id/alias)
+> [Set now](https://d.id/bit/alias)
 
 ## Developer Guide
 

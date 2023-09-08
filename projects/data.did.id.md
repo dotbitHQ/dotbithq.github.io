@@ -1,10 +1,10 @@
-# data.did.id
+# d.id/data
 Manage your .bit accounts' data in the most elegant way.
 
 ## Introduction
-[data.did.id](https://data.did.id) is an elegant data management tool for your .bit accounts.
+[https://d.id/data](https://d.id/data) is an elegant data management tool for your .bit accounts.
 
-With `data.did.id`, you can check the data of any .bit account, including but not limited to the following data:  
+With `d.id/data`, you can check the data of any .bit account, including but not limited to the following data:  
 - Personal Profile (profile)
 - Crypto Assets Address (address)
 - Decentralized Web (dweb)
@@ -24,13 +24,13 @@ Each day many developers are exploring the way to create interesting application
 
 In this rapid development period of blockchain industry, it is crucial to quickly verify the feasibility of a business model instead of spending too much time on the research of infrastructure.
 
-With [data.did.id](https://data.did.id) , developers can change users' data with a very simple yet elegant way without having to worry about complicated on-chain operations.
+With [https://d.id/data](https://d.id/data) , developers can change users' data with a very simple yet elegant way without having to worry about complicated on-chain operations.
 
-> [Click here to see an example →](https://data.did.id/bitdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D) Notice: It's not your account.
+> [Click here to see an example →](https://d.id/data/bitdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D) Notice: It's not your account.
 
 ### Quick Start
 
-[data.did.id](https://data.did.id) will read the `records` query on URL。
+[https://d.id/data](https://d.id/data) will read the `records` query on URL。
 
 Developers only need to fill in specific params according to the spec, and then guide users to visit the corresponding link. After users click on the confirm button, the data will be changed successfully. 
 
@@ -51,7 +51,7 @@ const records = [{
 
 const queryString = window.encodeURIComponent(JSON.stringify(records))
 
-window.open(`https://data.did.id/bitdeveloper.bit?records=${queryString}`)
+window.open(`https://d.id/data/bitdeveloper.bit?records=${queryString}`)
 ```
 After opening the corresponding link, the user will see a page similar to the following:
 ![Edit records via query](./edit-records-via-query.png)
@@ -127,10 +127,10 @@ Therefore, if you want to modify the data for a key, you need to use "replace" o
 Because of the semantic ambiguity of multiple actions, we do not recommend using multiple different `action` on the same key, as it may result in different results than expected.
 
 ## DWeb
-.bit supports a variety of decentralized storage protocols, currently supporting IPFS, Arweave, Resilio, Skynet, and allows users to quickly access content on decentralized storage through the bit.cc subdomain corresponding to their .bit account.
+.bit supports a variety of decentralized storage protocols, currently supporting IPFS, Arweave, Resilio, Skynet, and allows users to quickly access content on decentralized storage through the bit.site subdomain corresponding to their .bit account.
 
 ### DNSLink
-The .bit account supports setting up IPNS and already supports [DNSLink](https://dnslink.io/). You can refer to the [DNSLink tutorial](https://dnslink.io/#tutorial), add a `_dnslink` resolution record to the DNS of your domain, and then set the IPNS of your .bit account to your domain name. When you access the corresponding bit.cc subdomain, the corresponding IPFS content will be presented.
+The .bit account supports setting up IPNS and already supports [DNSLink](https://dnslink.io/). You can refer to the [DNSLink tutorial](https://dnslink.io/#tutorial), add a `_dnslink` resolution record to the DNS of your domain, and then set the IPNS of your .bit account to your domain name. When you access the corresponding bit.site subdomain, the corresponding IPFS content will be presented.
 
 Take the .bit account `bestcase.bit` as an example, first refer to the [DNSLink tutorial](https://dnslink.io/#tutorial) and add the following DNS resolution record to the domain `libp2p.io`
 
@@ -143,10 +143,10 @@ Take the .bit account `bestcase.bit` as an example, first refer to the [DNSLink 
     --value="dnslink=/ipfs/Qmc2o4ZNtbinEmRF9UGouBYTuiHbtCSShMFRbBY5ZiZDmU"
 ```
 
-After adding the DNS resolution record, set the IPNS value of `bestcase.bit` to `libp2p.io` using [data.did.id](https://data.did.id), as follows
+After adding the DNS resolution record, set the IPNS value of `bestcase.bit` to `libp2p.io` using [https://d.id/data](https://d.id/data), as follows
 
 ![Set IPNS](./add-ipns-records.png)
 
-Once set, you can visit the `bestcase.bit` subdomain [bestcase.bit.cc](https://bestcase.bit.cc/) to see if the settings are in effect.
+Once set, you can visit the `bestcase.bit` subdomain [bestcase.bit.site](https://bestcase.bit.site/) to see if the settings are in effect.
 
 For DNSLink tutorials, usage examples, and FAQs, please see [dnslink.io](https://dnslink.io/).

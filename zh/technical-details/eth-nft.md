@@ -60,11 +60,11 @@ Ethereum 上的 .bit NFT 和普通的 .bit 可以在任何时候随时转换，�
 1) Ethereum 上的 .bit NFT
 - 具备 Ethereum 上 NFT 的所有功能，你可以在你的 ETH 钱包中查看；
 - 支持在 Ethereum NFT 交易市场交易，如 [OpenSea](https://opensea.io/collection/dotbit), [Element](https://element.market/collections/dotbit), [LooksRare](https://looksrare.org/collections/0x60eB332Bd4A0E2a9eEB3212cFdD6Ef03Ce4CB3b5) 等等；
-- 管理数据、续费、设置 .bit 别名、分发子账户等功能无法使用；
+- 管理数据、续费、设置 .bit 别名、分发 DID 等功能无法使用；
 - 账户处于特殊状态，不能作为新账户注册的邀请人。
 
 2) 普通的 .bit 账户
-- 支持管理数据、续费、设置 .bit 别名、分发子账户等功能；
+- 支持管理数据、续费、设置 .bit 别名、分发 DID 等功能；
 - 支持在 [DID.Top](https://did.top)上进行交易；
 - 支持在 Ethereum, BNB Chain, Polygon, Tron 网络中使用。
 
@@ -125,5 +125,5 @@ Ethereum 上的 .bit NFT 和普通的 .bit 可以在任何时候随时转换，�
 
 是的。无论你的 .bit 是否被转换为 Ethereum 上的 NFT，如果没有在宽限期内及时续费，你的 .bit 账户都会被自动回收。
 
-### 子账户（SubDID）能转换为 .bit ETH NFT 吗？
-子账户暂时不能转换为 .bit ETH NFT。我们将在合适的时候推出这一功能，请关注 .bit 官方渠道。 
+### 二级 DID 能转换为 .bit ETH NFT 吗？
+二级 DID 暂时不能转换为 .bit ETH NFT。我们将在合适的时候推出这一功能，请关注 .bit 官方渠道。 

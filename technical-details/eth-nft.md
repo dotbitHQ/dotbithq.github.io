@@ -55,11 +55,11 @@ In general, any normal status .bit can be converted into an Ethereum NFT. Howeve
 1) .bit NFT on Ethereum
 - Has all the functions of NFT on Ethereum and can be viewed in your ETH wallet;
 - Supports trading in Ethereum NFT markets, such as [OpenSea](https://opensea.io/collection/dotbit), [Element](https://element.market/collections/dotbit), [LooksRare](https://looksrare.org/collections/0x60eB332Bd4A0E2a9eEB3212cFdD6Ef03Ce4CB3b5), etc.;
-- Cannot use functions such as managing data, renewing, setting .bit alias, distributing SubDID, etc.;
+- Cannot use functions such as managing data, renewing, setting .bit alias, distributing DID, etc.;
 - The account is in a special state and cannot be used as the inviter for new account registration.
 
 2) Regular .bit accounts
-- Supports functions such as managing data, renewing, setting .bit alias, distributing SubDID, etc.;
+- Supports functions such as managing data, renewing, setting .bit alias, distributing DID, etc.;
 - Supports trading on [DID.Top](https://did.top);
 - Supports use on Ethereum, BNB Chain, Polygon, and Tron networks.
 
@@ -117,6 +117,6 @@ You can check the expiration date of your .bit NFT by accessing the details page
 
 Yes, it will. If you do not renew your .bit account within the grace period, your account will be reclaimed, regardless of whether you have converted it to an Ethereum NFT.
 
-### Can SubDID accounts be converted to .bit ETH NFTs?
+### Can Second-Level DID accounts be converted to .bit ETH NFTs?
 
-SubDID accounts cannot currently be converted to .bit ETH NFTs. We will announce this feature on the official .bit channel when it becomes available.
+Second-Level DID accounts cannot currently be converted to .bit ETH NFTs. We will announce this feature on the official .bit channel when it becomes available.

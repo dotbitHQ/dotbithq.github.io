@@ -18,14 +18,14 @@ Fee paid at registration = Annual fee \* Length of registration period + Storage
 
 ### Action Fee
 
-| Action                  | Action Fee | Miner Fee                                  |
-|-------------------------|------------|--------------------------------------------|
-| Edit Records            | Free       | Free                                       |
-| Transfer Owner          | Free       | Free                                       |
-| Transfer Manager        | Free       | Free                                       |
-| Query Records           | Free       | Free                                       |
-| Set .bit Alias          | Free       | Free                                       |
-| Distribute SubDID       | 1 CKB each | Free                                       |
+| Action               | Action Fee | Miner Fee                                  |
+|----------------------|------------|--------------------------------------------|
+| Edit Records         | Free       | Free                                       |
+| Transfer Owner       | Free       | Free                                       |
+| Transfer Manager     | Free       | Free                                       |
+| Query Records        | Free       | Free                                       |
+| Set .bit Alias       | Free       | Free                                       |
+| Distribute DID       | 1 CKB each | Free                                       |
 | Convert .bit to ETH NFT | Free       | Determined in real-time by the ETH network |
 
 

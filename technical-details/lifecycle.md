@@ -113,12 +113,12 @@ The storage deposit is automatically refunded to the account owner in CKB when t
 
 ### Will the Storage Deposit Be Refunded Automatically After the Account Is Reclaimed?
 
-Yes. After the account is reclaimed, the storage deposit will be automatically refunded to the original owner's [.bit balance](https://balance.did.id/). You can check it using the corresponding wallet address on the [.bit balance](https://balance.did.id/) website.
+Yes. After the account is reclaimed, the storage deposit will be automatically refunded to the original owner's [.bit balance](https://d.id/ckb). You can check it using the corresponding wallet address on the [.bit balance](https://d.id/ckb) website.
 
 ### Where Can I Check the Refunded Storage Deposit?
 
-You can check the automatically refunded storage deposit in your [.bit balance](https://balance.did.id/).
+You can check the automatically refunded storage deposit in your [.bit balance](https://d.id/ckb).
 
 ### Why Is There a Delay in Account Reclamation?
 
-The account expiration time is based on the on-chain time. The time it takes to reclaim an account depends on the CKB network and is expected to take 10 to 30 minutes. [Check the on-chain time](https://app.did.id/explorer). 
+The account expiration time is based on the on-chain time. The time it takes to reclaim an account depends on the CKB network and is expected to take 10 to 30 minutes. [Check the on-chain time](https://d.id/bit/reg). 

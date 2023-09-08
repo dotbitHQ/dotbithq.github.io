@@ -32,7 +32,7 @@ This repo is a base dependence for most tool in .bit. It includes but not limite
 - Molecule SDK for .bit
 
 ### [das-register](https://github.com/dotbitHQ/das-register)
-Backend of .bit registration service. You can use this repo to build your own .bit registration website, just like https://app.did.id do.
+Backend of .bit registration service. You can use this repo to build your own .bit registration website, just like https://d.id/bit/reg do.
 
 ## Contract
 

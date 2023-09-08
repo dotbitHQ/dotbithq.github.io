@@ -34,7 +34,7 @@ sidebarDepth: 1
 - .bit 的 Molecule SDK
 
 ### [das-register](https://github.com/dotbitHQ/das-register)
-.bit 注册服务的后端。你可以 fork 这个仓库来构建你自己的 .bit 注册网站，就像 [https://app.did.id](https://app.did.id) 一样。
+.bit 注册服务的后端。你可以 fork 这个仓库来构建你自己的 .bit 注册网站，就像 [https://d.id/bit/reg](https://d.id/bit/reg) 一样。
 
 ## 合约
 

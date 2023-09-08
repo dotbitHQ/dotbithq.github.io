@@ -1,8 +1,8 @@
-# data.did.id
+# d.id/data
 以一种前所未有的优雅方式管理您的所有 .bit 数据。
 
 ## 介绍
-[data.did.id](https://data.did.id) 是一个优雅的 .bit 账户数据管理工具。
+[https://d.id/data](https://d.id/data) 是一个优雅的 .bit 账户数据管理工具。
 
 在这里，你可以**查看**任意一个 .bit 账户的数据，包括且不限于以下数据：
 - 个人资料（profile）
@@ -24,13 +24,13 @@
 
 在这个快速变化的区块链时代，最重要的是快速验证业务的可行性，而不是把时间花在对基础设施的研究上。
 
-通过 [data.did.id](https://data.did.id) ，开发者可以以一种非常简单、优雅的方式去改变用户的数据，而不用考虑复杂的链上操作。
+通过 [https://d.id/data](https://d.id/data) ，开发者可以以一种非常简单、优雅的方式去改变用户的数据，而不用考虑复杂的链上操作。
 
-> [点击这里查看示例 →](https://data.did.id/bitdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D)
+> [点击这里查看示例 →](https://d.id/data/bitdeveloper.bit?records=%5B%7B%22action%22%3A%22add%22,%22key%22%3A%22profile.website%22,%22value%22%3A%22https%3A%2F%2Fdid.id%22%7D,%7B%22action%22%3A%22delete%22,%22key%22%3A%22profile.twitter%22%7D,%7B%22action%22%3A%22replace%22,%22key%22%3A%22profile.avatar%22,%22value%22%3A%22https%3A%2F%2Fdata.did.id%2Ffavicon.ico%22%7D%5D)
 
 ### 快速开始
 
-[data.did.id](https://data.did.id/bitdeveloper.bit) 会读取 URL 上的 `records` 参数。
+[https://d.id/data](https://d.id/data/bitdeveloper.bit) 会读取 URL 上的 `records` 参数。
 
 开发者只需要根据规范来填入特定的参数，并引导用户访问相应的链接，待用户确定后即可完成对用户数据的更改。
 
@@ -51,7 +51,7 @@ const records = [{
 
 const queryString = window.encodeURIComponent(JSON.stringify(records))
 
-window.open(`https://data.did.id/bitdeveloper.bit?records=${queryString}`)
+window.open(`https://d.id/data/bitdeveloper.bit?records=${queryString}`)
 ```
 用户打开相应的链接之后，将会看到类似如下界面：
 ![通过 URL 参数编辑数据](./edit-records-via-query.png)
@@ -127,10 +127,10 @@ const records = [{
 鉴于多个操作（action）的语义二义性，我们不建议针对一个 key 使用多个不同的 `action`，不然可能会造成和预期不一样的结果。
 
 ## DWeb
-.bit 支持多种去中心化存储协议，目前支持 IPFS、Arweave、Resilio、Skynet。可以让用户通过 .bit 账户对应的 bit.cc 子域名快速访问到去中心化存储上的内容。
+.bit 支持多种去中心化存储协议，目前支持 IPFS、Arweave、Resilio、Skynet。可以让用户通过 .bit 账户对应的 bit.site 子域名快速访问到去中心化存储上的内容。
 
 ### DNSLink
-.bit 账户支持设置 IPNS，并且已经支持 [DNSLink](https://dnslink.io/)。你可以参照 [DNSLink 教程](https://dnslink.io/#tutorial)，在域名的 DNS 中添加 `_dnslink` 解析记录，然后将 .bit 账户的 IPNS 设置为你的域名，当你访问对应的 bit.cc 子域名，将会呈现出对应的 IPFS 内容。
+.bit 账户支持设置 IPNS，并且已经支持 [DNSLink](https://dnslink.io/)。你可以参照 [DNSLink 教程](https://dnslink.io/#tutorial)，在域名的 DNS 中添加 `_dnslink` 解析记录，然后将 .bit 账户的 IPNS 设置为你的域名，当你访问对应的 bit.site 子域名，将会呈现出对应的 IPFS 内容。
 
 以 .bit 账户 `bestcase.bit` 为例，先参照 [DNSLink 教程](https://dnslink.io/#tutorial)，在域名 `libp2p.io` 中添加如下 DNS 解析记录
 
@@ -143,10 +143,10 @@ const records = [{
     --value="dnslink=/ipfs/Qmc2o4ZNtbinEmRF9UGouBYTuiHbtCSShMFRbBY5ZiZDmU"
 ```
 
-添加完 DNS 解析记录后，使用 [data.did.id](https://data.did.id) 设置 `bestcase.bit` 的 IPNS 值为 `libp2p.io`，如下图：
+添加完 DNS 解析记录后，使用 [https://d.id/data](https://d.id/data) 设置 `bestcase.bit` 的 IPNS 值为 `libp2p.io`，如下图：
 
 ![设置 IPNS](./add-ipns-records.png)
 
-设置好后就可以访问 `bestcase.bit` 对应的 bit.cc 子域名 [bestcase.bit.cc](https://bestcase.bit.cc/) 查看设置是否生效。
+设置好后就可以访问 `bestcase.bit` 对应的 bit.site 子域名 [bestcase.bit.site](https://bestcase.bit.site/) 查看设置是否生效。
 
 如需 DNSLink 的教程、使用示例和常见问题解答，请查看 [dnslink.io](https://dnslink.io/)。

@@ -117,13 +117,13 @@ curl -X POST https://indexer-v1.did.id/v1/account/info -d'{"account":"jeffx.bit"
 
 ### 账户回收后，存储押金会自动退回吗？
 
-是的。账户被回收后，存储押金将自动退回至该账户原 Owner 的的 [.bit 余额](https://balance.did.id/)中。你可以使用对应的钱包地址连接 [.bit 余额](https://balance.did.id/)查看。
+是的。账户被回收后，存储押金将自动退回至该账户原 Owner 的的 [.bit 余额](https://d.id/ckb)中。你可以使用对应的钱包地址连接 [.bit 余额](https://d.id/ckb)查看。
 
 ### 我在哪里可以查看退还的存储押金？
 
-你可以在 [.bit 余额](https://balance.did.id/)中查看自动退还的存储押金。
+你可以在 [.bit 余额](https://d.id/ckb)中查看自动退还的存储押金。
 
 
 ### 为什么账户回收有延迟？
 
-账户过期时间以链上时间为准。账户回收所需要的时间取决于 CKB 网络，预计需要 10 ～ 30 分钟。[查看链上时间](https://app.did.id/explorer)。
+账户过期时间以链上时间为准。账户回收所需要的时间取决于 CKB 网络，预计需要 10 ～ 30 分钟。[查看链上时间](https://d.id/bit/reg)。

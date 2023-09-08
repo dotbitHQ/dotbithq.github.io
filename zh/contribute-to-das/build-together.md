@@ -26,4 +26,4 @@
 
 
 
-假如某个用户通过 https://app.did.id?inviter=dasdeveloper.bit&channel=imtokenreferral.bit 注册了 .bit 账户。那么 `dasdeveloper.bit`将获得推广奖励，即注册费用的 10%。 `imtokenreferral.bit`将获得渠道奖励，即注册费用的 10%。并且，这个用户支付的是 ETH，`gogodas.com`这个注册商将获得一定量的 ETH 兑换成 CKB 的溢价。注册商的具体收益取决于注册商自己设定的溢价比例。
+假如某个用户通过 https://d.id/bit/reg?inviter=dasdeveloper.bit&channel=imtokenreferral.bit 注册了 .bit 账户。那么 `dasdeveloper.bit`将获得推广奖励，即注册费用的 10%。 `imtokenreferral.bit`将获得渠道奖励，即注册费用的 10%。并且，这个用户支付的是 ETH，`gogodas.com`这个注册商将获得一定量的 ETH 兑换成 CKB 的溢价。注册商的具体收益取决于注册商自己设定的溢价比例。

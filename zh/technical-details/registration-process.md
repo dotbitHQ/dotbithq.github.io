@@ -6,7 +6,7 @@
 
 ![.bit 系统设计](./image-system-design.png)
 
-1. 用户首先通过钱包中的浏览器访问 .bit 的注册服务（如：[app.did.id](https://app.did.id)）；
+1. 用户首先通过钱包中的浏览器访问 .bit 的注册服务（如：[https://d.id/bit/reg](https://d.id/bit/reg)）；
 2. 注册服务(Registrar)可以是由任何人实现的为用户提供 .bit 注册功能的服务，包括 Web 端，移动端，客户端等等。
 3. 注册服务将用户的注册请求以及其他各种操作转换成交易，通过钱包让用户签名后上链；
 4. 守护服务(Keeper)是去中心化的 .bit 节点，随时通过节点 RPC 监控链上交易；
@@ -41,7 +41,7 @@
 
 目前支持使用 ETH / TRX / Dogecoin / BSC / Polygon 地址注册 .bit 账户。
 
-访问 [did.id](https://app.did.id)之后，连接 MetaMask 或者 TronLink 钱包即可开始注册。也可在支持 ETH / TRX /Dogecoin / BSC / Polygon 的钱包 APP 中直接访问 [app.did.id](https://did.id) 进行注册。
+访问 [https://d.id/bit/reg](https://d.id/bit/reg)之后，连接 MetaMask 或者 TronLink 钱包即可开始注册。也可在支持 ETH / TRX /Dogecoin / BSC / Polygon 的钱包 APP 中直接访问 [https://d.id/bit/reg](https://d.id/bit/reg) 进行注册。
 
 技术上，.bit 可以使用任意公链地址进行注册（[查看原理](../others/why-assets-on-ckb-can-be-managed-by-btc-address.md)）。.bit 团队正在将更多公链的签名算法部署到 Nervos CKB 上，以支持更多公链地址注册 .bit。
 
@@ -72,13 +72,13 @@
 
 为防止欺诈，.bit 做了一些限制，即某些字符集不能同时出现在账户名当中。详细规则，请参考：[字符集](../register-das/charsets.md)
 
-### 可以注册子账户吗？
+### 可以注册二级 DID 吗？
 
 可以！
 
-SubDID 功能现已完全可用。任何一个 .bit 账户的持有者都可以在 [topdid](https://topdid.com) 上发布 SubDID。您可以选择手动发布您的 SubDID，或者设置自己的定价然后自动分发。任何人都可以申请自己的 SubDID。有关如何使用 [topdid.com](https://topdid.com) 的更多信息，请参阅常见[问题解答](https://positive-metatarsal-7cf.notion.site/FAQ-SubDID-Distribution-Tool-b4e03c9d037d4c668cd585bfd20507cf)。
+二级 DID 功能现已完全可用。任何一个 .bit 账户的持有者都可以在 [topdid](https://topdid.com) 上发布二级 DID。您可以选择手动发布您的二级 DID，或者设置自己的定价然后自动分发。任何人都可以申请自己的二级 DID。有关如何使用 [topdid.com](https://topdid.com) 的更多信息，请参阅常见[问题解答](https://positive-metatarsal-7cf.notion.site/FAQ-SubDID-Distribution-Tool-b4e03c9d037d4c668cd585bfd20507cf)。
 
-> 更多内容，请查看：[.bit SubDID](./subdid.md)
+> 更多内容，请查看：[.bit 二级 DID](./subdid.md)
 
 
 ### 什么是防抢注？防抢注的原理是什么？

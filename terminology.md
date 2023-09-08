@@ -13,10 +13,10 @@ Each blockchain address can be uniquely mapped to a .bit account for easy identi
 
 > See [.bit Alias](./technical-details/alias.md) for more details.
 
-##### .bit SubDID (SubDID)
-Each main account can distribute its own SubDID, similar in form to `child.parent.bit`. SubDID can be used in any community to enhance community cohesion.
+##### .bit Second-Level DID
+Each main account can distribute its own Second-Level DID, similar in form to `child.parent.bit`. Second-Level DID can be used in any community to enhance community cohesion.
 
-> See [.bit SubDID](./technical-details/subdid.md) for more details.
+> See [.bit Second-Level DID](./technical-details/subdid.md) for more details.
 
 ### Register .bit
 ##### Register

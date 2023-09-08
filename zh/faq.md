@@ -17,8 +17,8 @@
 ## 别名相关
 详见 [.bit 别名](./technical-details/alias.md#FAQ)
 
-## 子账户相关
-详见 [.bit SubDID](./technical-details/subdid.md#FAQ)
+## 二级 DID 相关
+详见 [.bit Second-Level DID](./technical-details/subdid.md#FAQ)
 
 ## Ethereum 上的 .bit NFT 相关
 详见 [.bit ETH NFT](./technical-details/eth-nft.md#FAQ)
@@ -60,4 +60,4 @@
 
 ### 可以通过浏览器访问 `.bit` 的域名吗？
 
-`.bit` 不是互联网顶级域名，因此不能直接访问。但每个 .bit 账户都对应一个 `.bit.cc` 的子域名，该子域名可以通过浏览器直接访问。如果 alice 拥有 `alice.bit` 这个 .bit 账户，那么他将自动拥有 `alice.bit.cc` 这个互联网域名。alice 可以通过设置解析记录，来决定用户访问 `alice.bit.cc` 时看到的内容。
+`.bit` 不是互联网顶级域名，因此不能直接访问。但每个 .bit 账户都对应一个 `.bit.site` 的子域名，该子域名可以通过浏览器直接访问。如果 alice 拥有 `alice.bit` 这个 .bit 账户，那么他将自动拥有 `alice.bit.site` 这个互联网域名。alice 可以通过设置解析记录，来决定用户访问 `alice.bit.site` 时看到的内容。
